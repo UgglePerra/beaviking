@@ -1,0 +1,141 @@
+/* ------------------- NAVBAR ------------------- */
+
+.header {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.coloredText {
+  color: white;
+  margin-top: 10px;
+  font-size: 80px;
+  text-shadow: 4px 4px 0 rgb(98, 97, 97);
+}
+.menu-wrapper {
+  position: relative;
+}
+
+.hamburger {
+  position: absolute;
+  top: -140px;
+  right: 10px;
+  font-size: 90px;
+  cursor: pointer;
+  z-index: 1000;
+  color: white;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 240px;
+  background: rgb(215, 223, 202);
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 22px;
+
+  /* startläge */
+  transform: translateX(100%) translateY(-10px);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.dropdown-menu.open {
+  transform: translateX(0) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+  margin-top:-20px;
+}
+.close {
+  font-size: 24px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.dropdown {
+  cursor: pointer;
+}
+.dropdown-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.5;
+}
+.otherlinks {
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+
+@media (max-width: 768px) {
+  .page {
+    width: 750px;
+  }
+  .header {
+    height: 120px;
+    width: 390px;
+  }
+  .coloredText {
+    margin-top: 10px;
+    font-size: 22px;
+    text-shadow: 2px 2px 0 rgb(98, 97, 97);
+  }
+  .hamburger {
+    top: -56px;
+    right: 4px;
+    font-size: 40px;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 130px;
+    background: rgb(215, 223, 202);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+
+    /* startläge */
+    transform: translateX(100%) translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .dropdown-menu.open {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+    margin-top: 10px;
+  }
+  .close {
+    font-size: 20px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  .dropdown-links {
+    margin-top: 0px;
+    margin-left: 12px;
+  }
+  .dropdown {
+    line-height: 1.5;
+  }
+  .otherlinks {
+  line-height: 1;
+}
+}

@@ -7,7 +7,7 @@ export default function Bilbo () {
   return (
     <div className="gallery-page">
       <div className="text">
-        <h1>Bilbo (Be a Viking Bilboiosis Bilbora)</h1>
+        <h1>Bilbo (Be a Viking Bilbo Baggins)</h1>
         <div>
           <h3>Födelsefakta</h3>
           Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

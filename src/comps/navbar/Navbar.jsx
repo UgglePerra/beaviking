@@ -34,53 +34,56 @@ export default function Navbar() {
               Välkommen
             </Link>
 
+            <Link
+              to="/omoss"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Om oss
+            </Link>
+
             <div className="dropdown">
-              <div onClick={() => setDogsOpen(!dogsOpen)}>Våra hundar ▾</div>
+              <div onClick={() => setDogsOpen(!dogsOpen)}>Våra hundar: ▾</div>
 
               {dogsOpen && (
                 <div className="dropdown-links">
                   <Link to="/Bell" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Bell
                   </Link>
-                  <Link to="/Bilbo" className="dropdown-links" onClick={() => setMenuOpen(false)}>
-                    Bilbo
-                  </Link>
-                  <Link to="/Louis" className="dropdown-links" onClick={() => setMenuOpen(false)}>
-                    Louis
-                  </Link>
-                  <Link to="/Malva" className="dropdown-links" onClick={() => setMenuOpen(false)}>
-                    Malva
+                  <Link to="/Vicke" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Vicke
                   </Link>
                   <Link to="/Minnie" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Minnie
                   </Link>
+                  <Link to="/Albus" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Albus
+                  </Link>
+                  <Link to="/Louis" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Louis
+                  </Link>
+
+                  <p>För Alltid Älskade:</p>
+                 
                   <Link to="/Napoleon" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Napoleon
                   </Link>
                   <Link to="/Sessan" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Sessan
                   </Link>
+                  <Link to="/Malva" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Malva
+                  </Link>
                   <Link to="/Sirius" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Sirius
                   </Link>
-                  <Link to="/Vickan" className="dropdown-links" onClick={() => setMenuOpen(false)}>
-                    Vickan
-                  </Link>
-                  <Link to="/Vicke" className="dropdown-links" onClick={() => setMenuOpen(false)}>
-                    Vicke
+                  <Link to="/Pluto" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Pluto
                   </Link>
                   
                 </div>
               )}
             </div>
-         
-            <Link
-              to="/Kontakt"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              Kontakt
-            </Link>
 
             <Link
               to="/Valpar"
@@ -104,6 +107,14 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               Nyheter
+            </Link>
+
+             <Link
+              to="/Kontakt"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Kontakt
             </Link>
 
           </div>

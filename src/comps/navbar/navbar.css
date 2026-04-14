@@ -72,6 +72,17 @@
   color: black;
   line-height: 1.5;
 }
+.dropdown-links p {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  color: red;
+  line-height: 1.5;
+}
+
 .otherlinks {
   text-decoration: none;
   color: black;

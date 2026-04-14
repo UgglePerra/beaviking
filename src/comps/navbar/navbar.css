@@ -1,5 +1,4 @@
 /* ------------------- NAVBAR ------------------- */
-
 .header {
   background-size: cover;
   background-position: center;
@@ -8,6 +7,7 @@
   align-items: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  
 }
 .coloredText {
   color: white;
@@ -79,7 +79,7 @@
   margin-top: 25px;
   margin-bottom: 0px;
   text-decoration: none;
-  color: red;
+  color: black;
   line-height: 1.5;
 }
 

@@ -3,6 +3,8 @@ import "./resultat.css";
 import img1 from "../../imgs/resultat/img1.jpeg";
 import img2 from "../../imgs/resultat/img2.jpeg";
 import img3 from "../../imgs/resultat/img3.jpeg";
+import img4 from "../../imgs/resultat/img4.jpeg";
+import img5 from "../../imgs/resultat/img5.jpeg";
 
 export default function Resultat() {
   return (
@@ -52,7 +54,37 @@ export default function Resultat() {
 
       <div className="text">
         <div>
-          <h3>tempor incididunt</h3>
+          <h3>Bilbo (Be A Viking Bilbo Baggins)</h3>
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
+          <br />
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          <br />
+          <br />
+        </div>
+      </div>
+      <img src={img4} alt="main" className="dog-image" />
+
+      <div className="text">
+        <div>
+          <h3>Bilbo (Be A Viking Bilbo Baggins)</h3>
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
+          <br />
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          <br />
+          <br />
+        </div>
+      </div>
+      <img src={img5} alt="main" className="dog-image" />
+
+      <div className="text">
+        <div>
+          <h3>Bilbo (Be A Viking Bilbo Baggins)</h3>
           Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
           enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.

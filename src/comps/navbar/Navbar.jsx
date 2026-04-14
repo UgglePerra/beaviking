@@ -63,7 +63,7 @@ export default function Navbar() {
                     Louis
                   </Link>
 
-                  <p>För Alltid Älskade:</p>
+                  <p>För Evigt Älskade:</p>
                  
                   <Link to="/Napoleon" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Napoleon

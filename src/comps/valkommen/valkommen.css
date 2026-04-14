@@ -1,6 +1,7 @@
 /* ------------------- HUNDARNA ------------------- */
 .gallery-page {
-  padding: 20px;
+  width: 70%;
+  margin: auto;
 }
 .dog-image {
   width: 100%;

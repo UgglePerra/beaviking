@@ -12,7 +12,7 @@ export default function Minnie () {
   return (
     <div className="gallery-page">
       <div className="text">
-        <h1>Minnie❤️ <br />( Evan&apos;s Aha Magic Be A Viking)</h1>
+        <h1>Minnie❤️ <br />(Evan&apos;s Aha Magic Be A Viking)</h1>
         <div>
           <h3>Födelsefakta</h3>
           Född 8 april 2024

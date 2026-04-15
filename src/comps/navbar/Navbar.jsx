@@ -56,9 +56,7 @@ export default function Navbar() {
                   <Link to="/Minnie" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Minnie
                   </Link>
-                  <Link to="/Albus" className="dropdown-links" onClick={() => setMenuOpen(false)}>
-                    Albus
-                  </Link>
+                  
                   <Link to="/Louis" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Louis
                   </Link>
@@ -77,9 +75,7 @@ export default function Navbar() {
                   <Link to="/Sirius" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Sirius
                   </Link>
-                  <Link to="/Pluto" className="dropdown-links" onClick={() => setMenuOpen(false)}>
-                    Pluto
-                  </Link>
+                  
                   
                 </div>
               )}

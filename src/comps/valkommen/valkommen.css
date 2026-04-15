@@ -18,8 +18,8 @@
 
 @media (max-width: 768px) {
   .gallery-page {
-    padding: 20px;
-    margin-left: 0px;
+    width: 90%;
+    margin: auto;
   }
   .dog-image {
     width: 100%;

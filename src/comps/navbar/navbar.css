@@ -111,7 +111,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 130px;
+    width: 160px;
     background: rgb(215, 223, 202);
     padding: 20px;
     text-align: left;
@@ -141,6 +141,10 @@
   }
   .dropdown-links {
     margin-top: 0px;
+    margin-left: 12px;
+  }
+  .dropdown-links p {
+    margin-top: 10px;
     margin-left: 12px;
   }
   .dropdown {

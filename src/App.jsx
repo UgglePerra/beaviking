@@ -16,7 +16,7 @@ import Sessan from "./comps/varahundar/sessan/Sessan";
 import Sirius from "./comps/varahundar/sirius/Sirius";
 import Vickan from "./comps/varahundar/vickan/Vickan";
 import Vicke from "./comps/varahundar/vicke/Vicke";
-import Pluto from "./comps/varahundar/pluto/Pluto";
+
 
 
 
@@ -43,8 +43,7 @@ function App() {
         <Route path="/Sirius" element={<Sirius />} />
         <Route path="/Vickan" element={<Vickan />} />
         <Route path="/Vicke" element={<Vicke />} />
-        <Route path="/Pluto" element={<Pluto />} />
-        <Route path="/Albus" element={<Albus />} />
+        
         
       </Routes>
     </BrowserRouter>

@@ -11,90 +11,29 @@ export default function Resultat() {
     <div className="gallery-page">
       <div className="text">
         <h1>Resultat/Champions</h1>
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-        <br />
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        <br />
+        <h3>European Winner Show 2015 Best in Show 4 Uppfödargrupp</h3>
       
       </div>
       <img src={img1} alt="main" className="dog-image" />
-
-      <div className="text">
-        <div>
-          <h3>European Winner Show 2015 Best in Show 4 Uppfödargrupp</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
-        </div>
-      </div>
-      <img src={img2} alt="main" className="dog-image" />
-
+    <br /><br /><br />
       <div className="text">
         <div>
           <h3>World Dog Show 2014</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
+          
         </div>
       </div>
+      <img src={img2} alt="main" className="dog-image" />
+      <br /><br /><br /><br /><br /><br />
+      
       <img src={img3} alt="main" className="dog-image" />
-
-      <div className="text">
-        <div>
-          <h3>Bilbo (Be A Viking Bilbo Baggins)</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
-        </div>
-      </div>
+      <br /><br /><br /><br /><br /><br />
+      
       <img src={img4} alt="main" className="dog-image" />
-
-      <div className="text">
-        <div>
-          <h3>Bilbo (Be A Viking Bilbo Baggins)</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
-        </div>
-      </div>
+      <br /><br /><br /><br /><br /><br />
+      
       <img src={img5} alt="main" className="dog-image" />
 
-      <div className="text">
-        <div>
-          <h3>Bilbo (Be A Viking Bilbo Baggins)</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
-        </div>
-      </div>
+      
     </div>
   );
 }

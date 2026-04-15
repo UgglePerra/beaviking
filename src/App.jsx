@@ -3,7 +3,7 @@ import React from 'react'
 import Navbar from "./comps/navbar/Navbar";
 import Valkommen from "./comps/valkommen/Valkommen";
 import Kontakt from "./comps/kontakt/Kontakt";
-import Valpar from "./comps/valpar/Valpar";
+import Vård from "./comps/vård/Vård";
 import Resultat from "./comps/resultat/Resultat";
 import Nyheter from "./comps/nyheter/Nyheter";
 import Bell from "./comps/varahundar/bell/Bell";
@@ -30,7 +30,7 @@ function App() {
         <Route path="/" element={<Valkommen />} />
         <Route path="/Valkommen" element={<Valkommen />} />
         <Route path="/Kontakt" element={<Kontakt />} />
-        <Route path="/Valpar" element={<Valpar />} />
+        <Route path="/Vård" element={<Vård />} />
         <Route path="/Resultat" element={<Resultat />} />
         <Route path="/Nyheter" element={<Nyheter />} />
         <Route path="/Bell" element={<Bell />} />

@@ -7,6 +7,7 @@ import img1 from "../../imgs/navbar/img1.jpg";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dogsOpen, setDogsOpen] = useState(false);
+  const [puppiesOpen, setPuppiesOpen] = useState(false);
 
   return (
     <div className="page">
@@ -44,7 +45,6 @@ export default function Navbar() {
 
             <div className="dropdown">
               <div onClick={() => setDogsOpen(!dogsOpen)}>Våra hundar: ▾</div>
-
               {dogsOpen && (
                 <div className="dropdown-links">
                   <Link to="/Bell" className="dropdown-links" onClick={() => setMenuOpen(false)}>
@@ -56,13 +56,10 @@ export default function Navbar() {
                   <Link to="/Minnie" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Minnie
                   </Link>
-                  
                   <Link to="/Louis" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Louis
                   </Link>
-
                   <p>För Evigt Älskade:</p>
-                 
                   <Link to="/Napoleon" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Napoleon
                   </Link>
@@ -75,19 +72,22 @@ export default function Navbar() {
                   <Link to="/Sirius" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Sirius
                   </Link>
-                  
-                  
                 </div>
               )}
             </div>
-
-            <Link
-              to="/Valpar"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              Valpar
-            </Link>
+            <div className="dropdown">
+              <div onClick={() => setPuppiesOpen(!puppiesOpen)}>Valpar: ▾</div>
+              {puppiesOpen && (
+                <div className="dropdown-links">
+                  <Link to="/Vård" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Skötsel o pälsvård
+                  </Link>
+                  <Link to="/Kullar" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Kullar
+                  </Link>
+                </div>
+              )}
+            </div>
 
             <Link
               to="/Resultat"

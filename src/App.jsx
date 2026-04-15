@@ -17,7 +17,7 @@ import Sirius from "./comps/varahundar/sirius/Sirius";
 import Vickan from "./comps/varahundar/vickan/Vickan";
 import Vicke from "./comps/varahundar/vicke/Vicke";
 import Pluto from "./comps/varahundar/pluto/Pluto";
-import Albus from "./comps/varahundar/albus/Albus";
+
 
 
 

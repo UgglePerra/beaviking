@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from 'react'
 import Navbar from "./comps/navbar/Navbar";
 import Valkommen from "./comps/valkommen/Valkommen";
 import Kontakt from "./comps/kontakt/Kontakt";

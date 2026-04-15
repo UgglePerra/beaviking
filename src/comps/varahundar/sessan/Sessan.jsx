@@ -7,7 +7,7 @@ export default function Sessan () {
   return (
     <div className="gallery-page">
       <div className="text">
-        <h1>Sessan (Be A Viking Anduril)</h1>
+        <h1>Sessan <br />(Be A Viking Anduril)</h1>
         <div>
           <h3>Födelsefakta</h3>
           Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

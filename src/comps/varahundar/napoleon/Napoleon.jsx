@@ -7,7 +7,7 @@ export default function Napoleon () {
   return (
     <div className="gallery-page">
       <div className="text">
-        <h1>Napoleon (Buenazo’s Viking)</h1>
+        <h1>Napoleon <br />(Buenazo&apos;s Viking)</h1>
         <div>
           <h3>Födelsefakta</h3>
           Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

@@ -7,7 +7,7 @@ export default function Louis () {
   return (
     <div className="gallery-page">
       <div className="text">
-        <h1>Louis (Skystar’s Louis)</h1>
+        <h1>Louis <br />(Skystar&apos;s Louis)</h1>
         <div>
           <h3>Födelsefakta</h3>
           Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

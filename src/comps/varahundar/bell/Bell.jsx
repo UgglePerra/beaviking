@@ -8,7 +8,7 @@ export default function Bell () {
   return (
     <div className="gallery-page">
       <div className="text">
-        <h1>Bell (Be A Viking Bell Gamgee)</h1>
+        <h1>Bell❤️ <br />(Be A Viking Bell Gamgee)</h1>
         <div>
           <h3>Födelsefakta</h3>
           Född 10 september 2013
@@ -18,7 +18,7 @@ export default function Bell () {
           Bell är född här hemma tillsammans med sina fem syskon och hon blev den lilla prinsessan som Ida bestämde skulle bli kvar! Och det var ju helt rätt val – för vilka fantastiska minnen hon har gett oss! Inte bara hennes stora personlighet, roliga karaktär och skönhet utan också en fantastiskt utställningskarriär med resultat som Junior Världs Vinnare 2014 och Europa Vinnare 2015, Norsk Junior Vinnare 2014, championat i de nordiska länderna samt Best In Show SDHK 2017. 
           <br />
           <br />
-          Om några månader fyller hon tretton år och hon är fortfarande glad och pigg och springer med ungdomarna i trädgården.
+          Om några månader fyller hon tretton år och hon är fortfarande glad och pigg och springer med ungdomarna i trädgården och på promenad.
           <br />
           <br />
           <h3>Meriter</h3>

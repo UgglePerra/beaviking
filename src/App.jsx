@@ -2,8 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react'
 import Navbar from "./comps/navbar/Navbar";
 import Valkommen from "./comps/valkommen/Valkommen";
+import Omoss from "./comps/omoss/Omoss";
 import Kontakt from "./comps/kontakt/Kontakt";
 import Vård from "./comps/vård/Vård";
+import Kullar from "./comps/kullar/Kullar";
 import Resultat from "./comps/resultat/Resultat";
 import Nyheter from "./comps/nyheter/Nyheter";
 import Bell from "./comps/varahundar/bell/Bell";
@@ -17,18 +19,13 @@ import Sirius from "./comps/varahundar/sirius/Sirius";
 import Vickan from "./comps/varahundar/vickan/Vickan";
 import Vicke from "./comps/varahundar/vicke/Vicke";
 import Pluto from "./comps/varahundar/pluto/Pluto";
-
-//import Bella from "./comps/varahundar/bella/Bella";
-//import Daphne from "./comps/varahundar/daphne/Daphne";
-//import Doris from "./comps/varahundar/doris/Doris";
-//import Albus from "./comps/varahundar/albus/Albus";
-
+import Doris from "./comps/varahundar/doris/Doris";
+import Daphne from "./comps/varahundar/daphne/Daphne";
+import Bella from "./comps/varahundar/bella/Bella";
+import Albus from "./comps/varahundar/albus/Albus";
 
 
-
-
-
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
@@ -36,8 +33,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Valkommen />} />
         <Route path="/Valkommen" element={<Valkommen />} />
+        <Route path="/Omoss" element={<Omoss />} />
         <Route path="/Kontakt" element={<Kontakt />} />
         <Route path="/Vård" element={<Vård />} />
+        <Route path="/Kullar" element={<Kullar />} />
         <Route path="/Resultat" element={<Resultat />} />
         <Route path="/Nyheter" element={<Nyheter />} />
         <Route path="/Bell" element={<Bell />} />
@@ -51,11 +50,13 @@ function App() {
         <Route path="/Vickan" element={<Vickan />} />
         <Route path="/Vicke" element={<Vicke />} />
         <Route path="/Pluto" element={<Pluto />} />
-        
+        <Route path="/Doris" element={<Doris />} />
+        <Route path="/Daphne" element={<Daphne />} />
+        <Route path="/Bella" element={<Bella />} />
+        <Route path="/Albus" element={<Albus />} />
         
       </Routes>
     </BrowserRouter>
   );
 }
 
-export default App;

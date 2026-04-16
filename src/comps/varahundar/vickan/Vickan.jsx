@@ -7,38 +7,19 @@ export default function Vickan () {
   return (
     <div className="gallery-page">
       <div className="text">
-        <h1>Vickan (Be a Viking Berylla Boffin)</h1>
+        <h1>Vickan</h1>
+        <h2>SE V-15 FI JV-14 SE UCH FI UCH NO UCH Be A Viking Berylla Boffin</h2>
         <div>
-          <h3>Födelsefakta</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex
           <br />
-          <br />
-          <h3>Temperament/personlighet</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
-          <h3>Meriter</h3>
-          BIR 2026 (eiusmod tempor incidid), BIR 2026 (eiusmod tempor incidid), BIR 2026 (eiusmod tempor incidid), BIR 2026 (eiusmod tempor incidid), BIR 2026 (eiusmod tempor incidid), BIR 2026 (eiusmod tempor incidid), BIR 2026 (eiusmod tempor incidid), 
+          Född xx juni 20xx
+          
         </div>
       </div>
       <img src={img1} alt="main" className="dog-image" />
 
       <div className="text">
         <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         
           <br />
           <br />
         </div>
@@ -47,13 +28,7 @@ export default function Vickan () {
 
       <div className="text">
         <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          
           <br />
           <br />
         </div>
@@ -62,13 +37,7 @@ export default function Vickan () {
 
       <div className="text">
         <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          
           <br />
           <br />
         </div>

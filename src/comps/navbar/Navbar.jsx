@@ -37,7 +37,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              to="/omoss"
+              to="/Omoss"
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >

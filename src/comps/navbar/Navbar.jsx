@@ -8,6 +8,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dogsOpen, setDogsOpen] = useState(false);
   const [puppiesOpen, setPuppiesOpen] = useState(false);
+ 
 
   return (
     <div className="page">
@@ -44,7 +45,7 @@ export default function Navbar() {
             </Link>
 
             <div className="dropdown">
-              <div onClick={() => setDogsOpen(!dogsOpen)}>Våra hundar: ▾</div>
+              <div onClick={() => setDogsOpen(!dogsOpen)}>Våra hundar ▾</div>
               {dogsOpen && (
                 <div className="dropdown-links">
                   <Link to="/Bell" className="dropdown-links" onClick={() => setMenuOpen(false)}>
@@ -56,9 +57,13 @@ export default function Navbar() {
                   <Link to="/Minnie" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Minnie
                   </Link>
+                  <Link to="/Albus" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Albus
+                  </Link>
                   <Link to="/Louis" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Louis
                   </Link>
+
                   <p>För Evigt Älskade:</p>
                   <Link to="/Napoleon" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Napoleon
@@ -72,11 +77,34 @@ export default function Navbar() {
                   <Link to="/Sirius" className="dropdown-links" onClick={() => setMenuOpen(false)}>
                     Sirius
                   </Link>
+                  <Link to="/Pluto" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Pluto
+                  </Link>
+
+                  <p>Hos Vänner:</p>
+                  <Link to="/Vickan" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Vickan
+                  </Link>
+                  <Link to="/Bilbo" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Bilbo
+                  </Link>
+                  <Link to="/Bella" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Bella
+                  </Link>
+                  <Link to="/Daphne" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Daphne
+                  </Link>
+                  <Link to="/Doris" className="dropdown-links" onClick={() => setMenuOpen(false)}>
+                    Doris
+                  </Link>
+
                 </div>
               )}
             </div>
+
+
             <div className="dropdown">
-              <div onClick={() => setPuppiesOpen(!puppiesOpen)}>Valpar: ▾</div>
+              <div onClick={() => setPuppiesOpen(!puppiesOpen)}>Valpar ▾</div>
               {puppiesOpen && (
                 <div className="dropdown-links">
                   <Link to="/Vård" className="dropdown-links" onClick={() => setMenuOpen(false)}>

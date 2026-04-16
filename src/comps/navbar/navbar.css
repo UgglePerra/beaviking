@@ -32,7 +32,7 @@
   position: absolute;
   top: 0px;
   right: 0px;
-  width: 240px;
+  width: 260px;
   background: rgb(215, 223, 202);
   padding: 20px;
   text-align: left;
@@ -41,7 +41,7 @@
   gap: 10px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  font-size: 22px;
+  font-size: 20px;
 
   /* startläge */
   transform: translateX(100%) translateY(-10px);

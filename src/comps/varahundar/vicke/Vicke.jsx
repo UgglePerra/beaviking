@@ -5,6 +5,7 @@ import img3 from "./imgs/img3.jpeg";
 import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 import img6 from "./imgs/img6.jpeg";
+import img7 from "./imgs/img7.jpeg";
 
 export default function Vicke () {
   return (
@@ -68,6 +69,16 @@ export default function Vicke () {
       <img src={img6} alt="main" className="dog-image" />
 
       <div className="text">
+        <br /><br />
+      <div className="text">
+        <div>
+          <h3>World Dog Show 2025 Helsinki</h3>
+    
+        </div>
+      </div>
+      <img src={img7} alt="main" className="dog-image" />
+
+      <div className="text"></div>
         <div>
           
           <br />

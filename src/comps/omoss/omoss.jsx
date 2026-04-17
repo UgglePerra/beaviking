@@ -11,8 +11,6 @@ export default function Omoss() {
       </div>
       <img src={img1} alt="main" className="dog-image" />
 
-    
-      
     </div>
   );
 }

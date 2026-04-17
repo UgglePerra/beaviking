@@ -34,18 +34,6 @@ export default function Resultat() {
       
       <img src={img5} alt="main" className="dog-image" />
        <br /><br /><br /><br /><br /><br />
-      
-      
-      <br /><br /><br /><br /><br /><br />
-      
-      <div className="text">
-        <div>
-          <h1>?????</h1>
-          <h3>Be A Viking Belladonna Took</h3>
-        </div>
-      </div>
-
-      <img src={img8} alt="main" className="dog-image" />
 
       
     </div>

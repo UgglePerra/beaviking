@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React from 'react'
+import React from "react";
 import Navbar from "./comps/navbar/Navbar";
 import Valkommen from "./comps/valkommen/Valkommen";
-import Omoss from "./comps/omoss/Omoss";
+import Valkomme from "./comps/valkomme/Valkomme";
 import Kontakt from "./comps/kontakt/Kontakt";
 import Vård from "./comps/vård/Vård";
 import Kullar from "./comps/kullar/Kullar";
@@ -24,7 +24,6 @@ import Daphne from "./comps/varahundar/daphne/Daphne";
 import Bella from "./comps/varahundar/bella/Bella";
 import Albus from "./comps/varahundar/albus/Albus";
 
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -33,7 +32,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Valkommen />} />
         <Route path="/Valkommen" element={<Valkommen />} />
-        <Route path="/Omoss" element={<Omoss />} />
+        <Route path="/Valkomme" element={<Valkomme />} />
         <Route path="/Kontakt" element={<Kontakt />} />
         <Route path="/Vård" element={<Vård />} />
         <Route path="/Kullar" element={<Kullar />} />
@@ -54,9 +53,7 @@ export default function App() {
         <Route path="/Daphne" element={<Daphne />} />
         <Route path="/Bella" element={<Bella />} />
         <Route path="/Albus" element={<Albus />} />
-        
       </Routes>
     </BrowserRouter>
   );
 }
-

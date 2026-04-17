@@ -1,6 +1,7 @@
 /* ------------------- HUNDARNA ------------------- */
 .gallery-page {
-  padding: 20px;
+  width: 60%;
+  margin: auto;
 }
 .dog-image {
   width: 100%;
@@ -14,11 +15,14 @@
   margin-bottom: 30px;
   font-size: 20px;
 }
+.text h2 {
+  font-size: 24px;
+}
 
 @media (max-width: 768px) {
   .gallery-page {
-    padding: 20px;
-    margin-left: 0px;
+    width: 90%;
+    margin: auto;
   }
   .dog-image {
     width: 100%;
@@ -32,5 +36,8 @@
     flex-direction: column;
     margin-bottom: 30px;
     font-size: 14px;
+  }
+  .text h2 {
+    font-size: 16px;
   }
 }

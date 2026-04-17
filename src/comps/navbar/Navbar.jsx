@@ -36,11 +36,11 @@ export default function Navbar() {
             </Link>
 
             <Link
-              to="/Valkomme"
+              to="/Omoss"
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Välkomme
+              Om oss
             </Link>
 
 

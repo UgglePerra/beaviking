@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import Navbar from "./comps/navbar/Navbar";
 import Valkommen from "./comps/valkommen/Valkommen";
-import Valkomme from "./comps/valkomme/Valkomme";
+import Omoss from "./comps/omoss/Omoss";
 import Kontakt from "./comps/kontakt/Kontakt";
 import Vård from "./comps/vård/Vård";
 import Kullar from "./comps/kullar/Kullar";
@@ -32,7 +32,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Valkommen />} />
         <Route path="/Valkommen" element={<Valkommen />} />
-        <Route path="/Valkomme" element={<Valkomme />} />
+        <Route path="/Omoss" element={<Omoss />} />
         <Route path="/Kontakt" element={<Kontakt />} />
         <Route path="/Vård" element={<Vård />} />
         <Route path="/Kullar" element={<Kullar />} />

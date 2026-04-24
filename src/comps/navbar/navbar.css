@@ -7,7 +7,6 @@
   align-items: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  
 }
 .coloredText {
   color: white;
@@ -53,7 +52,7 @@
   transform: translateX(0) translateY(0);
   opacity: 1;
   pointer-events: auto;
-  margin-top:-20px;
+  margin-top: -20px;
 }
 .close {
   font-size: 24px;
@@ -157,7 +156,7 @@
     line-height: 1.5;
   }
   .dropdown-header {
-    margin-left: -10px;
+    margin-left: 0px;
   }
   .otherlinks {
     line-height: 1;

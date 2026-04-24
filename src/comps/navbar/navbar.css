@@ -66,6 +66,7 @@
 .dropdown-header {
   display: flex;
   align-items: center;
+  margin-left: -20px;
 }
 .dropdown-links {
   display: flex;

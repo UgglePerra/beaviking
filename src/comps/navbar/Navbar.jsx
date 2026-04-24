@@ -43,10 +43,6 @@ export default function Navbar() {
               Om oss
             </Link>
 
-
-
-            
-
             <div className="dropdown">
               <div onClick={() => setDogsOpen(!dogsOpen)}>Våra hundar ▾</div>
               {dogsOpen && (
@@ -165,7 +161,24 @@ export default function Navbar() {
             </div>
 
             <div className="dropdown">
-              <div onClick={() => setPuppiesOpen(!puppiesOpen)}>Valpar ▾</div>
+              <div className="dropdown-header">
+                <Link
+                  to="/Valpar"
+                  className="dropdown-links"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Valpar
+                </Link>
+
+                <span
+                  className="dropdown-arrow"
+                  onClick={() => setPuppiesOpen(!puppiesOpen)}
+                  style={{ cursor: "pointer", marginLeft: "6px" }}
+                >
+                  ▾
+                </span>
+              </div>
+
               {puppiesOpen && (
                 <div className="dropdown-links">
                   <Link

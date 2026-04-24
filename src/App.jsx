@@ -8,6 +8,7 @@ import Vård from "./comps/vård/Vård";
 import Kullar from "./comps/kullar/Kullar";
 import Resultat from "./comps/resultat/Resultat";
 import Nyheter from "./comps/nyheter/Nyheter";
+import Valpar from "./comps/valpar/Valpar";
 import Bell from "./comps/varahundar/bell/Bell";
 import Bilbo from "./comps/varahundar/bilbo/Bilbo";
 import Louis from "./comps/varahundar/louis/Louis";
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/Kullar" element={<Kullar />} />
         <Route path="/Resultat" element={<Resultat />} />
         <Route path="/Nyheter" element={<Nyheter />} />
+        <Route path="/Valpar" element={<Valpar />} />
         <Route path="/Bell" element={<Bell />} />
         <Route path="/Bilbo" element={<Bilbo />} />
         <Route path="/Louis" element={<Louis />} />

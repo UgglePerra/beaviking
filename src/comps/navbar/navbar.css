@@ -63,6 +63,10 @@
 .dropdown {
   cursor: pointer;
 }
+.dropdown-header {
+  display: flex;
+  align-items: center;
+}
 .dropdown-links {
   display: flex;
   flex-direction: column;

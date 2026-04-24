@@ -156,7 +156,10 @@
   .dropdown {
     line-height: 1.5;
   }
+  .dropdown-header {
+    margin-left: -20px;
+  }
   .otherlinks {
-  line-height: 1;
-}
+    line-height: 1;
+  }
 }

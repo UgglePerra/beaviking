@@ -1,8 +1,8 @@
-import "./valkommen.css";
-import img1 from "../../imgs/valkommen/img1.jpeg";
-import img2 from "../../imgs/valkommen/img2.jpeg";
-import img3 from "../../imgs/valkommen/img3.jpeg";
-import img4 from "../../imgs/valkommen/img4.jpeg";
+import "./comps.css";
+import img1 from "../imgs/valkommen/img1.jpeg";
+import img2 from "../imgs/valkommen/img2.jpeg";
+import img3 from "../imgs/valkommen/img3.jpeg";
+import img4 from "../imgs/valkommen/img4.jpeg";
 
 export default function Valkommen() {
   return (

@@ -1,15 +1,14 @@
 //import "../App.css";
-//import "./nyheter.css";
-import "./valpar.css"
-import img1 from "../../imgs/valpar/img1.jpeg";
-import img2 from "../../imgs/valpar/img2.jpeg";
-import img3 from "../../imgs/valpar/img3.jpeg";
+import "./comps.css";
+import img1 from "../imgs/kontakt/img1.jpeg";
+import img2 from "../imgs/kontakt/img2.jpeg";
+import img3 from "../imgs/kontakt/img3.jpeg";
 
-export default function Valpar() {
+export default function Valkommen() {
   return (
     <div className="gallery-page">
       <div className="text">
-        <h1>Valpar</h1>
+        <h1>Kontakt</h1>
         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
         enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
@@ -17,7 +16,7 @@ export default function Valpar() {
         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
         enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
         <br />
-        
+       
       </div>
       <img src={img1} alt="main" className="dog-image" />
 

@@ -1,10 +1,10 @@
 //import "../App.css";
-import "./resultat.css";
-import img1 from "../../imgs/resultat/img1.jpeg";
-import img2 from "../../imgs/resultat/img2.jpeg";
-import img3 from "../../imgs/resultat/img3.jpeg";
-import img4 from "../../imgs/resultat/img4.jpeg";
-import img5 from "../../imgs/resultat/img5.jpeg";
+import "./comps.css";
+import img1 from "../imgs/resultat/img1.jpeg";
+import img2 from "../imgs/resultat/img2.jpeg";
+import img3 from "../imgs/resultat/img3.jpeg";
+import img4 from "../imgs/resultat/img4.jpeg";
+import img5 from "../imgs/resultat/img5.jpeg";
 
 
 export default function Resultat() {

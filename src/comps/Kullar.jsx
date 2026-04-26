@@ -1,5 +1,5 @@
-import "./kullar.css";
-import img1 from "../../imgs/kullar/img1.jpeg";
+import "./comps.css";
+import img1 from "../imgs/kullar/img1.jpeg";
 
 
 export default function Kullar() {

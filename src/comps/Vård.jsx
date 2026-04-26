@@ -1,11 +1,11 @@
-import "./vård.css";
-import img1 from "../../imgs/vård/img1.jpeg";
-import img2 from "../../imgs/vård/img2.jpeg";
-import img3 from "../../imgs/vård/img3.jpeg";
-import img4 from "../../imgs/vård/img4.jpeg";
-import img5 from "../../imgs/vård/img5.jpeg";
-import img6 from "../../imgs/vård/img6.jpeg";
-import img7 from "../../imgs/vård/img7.jpeg";
+import "./comps.css";
+import img1 from "../imgs/vård/img1.jpeg";
+import img2 from "../imgs/vård/img2.jpeg";
+import img3 from "../imgs/vård/img3.jpeg";
+import img4 from "../imgs/vård/img4.jpeg";
+import img5 from "../imgs/vård/img5.jpeg";
+import img6 from "../imgs/vård/img6.jpeg";
+import img7 from "../imgs/vård/img7.jpeg";
 
 export default function Vård() {
   return (

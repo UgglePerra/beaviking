@@ -55,7 +55,6 @@
   font-size: 30px;
   justify-content: center;
 }
-}
 
 .arrow:hover {
   opacity: 1;
@@ -70,14 +69,14 @@
   left: 20px;
   font-weight: bold;
   font-size:15px;
-  top:20px;
+  
   }
 
   .arrow.right {
     right: 20px;
     font-weight: bold;
     font-size: 15px;
-    top:20px;
+
   }
 
     .slider img {

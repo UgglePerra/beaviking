@@ -96,10 +96,13 @@ export default function Minnie() {
       <br />
 
       <img src={img8} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-      <br />
+      <br /><br />
+
+  
+      <div>
+        Bästa tik med CERT, Nordic Show-certifikat och därmed Svensk och Dansk champion🏆🏆
+      </div>
+        <br />
       <br />
       <br />
 
@@ -112,6 +115,25 @@ export default function Minnie() {
       <br />
 
       <img src={img10} alt="main" className="dog-image" />
+      <br />
+      <br />
+      <br />
+      <h2>Resultatsammanställning:</h2>
+
+      <div>
+        <strong>Kritik</strong>
+        &quot;Just turned 2 years, this is one I would not expect to be very long in open class as she excels in breed type and structure, lovely head, excelling in eye and pigment, she is so good to go over, with a quality coat and level topline with good tail carriage, excellent bone and feet, she moves out so well showing off her body proportions and proud head carriage&quot;. 
+        <br />
+        Domare: Ogden Howard
+      </div>
+      <br />
+      <br />
+      <br />
+  
+
+
+
     </div>
+
   );
 }

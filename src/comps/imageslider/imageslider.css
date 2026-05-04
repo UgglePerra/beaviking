@@ -46,14 +46,15 @@
   left: 302px;
   font-weight: bold;
   font-size: 30px;
-  top:30px;
+  justify-content: center;
 }
 
 .arrow.right {
   right: 302px;
   font-weight: bold;
   font-size: 30px;
-  top:30px;
+  justify-content: center;
+}
 }
 
 .arrow:hover {

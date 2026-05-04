@@ -47,6 +47,12 @@ export default function Minnie() {
       <br />
       <br />
 
+      <img src={img8} alt="main" className="dog-image" />
+      <br /><br />
+      <br /><br />
+      <br /><br />
+ 
+
       <img src={img2} alt="main" className="dog-image" />
       <br />
       <br />
@@ -56,14 +62,6 @@ export default function Minnie() {
       <br />
 
       <img src={img3} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <img src={img4} alt="main" className="dog-image" />
       <br />
       <br />
       <br />
@@ -95,8 +93,7 @@ export default function Minnie() {
       <br />
       <br />
 
-      <img src={img8} alt="main" className="dog-image" />
-      <br /><br />
+      
 
   
       <div>
@@ -110,14 +107,7 @@ export default function Minnie() {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-
-      <img src={img10} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
+     
       <h2>Resultatsammanställning:</h2>
 
       <div>

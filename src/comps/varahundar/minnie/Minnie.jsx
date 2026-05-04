@@ -49,6 +49,10 @@ export default function Minnie() {
 
       <img src={img8} alt="main" className="dog-image" />
       <br /><br />
+      <div>
+        Bästa tik med CERT, Nordic Show-certifikat och därmed Svensk och Dansk champion🏆🏆
+      </div>
+      <br /><br />
       <br /><br />
       <br /><br />
  
@@ -96,9 +100,7 @@ export default function Minnie() {
       
 
   
-      <div>
-        Bästa tik med CERT, Nordic Show-certifikat och därmed Svensk och Dansk champion🏆🏆
-      </div>
+      
         <br />
       <br />
       <br />

@@ -2,11 +2,11 @@ import "../varahundar.css";
 import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
-import img5 from "./imgs/img5.jpeg";
-import img6 from "./imgs/img6.jpeg";
-import img7 from "./imgs/img7.jpeg";
-import img8 from "./imgs/img8.jpeg";
-import img9 from "./imgs/img9.jpeg";
+import img4 from "./imgs/img4.jpeg";
+import img5 from "./imgs/img6.jpeg";
+import img6 from "./imgs/img7.jpeg";
+import img7 from "./imgs/img8.jpeg";
+
 
 
 export default function Minnie() {
@@ -44,7 +44,7 @@ export default function Minnie() {
       </div>
 
       <div className="img-spacer">
-        <img src={img8} alt="main" className="dog-image" />
+        <img src={img2} alt="main" className="dog-image" />
       </div>
     
       <div className="text-spacer">
@@ -53,7 +53,7 @@ export default function Minnie() {
       </div>
       
       <div className="img-spacer">
-        <img src={img9} alt="main" className="dog-image" />
+        <img src={img3} alt="main" className="dog-image" />
       </div>
 
       <div className="text-spacer">
@@ -69,7 +69,7 @@ export default function Minnie() {
       </div>
 
       <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
+        <img src={img4} alt="main" className="dog-image" />
       </div>
       
       <div className="img-spacer">

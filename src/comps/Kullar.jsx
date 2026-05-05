@@ -12,7 +12,10 @@ export default function Kullar() {
           <br />
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
 
       
     </div>

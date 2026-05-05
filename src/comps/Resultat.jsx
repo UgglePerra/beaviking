@@ -12,30 +12,40 @@ export default function Resultat() {
     <div className="gallery-page">
       <div className="text">
         <h1>Resultat/Champions</h1>
-        <h3>European Winner Show 2015 Best in Show 4 Uppfödargrupp</h3>
-      
       </div>
-      <img src={img1} alt="main" className="dog-image" />
-    <br /><br /><br />
-      <div className="text">
-        <div>
-          <h3>World Dog Show 2014</h3>
-          
-        </div>
-      </div>
-      <img src={img2} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img3} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img4} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img5} alt="main" className="dog-image" />
-       <br /><br /><br /><br /><br /><br />
 
-      
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
+
+      <div className="text-spacer">
+        <h3>
+          European Winner Show 2015 Best in Show 4 Uppfödargrupp
+        </h3>
+      </div>
+
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
+      </div>
+
+      <div className="text-spacer">
+        <h3>
+          World Dog Show 2014
+        </h3>
+      </div>
+
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img4} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img5} alt="main" className="dog-image" />
+      </div>
+
     </div>
   );
 }

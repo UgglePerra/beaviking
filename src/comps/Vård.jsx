@@ -31,7 +31,10 @@ export default function Vård() {
           <br />
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
 
       <div className="text">
         <div>
@@ -53,7 +56,10 @@ export default function Vård() {
           <br />
         </div>
       </div>
-      <img src={img2} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
+      </div>
 
       <div className="text">
         <div>
@@ -79,7 +85,10 @@ export default function Vård() {
           allergireaktioner har förekommit).
         </div>
       </div>
-      <img src={img3} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
+      </div>
 
       <div className="text">
         <div>
@@ -104,7 +113,10 @@ export default function Vård() {
           Och du är alltid välkommen med dina frågor och funderingar.
         </div>
       </div>
-      <img src={img4} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img4} alt="main" className="dog-image" />
+      </div>
 
       <div className="text">
         <div>
@@ -119,7 +131,10 @@ export default function Vård() {
           <br />
         </div>
       </div>
-      <img src={img5} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img5} alt="main" className="dog-image" />
+      </div>
 
       <div className="text">
         <div>
@@ -134,7 +149,10 @@ export default function Vård() {
           <br />
         </div>
       </div>
-      <img src={img6} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img6} alt="main" className="dog-image" />
+      </div>
 
       <div className="text">
         <div>
@@ -149,7 +167,10 @@ export default function Vård() {
           <br />
         </div>
       </div>
-      <img src={img7} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img7} alt="main" className="dog-image" />
+      </div>
 
       <div className="text">
         <div>

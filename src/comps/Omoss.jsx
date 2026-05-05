@@ -9,23 +9,29 @@ export default function Omoss() {
   return (
     <>
       <div className="gallery-page">
-      <div className="text">
-        <h1>Om oss</h1> 
+        <div className="text">
+          <h1>Om oss</h1> 
         </div>
-        <img src={img1} alt="main" className="dog-image" />
-        <br></br><br></br><br></br>
-        <img src={img2} alt="main" className="dog-image" />
-        <br></br><br></br><br></br>
-        <img src={img3} alt="main" className="dog-image" />
 
+        <div className="img-spacer">
+          <img src={img1} alt="main" className="dog-image" />
+        </div>
 
+        <div className="img-spacer">
+          <img src={img2} alt="main" className="dog-image" />
+        </div>
+
+        <div className="img-spacer">
+          <img src={img3} alt="main" className="dog-image" />
+        </div>
+
+      </div >
+
+      <div className="img-spacer">
+        <h2>Galleri</h2>
+        <ImageSlider />
       </div>
-      <br></br><br></br>
-      <h2>Galleri</h2>
-      <ImageSlider />
-      <br></br><br></br>
+      
     </>
-    
-
   );
 }

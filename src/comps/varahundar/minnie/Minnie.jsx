@@ -2,13 +2,12 @@ import "../varahundar.css";
 import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
-import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 import img6 from "./imgs/img6.jpeg";
 import img7 from "./imgs/img7.jpeg";
 import img8 from "./imgs/img8.jpeg";
 import img9 from "./imgs/img9.jpeg";
-import img10 from "./imgs/img10.jpeg";
+
 
 export default function Minnie() {
   return (
@@ -39,91 +38,51 @@ export default function Minnie() {
           <br />
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
-      <img src={img8} alt="main" className="dog-image" />
-      <br /><br />
-      <div>
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img8} alt="main" className="dog-image" />
+      </div>
+    
+      <div className="text-spacer">
+        <h2>Västerås Nordic Dog Show 2026</h2>
         Bästa tik med CERT, Nordic Show-certifikat och därmed Svensk och Dansk champion🏆🏆
       </div>
-      <br /><br />
-      <br /><br />
-      <br /><br />
- 
-
-      <img src={img2} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <img src={img3} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <img src={img5} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <img src={img6} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <img src={img7} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       
+      <div className="img-spacer">
+        <img src={img9} alt="main" className="dog-image" />
+      </div>
 
-  
+      <div className="text-spacer">
+        <h2>Skara Nordic Dog Show 2026</h2>
+      </div>
       
-        <br />
-      <br />
-      <br />
-
-      <img src={img9} alt="main" className="dog-image" />
-      <br />
-      <br />
-      <br />
-     
-      <h2>Resultatsammanställning:</h2>
 
       <div>
-        <strong>Kritik</strong>
+        <strong>Kritik: </strong>
         &quot;Just turned 2 years, this is one I would not expect to be very long in open class as she excels in breed type and structure, lovely head, excelling in eye and pigment, she is so good to go over, with a quality coat and level topline with good tail carriage, excellent bone and feet, she moves out so well showing off her body proportions and proud head carriage&quot;. 
         <br />
         Domare: Ogden Howard
       </div>
-      <br />
-      <br />
-      <br />
-  
 
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
+      </div>
+      
+      <div className="img-spacer">
+        <img src={img5} alt="main" className="dog-image" />
+      </div>
 
+      <div className="img-spacer">
+        <img src={img6} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img7} alt="main" className="dog-image" />
+      </div>
 
     </div>
 

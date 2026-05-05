@@ -16,6 +16,12 @@
   font-family: Arial, Helvetica, sans-serif;
   line-height:1.1;
 }
+.img-spacer {
+  margin-top: 3rem;
+}
+.text-spacer{
+  margin-top: 1rem;
+}
 
 @media (max-width: 768px) {
   .gallery-page {

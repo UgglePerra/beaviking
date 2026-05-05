@@ -16,75 +16,55 @@ export default function Vicke () {
         <div>
           <br />
           Född 30 januari 2024
-          <br />
-          <br />
-          
+          <br /><br />
           Vicke är född i Skåne hos Vivianne och Virginia, Tilevis kennel. Mamma är Bichavas Scilla och pappa vår älskade Skystar&apos;s Louis. Det var bara nödvändigt att sonen skulle bli en Göteborgare! Tredje generationen Viking med samma ögon som sin farfar; lyhörd, mycket smart och en ordningsman. Ställer tjejerna till det så kommer Vicke direkt och skvallrar! Han är väldigt observant och har mängder av energi, lekfull och duktig med nosen. Vi har tränat olika aktiviteter med honom; Nosework är hans favorit.
-          <br />
-          <br />
+          <br /><br />
+
           På sin första utställning efter två-årsdagen gick han in i ringen och blev svensk och finsk champion!! Han har blivit Bäst I Rasen, BIS 2 Unghund SDHK Gimo, har ett flertal Bästa hane-placeringar och championcertifikat.  På World Dog Show i Helsingfors 2025 och WDS CIRCUIT tog han championcertifikaten båda dagarna!
-          <br />
-          <br />
-          
+          <br /><br />
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img2} alt="main" className="dog-image" />
-      <br /><br /><br /><br />
 
-      <div className="text">
-        <div>
-          <h3>World Dog Show CIRCUIT 2025</h3>
-          
-        </div>
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
       </div>
-      
-      <img src={img3} alt="main" className="dog-image" />
-      <br /><br /><br /><br />
 
-      <div className="text">
-        <div>
-          <h3>World Dog Show2025 Helsinki</h3>
-          
-        </div>
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
       </div>
-      <img src={img4} alt="main" className="dog-image" />
 
-      <div className="text">
-        <div>
-          <br />
-          <br />
-        </div>
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
       </div>
-      <img src={img5} alt="main" className="dog-image" />
-
-      <div className="text">
-        <div>
-          <br />
-          <br />
-        </div>
-      </div>
-      <img src={img6} alt="main" className="dog-image" />
-
-      <div className="text">
-        <br /><br />
-      <div className="text">
-        <div>
-          <h3>World Dog Show 2025 Helsinki</h3>
     
-        </div>
+      <div className="text-spacer">
+          <h3>World Dog Show CIRCUIT 2025</h3>
       </div>
-      <img src={img7} alt="main" className="dog-image" />
 
-      <div className="text"></div>
-        <div>
-          
-          <br />
-          <br />
-        </div>
+      <div className="img-spacer">
+        <img src={img4} alt="main" className="dog-image" />
       </div>
+      
+      <div className="text-spacer">
+          <h3>World Dog Show2025 Helsinki</h3>
+      </div>
+      
+      <div className="img-spacer">
+        <img src={img5} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img6} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img7} alt="main" className="dog-image" />
+      </div>
+
+      <div className="text-spacer">
+        <h3>World Dog Show 2025 Helsinki</h3>
+      </div>
+        
     </div>
   );
 }

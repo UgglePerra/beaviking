@@ -9,59 +9,13 @@ export default function Valkommen() {
     <div className="gallery-page">
       <div className="text">
         <h1>Kontakt</h1>
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-        <br />
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        <br />
-       
+        Anna-Karin Jernberg<br /><br /> 
+        Mail: anna-karin.jernberg@telia.com<br /><br />
+        Tfn: 0700-825 810<br /><br /><br /><br />
+        Välkommen att höra av dig!
       </div>
-      <img src={img1} alt="main" className="dog-image" />
-
-      <div className="text">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
-        </div>
-      </div>
-      <img src={img2} alt="main" className="dog-image" />
-
-      <div className="text">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
-        </div>
-      </div>
-      <img src={img3} alt="main" className="dog-image" />
-
-      <div className="text">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
-        </div>
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
       </div>
     </div>
   );

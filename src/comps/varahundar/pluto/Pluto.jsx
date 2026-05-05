@@ -12,8 +12,7 @@ export default function Pluto () {
         <div>
           <br />
           Född 3 juli 2002
-          <br />
-          <br />
+          <br /><br />
           Pluto var vår första Havanais och han var världens bästa sällskapshund! Han var snäll, klok och väldigt sällskaplig samt duktig på hundspråket. Han var med oss på allt ifrån båtturer, skidåkning, joggingrundor, fjällvandring restaurangbesök och mycket mer. 
           Vi ställde ut honom i juniorklass med bra kritik, han var välbyggd och välmusklad, men han trivdes inte på utställningar. Han ville hellre springa över klipporna eller vara hemma och mysa. 
           <br /><br />
@@ -21,10 +20,14 @@ export default function Pluto () {
           
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img2} alt="main" className="dog-image" />
+
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
+    
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
+      </div>
      
     </div>
   );

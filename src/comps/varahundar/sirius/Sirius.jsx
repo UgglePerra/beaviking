@@ -18,21 +18,28 @@ export default function Sirius () {
           
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
 
-      <img src={img2} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
+    
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
+      </div>
 
-      <img src={img3} alt="main" className="dog-image" />
-      <br /><br /><br /><br />
-      <div className="text">
-              <div>
-                <h3>Sirius 14 år</h3>
-                
-              </div>
-            </div>
-            <img src={img4} alt="main" className="dog-image" />
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img4} alt="main" className="dog-image" />
+      </div>
+
+      <div className="text-spacer">
+        <div>
+          <h3>Sirius 14 år</h3>
+        </div>
+      </div>
 
     </div>
   );

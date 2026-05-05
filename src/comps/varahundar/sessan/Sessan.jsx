@@ -14,7 +14,9 @@ export default function Sessan () {
         <h2>C.I.B. NO V-15 SE JV-13 NO V-13 NO JV-13 NORD UCH Be A Viking</h2>
         <div>
           <br />
-          
+          Född xx månad 20xx
+          <br /><br />
+
         </div>
       </div>
 
@@ -37,8 +39,6 @@ export default function Sessan () {
       <div className="img-spacer">
         <img src={img5} alt="main" className="dog-image" />
       </div>
-    
-    
     
     </div>
   );

@@ -21,43 +21,53 @@ export default function Napoleon () {
           
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
+
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
+    
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
+      </div>
       
-      <img src={img2} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <div className="text">
+      <div className="text-spacer">
         <div>
           <h3>Best In Show SDHK</h3>
         </div>
       </div>
 
-      <img src={img3} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img4} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img5} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
+      </div>
+    
+      <div className="img-spacer">
+        <img src={img4} alt="main" className="dog-image" />
+      </div>
 
-      <div className="text">
+      <div className="img-spacer">
+        <img src={img5} alt="main" className="dog-image" />
+      </div>
+
+      <div className="text-spacer">
         <div>
           <h3>Best of Bread Best in Group 3 SKK Sofiero 2011</h3>
         </div>
       </div>
       
-      <img src={img6} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
+      <div className="img-spacer">
+        <img src={img6} alt="main" className="dog-image" />
+      </div>
 
-      <div className="text">
+      <div className="text-spacer">
         <div>
           <h3> Best In Show SDHK Eket 2012</h3>
         </div>
       </div>
       
-      <img src={img7} alt="main" className="dog-image" />
+      <div className="img-spacer">
+        <img src={img7} alt="main" className="dog-image" />
+      </div>
+
     </div>
   );
 }

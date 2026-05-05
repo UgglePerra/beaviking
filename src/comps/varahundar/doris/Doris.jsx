@@ -9,15 +9,15 @@ export default function Doris () {
         <h2>Be A Viking Doris Day</h2>
         <div>
           <br />
-          Född xx februari 20xx
-          <br />
-          <br />
+          Född 30 maj 2016
+          <br /><br />
           
         </div>
       </div>
 
-      <img src={img1} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
     
     </div>
   );

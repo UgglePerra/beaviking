@@ -12,34 +12,27 @@ export default function Bella () {
         <h2>Be A Viking Belladonna Took</h2>
         <div>
           <br />
-          Född xx februari 20xx
-          <br />
-          <br />
+          Född 10 september 2013
+          <br /><br />
 
         </div>
       </div>
 
-      <img src={img1} alt="main" className="dog-image" />
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
       
-      <div className="text">
-        <div>
-          
-          <br />
-          <br />
-        </div>
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
       </div>
-      <img src={img2} alt="main" className="dog-image" />
 
-      <img src={img3} alt="main" className="dog-image" />
-      
-      <div className="text">
-        <div>
-          
-          <br />
-          <br />
-        </div>
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
       </div>
-      <img src={img4} alt="main" className="dog-image" />
+      
+      <div className="img-spacer">
+        <img src={img4} alt="main" className="dog-image" />
+      </div>
 
     </div>
   );

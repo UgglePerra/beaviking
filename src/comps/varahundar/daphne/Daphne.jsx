@@ -12,9 +12,8 @@ export default function Daphne () {
         <h2>Be A Viking Celebrian</h2>
         <div>
           <br />
-          Född xx februari 20xx
-          <br />
-          <br />
+          Född 29 november 2014
+          <br /><br />
           
         </div>
       </div>
@@ -23,15 +22,15 @@ export default function Daphne () {
         <img src={img1} alt="main" className="dog-image" />
       </div>
     
-       <div className="img-spacer">
+      <div className="img-spacer">
         <img src={img2} alt="main" className="dog-image" />
       </div>
 
-       <div className="img-spacer">
+      <div className="img-spacer">
         <img src={img3} alt="main" className="dog-image" />
       </div>
 
-       <div className="img-spacer">
+      <div className="img-spacer">
         <img src={img4} alt="main" className="dog-image" />
       </div>
 

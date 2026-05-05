@@ -11,37 +11,24 @@ export default function Vickan () {
         <h2>SE V-15 FI JV-14 SE UCH FI UCH NO UCH Be A Viking Berylla Boffin</h2>
         <div>
           <br />
-          Född xx juni 20xx
+          Född 10 september 2013
+          <br /><br />
           
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
 
-      <div className="text">
-        <div>
-         
-          <br />
-          <br />
-        </div>
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
       </div>
-      <img src={img2} alt="main" className="dog-image" />
+    
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
+      </div>
 
-      <div className="text">
-        <div>
-          
-          <br />
-          <br />
-        </div>
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
       </div>
-      <img src={img3} alt="main" className="dog-image" />
 
-      <div className="text">
-        <div>
-          
-          <br />
-          <br />
-        </div>
-      </div>
     </div>
   );
 }

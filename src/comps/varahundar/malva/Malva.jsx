@@ -14,18 +14,22 @@ export default function Malva() {
         <div>
           <br />
           Född 14 februari 2010
-          <br />
+          <br /><br />
           
         </div>
       </div>
-      <img src={img1} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img2} alt="main" className="dog-image" />
-      <br /><br /><br /><br /><br /><br />
-      
-      <img src={img3} alt="main" className="dog-image" />
 
+      <div className="img-spacer">
+        <img src={img1} alt="main" className="dog-image" />
+      </div>
+    
+      <div className="img-spacer">
+        <img src={img2} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
+      </div>
       
     </div>
   );

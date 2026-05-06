@@ -6,6 +6,11 @@ import img4 from "../imgs/valpar/img4.jpeg";
 import img5 from "../imgs/valpar/img5.jpeg";
 import img6 from "../imgs/valpar/img6.jpeg";
 import img7 from "../imgs/valpar/img7.jpeg";
+import img8 from "../imgs/valpar/img8.jpeg";
+import img9 from "../imgs/valpar/img9.jpeg";
+import img10 from "../imgs/valpar/img10.jpeg";
+import img11 from "../imgs/valpar/img11.jpeg";
+
 
 export default function Valpar() {
   return (
@@ -71,6 +76,22 @@ export default function Valpar() {
 
       <div className="img-spacer">
         <img src={img7} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img8} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img9} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img10} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img11} alt="main" className="dog-image" />
       </div>
 
 

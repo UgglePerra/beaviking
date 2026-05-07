@@ -164,7 +164,7 @@ export default function Navbar() {
               <div className="dropdown-header">
                 <Link
                   to="/Valpar"
-                  className="dropdown-links"
+                  className="otherlinks"
                   onClick={() => setMenuOpen(false)}
                 >
                   Valpar
@@ -180,7 +180,7 @@ export default function Navbar() {
               </div>
 
               {puppiesOpen && (
-                <div className="dropdown-links">
+                <div className="dropdown-links-container">
                   <Link
                     to="/Vård"
                     className="dropdown-links"

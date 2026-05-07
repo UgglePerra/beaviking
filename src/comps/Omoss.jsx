@@ -5,7 +5,7 @@ import img3 from "../imgs/omoss/img3.jpeg";
 import img4 from "../imgs/omoss/img4.jpeg";
 import img5 from "../imgs/omoss/img5.jpeg";
 import img6 from "../imgs/omoss/img6.jpeg";
-import mov4 from "../imgs/omoss/mov4.mp4"
+import mov5 from "../imgs/omoss/mov5.mp4"
 import ImageSlider from "./imageslider/ImageSlider";
 
 export default function Omoss() {
@@ -42,7 +42,7 @@ export default function Omoss() {
         loop
         muted
         playsInline>
-        <source src={mov4} type="video/mp4" />
+        <source src={mov5} type="video/mp4" />
       </video>
 
       <br /><br />

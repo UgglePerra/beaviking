@@ -64,8 +64,6 @@
 }
 .dropdown-header {
   display: flex;
-  
-  
 }
 .dropdown-links {
   display: flex;
@@ -176,7 +174,6 @@
     line-height: 1;
   }
   .dropdown-arrow {
-  margin-top: -3px;
-}
-
+    margin-top: -3px;
+  }
 }

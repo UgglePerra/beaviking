@@ -1,42 +1,35 @@
 import "./imageslider.css"
-import { useRef } from "react";
-import img1 from "./img1.jpeg";
-import img2 from "./img2.jpeg";
-import img3 from "./img3.jpeg";
+import { useState } from "react";
 
+function ImageSlider({ images }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-function ImageSlider() {
-  const sliderRef = useRef(null);
-
-  const images = [img1, img2, img3]
-
-  const scrollNext = () => {
-    const width = sliderRef.current.clientWidth;
-    sliderRef.current.scrollBy({
-      left: width,
-      behavior: "smooth",
-    });
+  const nextSlide = () => {
+    setCurrentIndex((prev) =>
+      prev === images.length - 1 ? 0 : prev + 1
+    );
   };
 
-  const scrollPrev = () => {
-    const width = sliderRef.current.clientWidth;
-    sliderRef.current.scrollBy({
-      left: -width,
-      behavior: "smooth",
-    });
+  const prevSlide = () => {
+    setCurrentIndex((prev) =>
+      prev === 0 ? images.length - 1 : prev - 1
+    );
   };
+
+  if (!images || images.length === 0) return null;
 
   return (
     <div className="slider-container">
-      <button className="arrow left" onClick={scrollPrev}>❮</button>
+      <button className="arrow left" onClick={prevSlide}>❮</button>
 
-      <div className="slider" ref={sliderRef}>
-         {images.map((img, index) => (
-          <img key={index} src={img} alt={`slide-${index}`} />
-        ))}
+      <div className="slider">
+        <img
+        src={images[currentIndex]}
+        alt={`slide-${currentIndex}`}
+      />
       </div>
-
-      <button className="arrow right" onClick={scrollNext}>❯</button>
+      
+      <button className="arrow right" onClick={nextSlide}>❯</button>
     </div>
   );
 }

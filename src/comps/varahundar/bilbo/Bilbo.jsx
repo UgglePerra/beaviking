@@ -9,7 +9,7 @@ export default function Bilbo () {
 
       <div className="text">
         <h1>Bilbo</h1>
-        <h2>Be a Viking Bilbo Baggins</h2>
+        <h2>NORD JV-14 NO JV-14 Be A Viking Bilbo Baggins</h2>
         <div>
           <br />
           Född 10 september 2013

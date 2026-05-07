@@ -23,11 +23,21 @@
 .text-spacer{
   margin-top: 1rem;
 }
+video {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
 
 @media (max-width: 768px) {
   .gallery-page {
     width: 90%;
     margin: auto;
+  }
+  video {
+    max-width: 90%;
   }
   .dog-image {
     width: 100%;

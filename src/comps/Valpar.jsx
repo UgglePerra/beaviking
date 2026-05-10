@@ -10,9 +10,11 @@ import img8 from "../imgs/valpar/img8.jpeg";
 import img9 from "../imgs/valpar/img9.jpeg";
 import img10 from "../imgs/valpar/img10.jpeg";
 import img11 from "../imgs/valpar/img11.jpeg";
+import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
 
 
 export default function Valpar() {
+  const images = [img9, img10, img11];
   return (
     <div className="gallery-page">
       <div className="text">
@@ -25,45 +27,6 @@ export default function Valpar() {
 
       <div className="img-spacer">
         <img src={img1} alt="main" className="dog-image" />
-      </div>
-
-      <div className="text-spacer">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-        </div>
-      </div>
-
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
-
-      <div className="text-spacer">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-        </div>
-      </div>
-
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
-
-      <div className="text-spacer">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-        </div>
-      </div>
-
-      <div className="img-spacer">
-        <img src={img4} alt="main" className="dog-image" />
       </div>
 
       <div className="img-spacer">
@@ -82,16 +45,10 @@ export default function Valpar() {
         <img src={img8} alt="main" className="dog-image" />
       </div>
 
+     
       <div className="img-spacer">
-        <img src={img9} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img10} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img11} alt="main" className="dog-image" />
+        <h2></h2>
+        <ImageSliderAuto images={images} />
       </div>
 
 

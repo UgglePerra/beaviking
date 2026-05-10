@@ -1,27 +1,32 @@
 .gallery-page {
   width: 60%;
-  margin: auto;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 50;
 }
 .dog-image {
   width: 100%;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
-.text {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
-  font-size: 20px;
-}
-.text h2 {
-  font-size: 24px;
-}
+
+
 .img-spacer {
   margin-top: 3rem;
 }
+.small-img-spacer {
+  margin-top: 3rem;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .text-spacer{
   margin-top: 1rem;
+}
+.indent-text-spacer{
+  margin-top: -4px;;
+  text-indent: 20px;
 }
 video {
   display: block;
@@ -34,7 +39,8 @@ video {
 @media (max-width: 768px) {
   .gallery-page {
     width: 90%;
-    margin: auto;
+    font-size: 10px;
+
   }
   video {
     max-width: 90%;

@@ -49,16 +49,13 @@ export default function Vicke () {
           <img src={img4} alt="main" className="dog-image" />
         </div>
         
+        
         <div className="text-spacer">
             <h3>World Dog Show2025 Helsinki</h3>
         </div>
         
         <div className="img-spacer">
           <img src={img5} alt="main" className="dog-image" />
-        </div>
-
-        <div className="img-spacer">
-          <img src={img6} alt="main" className="dog-image" />
         </div>
 
         <div className="img-spacer">
@@ -70,17 +67,6 @@ export default function Vicke () {
         </div>
           
       </div>
-
-      <video 
-        controls
-        autoPlay
-        loop
-        muted
-        playsInline>
-        <source src={mov1} type="video/mp4" />
-      </video>
-      
-      <br /><br />
 
       <video 
         controls

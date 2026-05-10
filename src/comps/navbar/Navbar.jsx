@@ -204,7 +204,7 @@ export default function Navbar() {
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Resultat/Champions
+              Resultat
             </Link>
 
             <Link

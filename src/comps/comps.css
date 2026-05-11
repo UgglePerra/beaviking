@@ -1,6 +1,6 @@
 .gallery-page {
   width: 60%;
-  text-align: left;
+  margin: auto;
   font-size: 16px;
   font-weight: 50;
 }
@@ -24,9 +24,25 @@
 .text-spacer{
   margin-top: 1rem;
 }
+.text-spacer-2{
+  margin-top: 1rem;
+  text-align: left;
+}
+.text-spacer-2-special{
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 24px;
+  font-family: var(--heading);
+  font-weight: bold;
+}
 .indent-text-spacer{
   margin-top: -4px;;
-  text-indent: 20px;
+  text-indent: 22px;
+}
+.indent-text-spacer-2{
+  margin-top: -4px;;
+  text-align: left;
+  text-indent: 22px;
 }
 video {
   display: block;

@@ -11,10 +11,10 @@ export default function Sessan () {
     <div className="gallery-page">
       <div className="text">
         <h1>Sessan</h1>
-        <h2>C.I.B. NO V-15 SE JV-13 NO V-13 NO JV-13 NORD UCH Be A Viking</h2>
+        <h2>C.I.B. NO V-15 SE JV-13 NO V-13 NO JV-13 NORD UCH Be A Viking Anduril</h2>
         <div>
           <br />
-          Född xx månad 20xx
+          Född 26 juli 2012
           <br /><br />
 
         </div>

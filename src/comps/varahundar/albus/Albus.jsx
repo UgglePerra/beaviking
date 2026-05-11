@@ -12,7 +12,7 @@ export default function Albus () {
         <h2>Tilevis Eddie be A Viking</h2>
         <div>
           <br />
-          Född xx februari 20xx
+          Född 17 februari 2023
           <br /><br />
           Albus är Idas hund och är född hos Virginia och Vivianne, Tilevis kennel i Skåne. När längtan efter en ny hund blev för stor då Sirius lämnade oss efter drygt 14 år blev det Albus! Hans mamma Petunia har våra linjer bakom sig, hans pappa är en import från Polen.<br /><br />
 

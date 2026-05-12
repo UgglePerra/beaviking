@@ -8,8 +8,20 @@ export default function Valkommen() {
     <div className="gallery-page">
       <div className="text">
         <h1>Kontakt</h1>
-        Skriv till Anna-Karin och Ida Jernberg<br /><br /> 
-        Mail: anna-karin.jernberg@telia.com<br /><br />
+        Anna-Karin och Ida Jernberg<br /><br /> 
+
+    <div>
+      Mail:&nbsp; 
+        <span>
+           <a href="mailto:anna-karin.jernberg@telia.com">
+           anna-karin.jernberg@telia.com
+        </a>
+        </span>
+    </div>
+        
+       
+
+   <br />
        
         Välkommen att höra av dig!
       </div>

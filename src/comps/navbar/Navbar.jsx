@@ -160,7 +160,49 @@ export default function Navbar() {
               )}
             </div>
 
-            <div className="dropdown">
+            <Link
+              to="/Vård"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Skötsel och pälsvård
+            </Link>
+
+            <Link
+              to="/Resultat"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Resultat
+            </Link>
+
+            <Link
+              to="/Nyheter"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Nyheter
+            </Link>
+
+            <Link
+              to="/Kontakt"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Kontakt
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
+/// Kan va bra att spara ///
+/*
+<div className="dropdown">
               <div className="dropdown-header">
                 <Link
                   to="/Valpar"
@@ -198,33 +240,4 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-
-            <Link
-              to="/Resultat"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              Resultat
-            </Link>
-
-            <Link
-              to="/Nyheter"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              Nyheter
-            </Link>
-
-            <Link
-              to="/Kontakt"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              Kontakt
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+*/

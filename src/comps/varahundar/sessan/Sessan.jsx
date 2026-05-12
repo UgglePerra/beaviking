@@ -4,6 +4,12 @@ import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
 import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
+import img6 from "./imgs/img6.jpeg";
+import img7 from "./imgs/img7.jpeg";
+import img8 from "./imgs/img8.jpeg";
+import img9 from "./imgs/img9.jpeg";
+import img10 from "./imgs/img10.jpeg";
+
 
 
 export default function Sessan () {
@@ -39,7 +45,24 @@ export default function Sessan () {
       <div className="img-spacer">
         <img src={img5} alt="main" className="dog-image" />
       </div>
+
+      <div className="img-spacer">
+        <img src={img6} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img7} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img9} alt="main" className="dog-image" />
+      </div>
+
+       <div className="img-spacer">
+        <img src={img10} alt="main" className="dog-image" />
+      </div>
     
+
     </div>
   );
 }

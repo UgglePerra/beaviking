@@ -16,6 +16,7 @@ function ImageSliderAuto({ images }) {
 
   return (
     <img
+      className="autoimg"
       src={images[currentIndex]}
       alt=""
       style={{ width: "100%" }}

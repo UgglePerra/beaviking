@@ -27,7 +27,7 @@ import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
 
 
 export default function Valkommen() {
-  const images = [simg1, simg2, simg3,simg5, simg6, simg7, simg8, simg9, simg10, simg11, simg12, simg13, simg14, simg15, simg16, simg17, simg18, simg19]
+  const images = [simg1, simg2,simg3, simg5, simg6, simg7, simg8, simg9, simg10, simg11, simg12, simg13, simg14, simg15, simg16, simg17, simg18, simg19]
   return (
     <div className="gallery-page">
       <div className="text">

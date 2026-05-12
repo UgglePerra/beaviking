@@ -24,7 +24,13 @@
   /* 👇 snap each image */
   scroll-snap-align: start;
   border-radius: 20px;
+   
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
+  .autoimg {
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+     border-radius: 20px;
+  }
 
 /* Arrows */
 .arrow {

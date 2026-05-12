@@ -1,6 +1,7 @@
 import "../varahundar.css";
 import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
+import img3 from "./imgs/img3.jpeg";
 
 
 export default function Albus () {
@@ -26,6 +27,10 @@ export default function Albus () {
 
       <div className="img-spacer">
         <img src={img2} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img3} alt="main" className="dog-image" />
       </div>
     
     </div>

@@ -161,6 +161,14 @@ export default function Navbar() {
             </div>
 
             <Link
+              to="/Valpar"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Valpar
+            </Link>
+
+            <Link
               to="/Vård"
               className="otherlinks"
               onClick={() => setMenuOpen(false)}

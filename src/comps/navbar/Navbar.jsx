@@ -43,6 +43,15 @@ export default function Navbar() {
               Om oss
             </Link>
 
+
+            <Link
+              to="/Nyheter"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Nyheter
+            </Link>
+
             <div className="dropdown">
               <div onClick={() => setDogsOpen(!dogsOpen)}>Våra hundar ▾</div>
               {dogsOpen && (
@@ -161,6 +170,14 @@ export default function Navbar() {
             </div>
 
             <Link
+              to="/Resultat"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              Resultat
+            </Link>
+
+            <Link
               to="/Valpar"
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
@@ -174,22 +191,6 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               Skötsel och pälsvård
-            </Link>
-
-            <Link
-              to="/Resultat"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              Resultat
-            </Link>
-
-            <Link
-              to="/Nyheter"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              Nyheter
             </Link>
 
             <Link

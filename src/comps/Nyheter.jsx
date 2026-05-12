@@ -4,27 +4,35 @@ import "./comps.css"
 import img1 from "../imgs/nyheter/img1.jpeg";
 import img2 from "../imgs/nyheter/img2.jpeg";
 import img3 from "../imgs/nyheter/img3.jpeg";
+import img4 from "../imgs/nyheter/img4.jpeg";
 
 export default function Nyheter() {
   return (
     <div className="gallery-page">
       <div className="text">
         <h1>Nyheter</h1>
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.    
+
+        <div className="text-spacer-news">
+          <h3>26 april 2026</h3>
+          Så stolt och glad över vår fina Minnie som på första försöket blev Champion idag!! ⭐️⭐️⭐️<br />
+          Bästa tik med CERT, Nordic Show-certifikat och därmed Svensk och Dansk champion🏆🏆<br />
+          💖Minnie💖 SE UCH DK UCH KBHV-25 KBHJV-25 Evan’s Aha Magic Be A Viking
+          <br /><br />
+          Nordic Dog Show Västerås 26 april 2026<br />
+          Domare Attila Czeglédi , Ungern 
+        </div>
       </div>
 
       <div className="img-spacer">
         <img src={img1} alt="main" className="dog-image" />
       </div>
 
-      <div className="text-spacer">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
+      <div className="text">
+        <div className="text-spacer-news">
+   
+          <h3>1 april 2026</h3>
+          Josef och Vicke har blivit omslagspojkar på Rasklubbens tidning för Havanais och Bolognese BBHC❣️
+          Glad Påsk🐣🐣🐣
         </div>
       </div>
 
@@ -32,12 +40,14 @@ export default function Nyheter() {
         <img src={img2} alt="main" className="dog-image" />
       </div>
 
-      <div className="text-spacer">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
+      <div className="text">
+        <div className="text-spacer-news">
+   
+          <h3>28 februari 2026</h3>
+          Vi har en ny champion!!!⭐️⭐️⭐️🏆Stolta och glada för vår lilla kille som idag blev svensk och finsk champion första gången i öppen klass 🤩 <br />
+          SE UCH FI UCH Tilevis Flitwick Be A Viking💖💖<br />
+          Agria Dog Show Jönköping Internationell <br />
+          Domare Nina Lönner Andersson
         </div>
       </div>
 
@@ -45,19 +55,22 @@ export default function Nyheter() {
         <img src={img3} alt="main" className="dog-image" />
       </div>
 
-      <div className="text-spacer">
-        <div>
-          <h3>tempor incididunt</h3>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.
-          <br />
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          <br />
-          <br />
+       <div className="text">
+        <div className="text-spacer-news">
+   
+          <h3>1 januari 2026</h3>
+          Idag fyller han 13 år!! 💖<br />
+          Stort grattis älskade Louis❤️❤️❤️
         </div>
       </div>
+
+      <div className="img-spacer">
+        <img src={img4} alt="main" className="dog-image" />
+      </div>
+
+      <br />
+
     </div>
+
   );
 }

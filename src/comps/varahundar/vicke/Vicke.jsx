@@ -57,7 +57,7 @@ export default function Vicke() {
           <h3>World Dog Show Circuit Helsingfors augusti 2025</h3>
           Bedömning: 18 månader, utmärkt storlek. En välutvecklad ung hane för
           sin ålder. Goda vinklar. Bra längd och stark bröstkorg. Något brant
-          kors. Bra päls. Välformat maskulint huvud. Vackra, mörka stora ögon.
+          kors. Bra päls. Välformat, maskulint huvud. Vackra, mörka stora ögon.
           Bra, fyllig nos. Rör sig effektivt med bra steglängd. Vacker svans i
           rörelse.
           <br />
@@ -66,11 +66,11 @@ export default function Vicke() {
           <br />
           <br />
           <h3>SKK Dog Show</h3>
-          Bedömning: Mycket fin siluet. Utmärkta proportioner och balans.
+          Bedömning: Mycket fin siluett. Utmärkta proportioner och balans.
           Utmärkt storlek. Maskulint uttryck. Korrekt skalle. Mörka, fina
           välformade ögon. Fin längd på nospartiet. Snygg hals, överlinje och
           svans. Välvinklad och välkroppad. Utmärkt pälskvalitet.Typiska,
-          frapperande rörelser. EN lovande unghund.
+          frapperande rörelser. En lovande unghund.
           <br />
           <br />
           Domare: Marcus Gisslén
@@ -80,7 +80,7 @@ export default function Vicke() {
           Bedömning: Utmärkt typ, maskulin hane av bra storlek och goda
           proportioner.Utrycksfulla ögon, härligt pigment, bra hals och
           överlinje. Välkroppad och välmusklad. Välvinklad, rör sig med lätt och
-          alert steg och välburen svans. Utmärkt pälskvalitetet som är
+          alert steg och välburen svans. Utmärkt pälskvalitet som är
           välpresenterad.
           <br />
           <br />

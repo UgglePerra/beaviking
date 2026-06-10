@@ -10,25 +10,35 @@ import img8 from "./imgs/img8.jpeg";
 import img9 from "./imgs/img9.jpeg";
 import img10 from "./imgs/img10.jpeg";
 
-
-
-export default function Sessan () {
+export default function Sessan() {
   return (
     <div className="gallery-page">
       <div className="text">
         <h1>Sessan</h1>
-        <h2>C.I.B. NO V-15 SE JV-13 NO V-13 NO JV-13 NORD UCH Be A Viking Anduril</h2>
+        <h2>
+          C.I.B. NO V-15 SE JV-13 NO V-13 NO JV-13 NORD UCH Be A Viking Anduril
+        </h2>
         <div>
           <br />
           Född 26 juli 2012
-          <br /><br />
-          Sessan föddes i vår första kull 2012. Hon var den av sex valpar som stannade kvar i en kull med mycket vackra valpar efter Malva och Napoleon. 
-          Hon hade den mest ljuvliga personligheten, kärleksfull och lyhörd som sin pappa. Med en ambitiös personlighet, omtanke om alla och en superduktig mamma till sina valpar.<br /><br />
-
-          I utställningsringen gick vackra Sessan från klarhet till klarhet, blev bästa tik på sin första officiella utställning och så fortsatte hon! Fram till två-års dagen hade hon hunnit få 12 championcertifikat! Internationell champion, svensk och norsk juniorvinnare, flerfaldig norsk vinnare - men viktigast av allt, den största vinnaren på hemmaplan!<br /><br />
-
+          <br />
+          <br />
+          Sessan föddes i vår första kull 2012. Hon var den av sex valpar som
+          stannade kvar i en kull med mycket vackra valpar efter Malva och
+          Napoleon. Hon hade den mest ljuvliga personligheten, kärleksfull och
+          lyhörd som sin pappa. Med en ambitiös personlighet, omtanke om alla
+          och en superduktig mamma till sina valpar.
+          <br />
+          <br />
+          I utställningsringen gick vackra Sessan från klarhet till klarhet,
+          blev bästa tik på sin första officiella utställning och så fortsatte
+          hon! Fram till två-års dagen hade hon hunnit få 12 championcertifikat!
+          Internationell champion, svensk och norsk juniorvinnare, flerfaldig
+          norsk vinnare - men viktigast av allt, den största vinnaren på
+          hemmaplan!
+          <br />
+          <br />
           Älskade Sessan - tack för all kärlek du gav oss ♥️
-
         </div>
       </div>
 
@@ -39,7 +49,7 @@ export default function Sessan () {
       <div className="img-spacer">
         <img src={img2} alt="main" className="dog-image" />
       </div>
-    
+
       <div className="img-spacer">
         <img src={img3} alt="main" className="dog-image" />
       </div>
@@ -47,7 +57,7 @@ export default function Sessan () {
       <div className="img-spacer">
         <img src={img4} alt="main" className="dog-image" />
       </div>
-    
+
       <div className="img-spacer">
         <img src={img5} alt="main" className="dog-image" />
       </div>
@@ -64,11 +74,9 @@ export default function Sessan () {
         <img src={img9} alt="main" className="dog-image" />
       </div>
 
-       <div className="img-spacer">
+      <div className="img-spacer">
         <img src={img10} alt="main" className="dog-image" />
       </div>
-    
-
     </div>
   );
 }

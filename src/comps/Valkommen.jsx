@@ -22,12 +22,27 @@ import simg16 from "../imgs/valkommen/simg16.jpeg";
 import simg17 from "../imgs/valkommen/simg17.jpeg";
 import simg18 from "../imgs/valkommen/simg18.jpeg";
 import simg19 from "../imgs/valkommen/simg19.jpeg";
+import simg20 from "../imgs/valkommen/simg20.jpeg";
+import simg21 from "../imgs/valkommen/simg21.jpeg";
+import simg22 from "../imgs/valkommen/simg22.jpeg";
+import simg23 from "../imgs/valkommen/simg23.jpeg";
+import simg24 from "../imgs/valkommen/simg24.jpeg";
+import simg25 from "../imgs/valkommen/simg25.jpeg";
+import simg26 from "../imgs/valkommen/simg26.jpeg";
+import simg27 from "../imgs/valkommen/simg27.jpeg";
+import simg28 from "../imgs/valkommen/simg28.jpeg";
+import simg29 from "../imgs/valkommen/simg29.jpeg";
+import simg30 from "../imgs/valkommen/simg30.jpeg";
+import simg31 from "../imgs/valkommen/simg31.jpeg";
+import simg32 from "../imgs/valkommen/simg32.jpeg";
+import simg33 from "../imgs/valkommen/simg33.jpeg";
 
 import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
 
 
 export default function Valkommen() {
-  const images = [simg1, simg2,simg3, simg5, simg6, simg7, simg8, simg9, simg10, simg11, simg12, simg13, simg14, simg15, simg16, simg17, simg18, simg19]
+  const images = [simg1, simg2,simg3, simg5, simg6, simg7, simg8, simg9, simg10, simg11, simg12, simg13, simg14, simg15, simg16, simg17, simg18, simg19, simg20, simg21, simg22, simg23, simg24, simg25, simg26, simg27, simg28, simg29, simg30, simg31, simg32, simg33]
+  
   return (
     <div className="gallery-page">
       <div className="text">

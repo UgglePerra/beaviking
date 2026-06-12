@@ -39,18 +39,47 @@ import simg33 from "../imgs/valkommen/simg33.jpeg";
 
 import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
 
-
 export default function Valkommen() {
-  const images = [simg1, simg2,simg3, simg5, simg6, simg7, simg8, simg9, simg10, simg11, simg12, simg13, simg14, simg15, simg16, simg17, simg18, simg19, simg20, simg21, simg22, simg23, simg24, simg25, simg26, simg27, simg28, simg29, simg30, simg31, simg32, simg33]
-  
+  const images = [
+    simg1,
+    simg2,
+    simg3,
+    simg5,
+    simg7,
+    simg8,
+    simg9,
+    simg10,
+    simg12,
+    simg15,
+    simg19,
+    simg20,
+    simg21,
+    simg22,
+    simg23,
+    simg24,
+    simg25,
+    simg26,
+    simg27,
+    simg28,
+    simg29,
+    simg30,
+    simg31,
+    simg32,
+    simg11,
+  ];
+
   return (
     <div className="gallery-page">
       <div className="text">
         <h1>Välkommen</h1>
-        Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi delat våra liv med sedan 2002. Syftet är att få fram friska, sociala och vackra Havanaiser som sprider glädje hos sina ägare och familjer. Under åren har vi haft ett fåtal kullar då tid och omsorg om valparna är viktigast för att de ska bli trygga och glada små hundar!
-        <br/><br/>
+        Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi
+        delat våra liv med sedan 2002. Syftet är att få fram friska, sociala och
+        vackra Havanaiser som sprider glädje hos sina ägare och familjer. Under
+        åren har vi haft ett fåtal kullar då tid och omsorg om valparna är
+        viktigast för att de ska bli trygga och glada små hundar!
+        <br />
+        <br />
         Välkommen att titta runt på vår hemsida!
-        
       </div>
 
       <div className="img-spacer">
@@ -59,21 +88,20 @@ export default function Valkommen() {
       </div>
 
       <div className="img-spacer">
-         <img src={img1} alt="main" className="dog-image" />
+        <img src={img1} alt="main" className="dog-image" />
       </div>
-     
+
       <div className="img-spacer">
         <img src={img2} alt="main" className="dog-image" />
       </div>
-      
+
       <div className="img-spacer">
         <img src={img3} alt="main" className="dog-image" />
       </div>
-     
+
       <div className="img-spacer">
         <img src={img4} alt="main" className="dog-image" />
       </div>
-      
     </div>
   );
 }

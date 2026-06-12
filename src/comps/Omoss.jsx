@@ -1,4 +1,5 @@
 import "./comps.css";
+import img0 from "../imgs/omoss/img0.jpeg";
 import img1 from "../imgs/omoss/img1.jpeg";
 import img2 from "../imgs/omoss/img2.jpeg";
 import img3 from "../imgs/omoss/img3.jpeg";
@@ -16,6 +17,10 @@ export default function Omoss() {
       <div className="gallery-page">
         <div className="text">
           <h1>Om oss</h1>
+        </div>
+
+        <div className="img-spacer">
+          <img src={img0} alt="main" className="dog-image" />
         </div>
 
         <div className="img-spacer">

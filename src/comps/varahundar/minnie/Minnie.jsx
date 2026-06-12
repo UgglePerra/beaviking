@@ -24,7 +24,7 @@ export default function Minnie() {
           Luleå (!) Anna och Linnea, Kennel Evan’s Aha. Hennes mormor Vickan, Be
           A Viking Berylla Boffin, är född här hemma hos oss och hennes
           mormorsmor Malva, Peach Blossom Blue Temptation var vår första tik som
-          jag hämtade hem från östra Tyskland. Minnie har fyra av våra hundar
+          vi hämtade hem från östra Tyskland. Minnie har fyra av våra hundar
           bakom sig i stamtavlan.
           <br />
           <br />
@@ -34,6 +34,9 @@ export default function Minnie() {
           bra i utställningsringarna; Köpenhavns Vinnare 2025, Köpenhavns Junior
           Vinnare 2025, Bäst i Rasen Askersund, ett flertal Bästa tik
           placeringar och championcertifikat i både Sverige och Danmark.
+          <br />
+          <br />
+          På första försöket blev hon svensk och dansk champion på den nordiska utställningen i Västerås 26 april 2026
           <br />
           <br />
         </div>
@@ -50,6 +53,8 @@ export default function Minnie() {
       <div className="text-spacer">
         <h2>Västerås Nordic Dog Show 2026</h2>
         Bästa tik med CERT, Nordic Show-certifikat och därmed Svensk och Dansk champion🏆🏆
+        <br />
+        Domare: Attila Czegledi, Ungern
       </div>
       
       <div className="img-spacer">
@@ -61,8 +66,8 @@ export default function Minnie() {
       </div>
       
 
-      <div>
-        <strong>Kritik: </strong>
+      <div className="text-spacer">
+        <strong>Bedömning: </strong>
         &quot;Just turned 2 years, this is one I would not expect to be very long in open class as she excels in breed type and structure, lovely head, excelling in eye and pigment, she is so good to go over, with a quality coat and level topline with good tail carriage, excellent bone and feet, she moves out so well showing off her body proportions and proud head carriage&quot;. 
         <br />
         Domare: Ogden Howard
@@ -70,6 +75,12 @@ export default function Minnie() {
 
       <div className="img-spacer">
         <img src={img4} alt="main" className="dog-image" />
+      </div>
+
+       <div className="text-spacer">
+        <h2>My Dog Internationell utställning 
+          <br />5 januari 2026</h2>
+        Bästa tik 2:a med CERT och R-CACIB!
       </div>
       
       <div className="img-spacer">

@@ -23,7 +23,7 @@ export default function Valkommen() {
 
    <br />
        
-        Välkommen att höra av dig!
+        Välkommen att kontakta oss om du har frågor!
       </div>
 
       <div className="img-spacer">

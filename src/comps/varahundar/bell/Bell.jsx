@@ -50,8 +50,10 @@ export default function Bell () {
       </div>
     
       <div className="text-spacer">
-          <h3>11 år</h3>
+        I september 2026 fyller Bell 13 år.
       </div>
+
+      <br /><br /><br /><br /><br /><br /><br />
   
     </div>
   );

@@ -79,23 +79,5 @@ export default function Minnie() {
 
        <div className="text-spacer">
         <h2>My Dog Internationell utställning 
-          <br />5 januari 2026</h2>
-        Bästa tik 2:a med CERT och R-CACIB!
-      </div>
-      
-      <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img6} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img7} alt="main" className="dog-image" />
-      </div>
-
-    </div>
-
-  );
-}
+          <br />
+       

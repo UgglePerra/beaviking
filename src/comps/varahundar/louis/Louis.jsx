@@ -4,6 +4,7 @@ import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
 import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
+import img6 from "./imgs/img6.jpeg";
 
 
 export default function Louis () {
@@ -43,6 +44,17 @@ export default function Louis () {
       <div className="img-spacer">
         <img src={img5} alt="main" className="dog-image" />
       </div>
+
+      <div className="img-spacer">
+        <img src={img6} alt="main" className="dog-image" />
+      </div>
+
+      <div className="text-spacer">
+        1 januari 2026 fyllde Louis 13 år.
+      </div>
+
+      <br /><br /><br /><br /><br /><br /><br /><br />
+    
 
     </div>
   );

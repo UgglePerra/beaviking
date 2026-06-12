@@ -35,7 +35,7 @@ export default function Vård() {
       <div className="text">
         <div>
           <br></br>
-          En del väljer att klippa sina Havanaiser och jag säger alltid att
+          En del väljer att klippa sina Havanaiser och vi säger alltid att
           högsta prioritet är att hund och hundägare ska trivas ihop och ha kul.
           Men även en kortklippt Havanais behöver sin regelbundna skötsel
           (Obs!!) Se stunden som en mysig stund att vara nära, det är en bra
@@ -43,12 +43,14 @@ export default function Vård() {
           börja med skötselrutinerna direkt när du kommer hem med din lilla
           valp, då får du en mysig liten kompis som är van att vara hanterad.
           <br></br>
-          <br></br>
           Följande skötselråd gäller både långhåriga och kortklippta: Varje dag
           ska ögonen skötas, torka i ögonvrån med en bomullspad doppad i varmt
           vatten eller ögonbad. Det kan vara lätt att få bort sömngruset med en
-          liten mustaschkam. Borsta tänderna på din hund varje dag, det ger
-          hunden en frisk munhälsa och du slipper höga veterinärkostnader.
+          liten mustaschkam.  
+          <br></br>
+          Borsta tänderna på din hund varje dag, det ger
+          hunden en frisk munhälsa och du slipper höga veterinärkostnader. En ren och väldoftande mun
+          utan krypande tandsten och tandont ger dig en glad och frisk hund! 
           <br />
         </div>
       </div>
@@ -60,9 +62,7 @@ export default function Vård() {
       <div className="text">
         <div>
           <br></br>
-          Jag rekommenderar starkt tandborstning, en ren och väldoftande mun
-          utan krypande tandsten och tandont ger dig en glad och frisk hund! Det
-          är bra att klippa klorna varje vecka, bestäm en fast dag som gör det
+          Det är bra att klippa klorna varje vecka, bestäm en fast dag som gör det
           lättare att komma ihåg, exv söndagar. Vid blöt regnig väderlek, se
           till att torka tassarna efter promenaden. Våta och fuktiga tassar som
           inte får torka mellan promenaderna kan när hunden försöker slicka sig

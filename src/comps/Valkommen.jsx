@@ -49,7 +49,6 @@ export default function Valkommen() {
     simg8,
     simg9,
     simg10,
-    simg12,
     simg15,
     simg19,
     simg20,

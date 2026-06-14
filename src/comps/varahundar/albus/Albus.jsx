@@ -34,4 +34,6 @@ export default function Albus () {
         <img src={img3} alt="main" className="dog-image" />
       </div>
   
-    </d
+    </div>
+  );
+}

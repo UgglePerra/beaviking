@@ -53,4 +53,8 @@ export default function Bell () {
         I september 2026 fyller Bell 13 år.
       </div>
 
-   
+      <br /><br /><br /><br /><br /><br /><br />
+  
+    </div>
+  );
+}

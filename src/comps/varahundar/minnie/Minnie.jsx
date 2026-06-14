@@ -79,4 +79,35 @@ export default function Minnie() {
         </h2>
         <h2>5 januari 2026
         </h2>
-        Bästa tik 
+        Bästa tik 2:a med CERT och R-CACIB!
+      </div>
+      
+      <div className="img-spacer">
+        <img src={img5} alt="main" className="dog-image" />
+      </div>
+
+      <div className="text-spacer">
+        <h2>
+          Roskilde Internationell utställning
+          <br />
+           21 september 2025
+         KÖPENHAMNSVINNARE 2025 🏆</h2>
+         <br /> 
+         Bästa Tik Bästa Junior CERT Jun. CERT Jun. CACIB
+        KÖPENHAMNSJUNIORVINNARE 2025 🏆
+        <br /><br />
+        Domare Hans Almgren
+      </div>
+
+      <div className="img-spacer">
+        <img src={img6} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img7} alt="main" className="dog-image" />
+      </div>
+
+    </div>
+
+  );
+}

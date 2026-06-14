@@ -3,6 +3,8 @@ import img1 from "../imgs/valkommen/img1.jpeg";
 import img2 from "../imgs/valkommen/img2.jpeg";
 import img3 from "../imgs/valkommen/img3.jpeg";
 import img4 from "../imgs/valkommen/img4.jpeg";
+import img5 from "../imgs/valkommen/img5.jpeg";
+import img6 from "../imgs/valkommen/img6.jpeg";
 
 import simg1 from "../imgs/valkommen/simg1.jpeg";
 import simg2 from "../imgs/valkommen/simg2.jpeg";
@@ -84,6 +86,14 @@ export default function Valkommen() {
       <div className="img-spacer">
         <h2></h2>
         <ImageSliderAuto images={images} />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img5} alt="main" className="dog-image" />
+      </div>
+
+      <div className="img-spacer">
+        <img src={img6} alt="main" className="dog-image" />
       </div>
 
       <div className="img-spacer">

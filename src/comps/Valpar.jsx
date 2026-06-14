@@ -1,8 +1,5 @@
 import "./comps.css"
 import img1 from "../imgs/valpar/img1.jpeg";
-import img2 from "../imgs/valpar/img2.jpeg";
-import img3 from "../imgs/valpar/img3.jpeg";
-import img4 from "../imgs/valpar/img4.jpeg";
 import img5 from "../imgs/valpar/img5.jpeg";
 import img6 from "../imgs/valpar/img6.jpeg";
 import img7 from "../imgs/valpar/img7.jpeg";
@@ -32,7 +29,7 @@ export default function Valpar() {
     <div className="gallery-page">
       <div className="text">
         <h1>Valpar</h1>
-        Är du intresserad av en valp efter våra hundar så är du välkommen att höra av dig! Vi hälsotestar våra hundar regelbundet och följer SKK's grundregler och avelspolicy samt BBHC's avelspolicy. <br /><br />Våra hundar som används i avel är hälsotestade utan anmärkning avseende hjärta, ögon och knän 0/0 enligt rasklubbens riktlinjer. De är utställda med fina resultat vilket visar på utmärkt mentalitet och exteriör.<br /><br />
+        Är du intresserad av en valp efter våra hundar så är du välkommen att höra av dig! Vi hälsotestar våra hundar regelbundet och följer SKK&apos;s grundregler och avelspolicy samt BBHC&apos;s avelspolicy. <br /><br />Våra hundar som används i avel är hälsotestade utan anmärkning avseende hjärta, ögon och knän 0/0 enligt rasklubbens riktlinjer. De är utställda med fina resultat vilket visar på utmärkt mentalitet och exteriör.<br /><br />
         Anna-Karin och Ida Jernberg<br />
 
         Anna-Karin.Jernberg@telia.com

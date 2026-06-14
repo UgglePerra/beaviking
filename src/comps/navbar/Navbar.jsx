@@ -7,7 +7,7 @@ import img1 from "../../imgs/navbar/img1.jpg";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dogsOpen, setDogsOpen] = useState(false);
-  const [puppiesOpen, setPuppiesOpen] = useState(false);
+  // const [puppiesOpen, setPuppiesOpen] = useState(false);
 
   return (
     <div className="page">

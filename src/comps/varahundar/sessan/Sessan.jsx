@@ -6,7 +6,6 @@ import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 import img6 from "./imgs/img6.jpeg";
 import img7 from "./imgs/img7.jpeg";
-import img8 from "./imgs/img8.jpeg";
 import img9 from "./imgs/img9.jpeg";
 import img10 from "./imgs/img10.jpeg";
 

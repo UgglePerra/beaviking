@@ -100,17 +100,4 @@ export default function Valkommen() {
         <img src={img1} alt="main" className="dog-image" />
       </div>
 
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img4} alt="main" className="dog-image" />
-      </div>
-    </div>
-  );
-}
+      <div className="img-spac

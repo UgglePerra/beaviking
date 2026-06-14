@@ -4,9 +4,7 @@ import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
 import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
-import img6 from "./imgs/img6.jpeg";
 import img7 from "./imgs/img7.jpeg";
-import mov1 from "./imgs/mov1.mp4";
 import mov2 from "./imgs/mov2.mp4";
 
 export default function Vicke() {
@@ -43,6 +41,13 @@ export default function Vicke() {
 
         <div className="img-spacer">
           <img src={img1} alt="main" className="dog-image" />
+        </div>
+
+        <div className="text-spacer">
+          <h3>Agria Dog Show Jönköping Internationell <br />28 februari 2026<br />Svensk och finsk champion!!</h3>
+          Bedömning: Snygg hane, utmärkta proportioner, vackert huvud, mörka vackra ögon, snygg överlinje, utmärkt förbröst, ngt framskjuten skuldra, bra framben, passande vinklar, välformad bröstkorg, snygg svans, vacker välskött päls, rör sig med härlig stil och energi, välpresenterad.
+          <br /><br />
+          Domare: Nina Lönner Andersson
         </div>
 
         <div className="img-spacer">

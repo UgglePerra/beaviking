@@ -33,7 +33,5 @@ export default function Albus () {
       <div className="img-spacer">
         <img src={img3} alt="main" className="dog-image" />
       </div>
-    
-    </div>
-  );
-}
+  
+    </d

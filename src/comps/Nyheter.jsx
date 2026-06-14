@@ -5,6 +5,7 @@ import img1 from "../imgs/nyheter/img1.jpeg";
 import img2 from "../imgs/nyheter/img2.jpeg";
 import img3 from "../imgs/nyheter/img3.jpeg";
 import img4 from "../imgs/nyheter/img4.jpeg";
+import img5 from "../imgs/nyheter/img5.jpeg";
 
 export default function Nyheter() {
   return (
@@ -64,8 +65,32 @@ export default function Nyheter() {
         </div>
       </div>
 
+
       <div className="img-spacer">
         <img src={img4} alt="main" className="dog-image" />
+      </div>
+
+      <div className="text-spacer">
+        <h2>
+          Roskilde Internationell utställning
+          <br />
+           21 september 2025
+         KÖPENHAMNSVINNARE 2025 🏆</h2>
+         <br /> 
+         Bästa Tik Bästa Junior CERT Jun. CERT Jun. CACIB
+        KÖPENHAMNSJUNIORVINNARE 2025 🏆
+        <br /><br />
+        Domare Hans Almgren
+        <br /><br />
+        Grattis till Jenny och Jax!!
+      </div>
+
+      
+
+
+
+      <div className="img-spacer">
+        <img src={img5} alt="main" className="dog-image" />
       </div>
 
       <br />

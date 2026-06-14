@@ -42,20 +42,4 @@ export default function Louis () {
       </div>
 
       <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img6} alt="main" className="dog-image" />
-      </div>
-
-      <div className="text-spacer">
-        1 januari 2026 fyllde Louis 13 år.
-      </div>
-
-      <br /><br /><br /><br /><br /><br /><br /><br />
-    
-
-    </div>
-  );
-}
+        <img src={img5} alt="main" className="dog-image

@@ -22,7 +22,8 @@
   margin-right: auto;
 }
 .text-spacer{
-  margin-top: 1rem;
+  margin-top: 5rem;
+  margin-bottom: -2rem;
 }
 .text-spacer-news{
   margin-top: 2rem;
@@ -41,7 +42,7 @@
   font-weight: bold;
 }
 .indent-text-spacer{
-  margin-top: -4px;;
+  margin-top: -4px;
   text-indent: 22px;
 }
 .indent-text-spacer-2{

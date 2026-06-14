@@ -47,10 +47,10 @@ export default function Vård() {
           ska ögonen skötas, torka i ögonvrån med en bomullspad doppad i varmt
           vatten eller ögonbad. Det kan vara lätt att få bort sömngruset med en
           liten mustaschkam.  
-          <br></br>
+          <br></br> <br></br>
           Borsta tänderna på din hund varje dag, det ger
-          hunden en frisk munhälsa och du slipper höga veterinärkostnader. En ren och väldoftande mun
-          utan krypande tandsten och tandont ger dig en glad och frisk hund! 
+          hunden en frisk munhälsa. En ren och väldoftande mun
+          utan krypande tandsten och tandont ger dig en glad och frisk hund! Dessutom slipper du onödiga veterinärkostnader.
           <br />
         </div>
       </div>

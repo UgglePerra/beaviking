@@ -63,10 +63,7 @@ export default function Minnie() {
 
       <div className="text-spacer">
         <h2>Skara Nordic Dog Show 2026</h2>
-      </div>
       
-
-      <div className="text-spacer">
         <strong>Bedömning: </strong>
         &quot;Just turned 2 years, this is one I would not expect to be very long in open class as she excels in breed type and structure, lovely head, excelling in eye and pigment, she is so good to go over, with a quality coat and level topline with good tail carriage, excellent bone and feet, she moves out so well showing off her body proportions and proud head carriage&quot;. 
         <br />
@@ -79,24 +76,7 @@ export default function Minnie() {
 
        <div className="text-spacer">
         <h2>My Dog Internationell utställning 
-          <br />
-          5 januari 2026</h2>
-        Bästa tik 2:a med CERT och R-CACIB!
-      </div>
-      
-      <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img6} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img7} alt="main" className="dog-image" />
-      </div>
-
-    </div>
-
-  );
-}
+        </h2>
+        <h2>5 januari 2026
+        </h2>
+        Bästa tik 

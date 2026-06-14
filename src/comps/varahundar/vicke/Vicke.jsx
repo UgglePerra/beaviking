@@ -54,7 +54,7 @@ export default function Vicke() {
         </div>
 
         <div className="text-spacer">
-          <h3>World Dog Show Circuit Helsingfors augusti 2025</h3>
+          <h3>World Dog Show Circuit <br />Helsingfors augusti 2025<br />Finskt Championcertifikat</h3>
           Bedömning: 18 månader, utmärkt storlek. En välutvecklad ung hane för
           sin ålder. Goda vinklar. Bra längd och stark bröstkorg. Något brant
           kors. Bra päls. Välformat, maskulint huvud. Vackra, mörka stora ögon.
@@ -65,7 +65,7 @@ export default function Vicke() {
           Domare: Kajsa Gold, Finland
           <br />
           <br />
-          <h3>SKK Dog Show</h3>
+          <h3>SDHK National Dog Show<br />Gimo september 2025<br />Best in Show 2 Unghund</h3>
           Bedömning: Mycket fin siluett. Utmärkta proportioner och balans.
           Utmärkt storlek. Maskulint uttryck. Korrekt skalle. Mörka, fina
           välformade ögon. Fin längd på nospartiet. Snygg hals, överlinje och
@@ -76,7 +76,7 @@ export default function Vicke() {
           Domare: Marcus Gisslén
           <br />
           <br />
-          <h3> ??? Dog Show</h3>
+          <h3> SKK National Dog Show<br />Ljungskile augusti 2025<br />Bästa hane 2 med CERT</h3>
           Bedömning: Utmärkt typ, maskulin hane av bra storlek och goda
           proportioner.Utrycksfulla ögon, härligt pigment, bra hals och
           överlinje. Välkroppad och välmusklad. Välvinklad, rör sig med lätt och
@@ -95,18 +95,25 @@ export default function Vicke() {
 
         <div className="text-spacer">
           <h3>World Dog Show 2025 Helsinki</h3>
+          
         </div>
 
         <div className="img-spacer">
           <img src={img5} alt="main" className="dog-image" />
         </div>
 
+         <div className="text-spacer">
+          <h3>Svensk och Finsk Champion!!<br />Agria Dog Show Jönköping Internationell<br />28 februari 2026</h3>
+        </div>
+
+
         <div className="img-spacer">
           <img src={img7} alt="main" className="dog-image" />
         </div>
 
         <div className="text-spacer">
-          <h3>World Dog Show 2025 Helsinki</h3>
+          
+          <h3>World Dog Show <br />Helsingfors augusti 2025<br />Finskt Championcertifikat!</h3>
         </div>
       </div>
 

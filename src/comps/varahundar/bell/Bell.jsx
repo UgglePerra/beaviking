@@ -6,6 +6,14 @@ import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 
 export default function Bell () {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       
@@ -23,13 +31,9 @@ export default function Bell () {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img2)}
       
       <div className="text-spacer">
         <div>
@@ -37,17 +41,11 @@ export default function Bell () {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img3)}
 
-      <div className="img-spacer">
-        <img src={img4} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img4)}
 
-      <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img5)}
     
       <div className="text-spacer">
         I september 2026 fyller Bell 13 år.

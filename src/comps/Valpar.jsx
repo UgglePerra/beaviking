@@ -25,6 +25,14 @@ import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
 
 export default function Valpar() {
   const images = [simg1, simg2, simg3, simg4, simg5, simg6, simg7, simg8, simg9, simg10, simg11, simg12, simg13];
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -36,33 +44,20 @@ export default function Valpar() {
        
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
-      <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img5)}
 
-      <div className="img-spacer">
-        <img src={img6} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img6)}
 
-      <div className="img-spacer">
-        <img src={img7} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img7)}
+      
+      {img_maker(img8)}
 
-      <div className="img-spacer">
-        <img src={img8} alt="main" className="dog-image" />
-      </div>
-
-     
       <div className="img-spacer">
         <h2></h2>
         <ImageSliderAuto images={images} />
       </div>
-
-
 
     </div>
   );

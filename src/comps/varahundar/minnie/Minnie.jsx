@@ -10,6 +10,14 @@ import img7 from "./imgs/img8.jpeg";
 
 
 export default function Minnie() {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -42,13 +50,9 @@ export default function Minnie() {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img2)}
     
       <div className="text-spacer">
         <h2>Västerås Nordic Dog Show 2026</h2>
@@ -57,9 +61,7 @@ export default function Minnie() {
         Domare: Attila Czegledi, Ungern
       </div>
       
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img3)}
 
       <div className="text-spacer">
         <h2>Skara Nordic Dog Show 2026</h2>
@@ -70,9 +72,7 @@ export default function Minnie() {
         Domare: Ogden Howard
       </div>
 
-      <div className="img-spacer">
-        <img src={img4} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img4)}
 
        <div className="text-spacer">
         <h2>My Dog Internationell utställning 
@@ -82,9 +82,7 @@ export default function Minnie() {
         Bästa tik 2:a med CERT och R-CACIB!
       </div>
       
-      <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img5)}
 
       <div className="text-spacer">
         <h2>
@@ -99,13 +97,9 @@ export default function Minnie() {
         Domare Hans Almgren
       </div>
 
-      <div className="img-spacer">
-        <img src={img6} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img6)}
 
-      <div className="img-spacer">
-        <img src={img7} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img7)}
 
     </div>
 

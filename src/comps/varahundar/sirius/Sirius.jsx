@@ -6,6 +6,14 @@ import img4 from "./imgs/img4.jpeg";
 
 
 export default function Sirius () {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -15,32 +23,24 @@ export default function Sirius () {
           <br />
           Född 6 juni 2008
           <br /><br />
-          Sirius var son till Napoleon och föddes på Nationaldagen 2008. Han var den modigaste och mest energiska valpen bland sina syskon och han blev Idas.  Efter en busig tonårsperiod mognade han till ett fantastiskt temperament. Då han växte upp med Ida och brorsan Adam var han trygg bland kompisgäng, gängliga killar och de flesta miljöer. 
+          Sirius var son till Napoleon och föddes på Nationaldagen 2008. Han var den modigaste och mest energiska valpen bland sina syskon och han blev Idas.  Efter en busig tonårsperiod mognade han till ett fantastiskt temperament. Då han växte upp med Ida och brorsan Adam var han trygg bland kompisgäng, gängliga killar och de flesta miljöer.  
           <br /><br />
           Sirius hade en särskild utstrålning och vacker som han var blev han som valp Best In Show på Skaraborgs Wintershow 2008! Innan ett-årsdagen blev han Bäst I rasen, hann med nio CERT och fina placeringar innan han fyllde två då han blev flerfaldig och internationell champion! Två år i rad blev han Sveriges fjärde vinstrikaste Havanais. Framförallt älskade han freestyle!
           <br /><br />
-          Sirius är mormors morfar till Albus och Vicke💞
+          Sirius är mormors morfar till Albus💞
           <br /><br />
           Drygt 14 år fick Ida och Sirius tillsammans. Han var Idas största dröm som slog in. De två tillsammans blev oskiljaktiga vänner ❤️❤️
           
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
-    
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img2)}
 
-      <div className="img-spacer">
-        <img src={img4} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img3)}
+
+      {img_maker(img4)}
 
       <div className="text-spacer">
         <div>

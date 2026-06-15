@@ -7,7 +7,16 @@ import img3 from "../imgs/nyheter/img3.jpeg";
 import img4 from "../imgs/nyheter/img4.jpeg";
 import img5 from "../imgs/nyheter/img5.jpeg";
 
+
 export default function Nyheter() {
+
+   function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -24,9 +33,7 @@ export default function Nyheter() {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
       <div className="text">
         <div className="text-spacer-news">
@@ -37,9 +44,7 @@ export default function Nyheter() {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img2)}
 
       <div className="text">
         <div className="text-spacer-news">
@@ -52,9 +57,7 @@ export default function Nyheter() {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img3)}
 
        <div className="text">
         <div className="text-spacer-news">
@@ -66,9 +69,7 @@ export default function Nyheter() {
       </div>
 
 
-      <div className="img-spacer">
-        <img src={img4} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img4)}
 
       <div className="text-spacer">
         <h2>
@@ -85,13 +86,7 @@ export default function Nyheter() {
         Grattis till Jenny och Jax!!
       </div>
 
-      
-
-
-
-      <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img5)}
 
       <br />
 

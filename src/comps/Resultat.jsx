@@ -20,6 +20,21 @@ import img22 from "../imgs/resultat/img22.jpeg";
 
 
 export default function Resultat() {
+
+  function small_img_maker (img) {
+    return(
+      <div className="small-img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -27,9 +42,7 @@ export default function Resultat() {
         Vi har haft glädjen att våra hundar och deras avkommor har varit framgångsrika i utställningsringarna. Nedan en sammanställning på meriterade hundar utan inbördes ordning;
       </div>
 
-      <div className="small-img-spacer">
-          <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img1)}
 
       <div className="text-spacer">
         <h3>
@@ -37,9 +50,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-      <div className="small-img-spacer">
-          <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img2)}
 
       <div className="text-spacer">
         <h3>
@@ -47,9 +58,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img3} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img3)}
 
 
       <div className="text-spacer">
@@ -58,9 +67,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img4} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img4)}
 
 
       <div className="text-spacer">
@@ -69,9 +76,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img5} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img5)}
 
 
       <div className="text-spacer">
@@ -80,9 +85,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img6} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img6)}
 
       <div className="text-spacer">
         <h3>
@@ -90,9 +93,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img7} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img7)}
 
 
       <div className="text-spacer">
@@ -101,9 +102,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img8} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img8)}
 
 
       <div className="text-spacer">
@@ -112,9 +111,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img9} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img9)}
 
 
       <div className="text-spacer">
@@ -123,9 +120,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img10} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img10)}
 
 
       <div className="text-spacer">
@@ -134,9 +129,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-       <div className="small-img-spacer">
-          <img src={img11} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img11)}
 
       <div className="text-spacer">
         <h3>
@@ -144,11 +137,9 @@ export default function Resultat() {
         </h3>
       </div>
 
-        <div className="small-img-spacer">
-          <img src={img12} alt="main" className="dog-image" />
-      </div>
+      {small_img_maker(img12)}
 
-       <div className="text-spacer">
+      <div className="text-spacer">
         <h3>
           Excellent, Be A Viking Doris Day
         </h3>
@@ -277,20 +268,8 @@ export default function Resultat() {
         </h3>
       </div>
       
-      
 
-
-
-
-
-
-
-
-
-
-      <div className="img-spacer">
-        <img src={img21} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img21)}
 
       <div className="text-spacer">
         <h3>
@@ -298,9 +277,7 @@ export default function Resultat() {
         </h3>
       </div>
 
-      <div className="img-spacer">
-        <img src={img22} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img22)}
 
       <div className="text-spacer">
         <h3>

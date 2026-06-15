@@ -8,6 +8,14 @@ import img7 from "./imgs/img7.jpeg";
 import mov2 from "./imgs/mov2.mp4";
 
 export default function Vicke() {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <>
       <div className="gallery-page">
@@ -39,9 +47,7 @@ export default function Vicke() {
           </div>
         </div>
 
-        <div className="img-spacer">
-          <img src={img1} alt="main" className="dog-image" />
-        </div>
+        {img_maker(img1)}
 
         <div className="text-spacer">
           <h3>Agria Dog Show Jönköping Internationell <br />28 februari 2026<br />Svensk och finsk champion!!</h3>
@@ -50,13 +56,9 @@ export default function Vicke() {
           Domare: Nina Lönner Andersson
         </div>
 
-        <div className="img-spacer">
-          <img src={img2} alt="main" className="dog-image" />
-        </div>
+        {img_maker(img2)}
 
-        <div className="img-spacer">
-          <img src={img3} alt="main" className="dog-image" />
-        </div>
+        {img_maker(img3)}
 
         <div className="text-spacer">
           <h3>World Dog Show Circuit <br />Helsingfors augusti 2025<br />Finskt Championcertifikat</h3>
@@ -94,27 +96,21 @@ export default function Vicke() {
           <br />
         </div>
 
-        <div className="img-spacer">
-          <img src={img4} alt="main" className="dog-image" />
-        </div>
+        {img_maker(img4)}
 
         <div className="text-spacer">
           <h3>World Dog Show 2025 Helsinki</h3>
           
         </div>
 
-        <div className="img-spacer">
-          <img src={img5} alt="main" className="dog-image" />
-        </div>
+        {img_maker(img5)}
 
          <div className="text-spacer">
           <h3>Svensk och Finsk Champion!!<br />Agria Dog Show Jönköping Internationell<br />28 februari 2026</h3>
         </div>
 
 
-        <div className="img-spacer">
-          <img src={img7} alt="main" className="dog-image" />
-        </div>
+        {img_maker(img7)}
 
         <div className="text-spacer">
           

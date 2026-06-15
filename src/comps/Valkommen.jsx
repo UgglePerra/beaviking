@@ -69,15 +69,18 @@ export default function Valkommen() {
     simg11,
   ];
 
+   function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
         <h1>Välkommen</h1>
-        Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi
-        delat våra liv med sedan 2002. Syftet är att få fram friska, sociala och
-        vackra Havanaiser som sprider glädje hos sina ägare och familjer. Under
-        åren har vi haft ett fåtal kullar då tid och omsorg om valparna är
-        viktigast för att de ska bli trygga och glada små hundar!
+        Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi delat våra liv med sedan 2002. Vårt mål är att föda upp friska, sociala och vackra Havanaiser som sprider glädje hos sina ägare och familjer. Under åren har vi haft ett fåtal kullar då tid och omsorg om valparna är viktigast för att de ska bli trygga och glada små hundar!
         <br />
         <br />
         Välkommen att titta runt på vår hemsida!
@@ -88,32 +91,18 @@ export default function Valkommen() {
         <ImageSliderAuto images={images} />
       </div>
 
-      <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img5)}
 
-      <div className="img-spacer">
-        <img src={img6} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img6)}
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
-      
-      
+      {img_maker(img2)}
+                  
+      {img_maker(img3)}
 
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img4)}
 
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img4} alt="main" className="dog-image" />
-      </div>
     </div>
   );
 }

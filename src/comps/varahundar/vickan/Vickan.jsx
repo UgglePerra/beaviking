@@ -4,6 +4,14 @@ import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
 
 export default function Vickan () {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -17,17 +25,11 @@ export default function Vickan () {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
-    
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
+                        
+      {img_maker(img2)}
+            
+      {img_maker(img3)}
 
     </div>
   );

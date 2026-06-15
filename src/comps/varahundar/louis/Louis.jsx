@@ -8,6 +8,14 @@ import img6 from "./imgs/img6.jpeg";
 
 
 export default function Louis () {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -25,29 +33,17 @@ export default function Louis () {
         </div>
       </div>
       
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
-    
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
+            
+      {img_maker(img2)}
+            
+      {img_maker(img3)}
 
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img4)}
 
-      <div className="img-spacer">
-        <img src={img4} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img5)}
 
-      <div className="img-spacer">
-        <img src={img5} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img6} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img6)}
 
       <div className="text-spacer">
         1 januari 2026 fyllde Louis 13 år.

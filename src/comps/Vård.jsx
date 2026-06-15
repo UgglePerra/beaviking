@@ -4,6 +4,14 @@ import img2 from "../imgs/vård/img2.jpeg";
 import img3 from "../imgs/vård/img3.jpeg";
 
 export default function Vård() {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -28,9 +36,7 @@ export default function Vård() {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
       <div className="text">
         <div>
@@ -55,9 +61,7 @@ export default function Vård() {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img2)}
 
       <div className="text">
         <div>
@@ -82,9 +86,7 @@ export default function Vård() {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img3)}
 
       <div className="text">
         <div>

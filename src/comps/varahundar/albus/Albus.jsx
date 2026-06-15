@@ -6,6 +6,14 @@ import img3 from "./imgs/img3.jpeg";
 
 
 export default function Albus () {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       
@@ -22,18 +30,12 @@ export default function Albus () {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
-
-      <div className="img-spacer">
-        <img src={img3} alt="main" className="dog-image" />
-      </div>
-  
+      {img_maker(img2)}
+      
+      {img_maker(img3)}
+     
     </div>
   );
 }

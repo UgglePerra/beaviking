@@ -3,6 +3,14 @@ import img1 from "../imgs/kullar/img1.jpeg";
 
 
 export default function Kullar() {
+
+   function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -13,11 +21,8 @@ export default function Kullar() {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
 
-      
     </div>
   );
 }

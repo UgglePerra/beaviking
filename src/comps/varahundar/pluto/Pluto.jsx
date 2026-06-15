@@ -4,6 +4,14 @@ import img2 from "./imgs/img2.jpeg";
 
 
 export default function Pluto () {
+
+  function img_maker (img) {
+    return(
+      <div className="img-spacer">
+        <img src={img} alt="main" className="dog-image" />
+      </div>)
+  }
+
   return (
     <div className="gallery-page">
       <div className="text">
@@ -21,13 +29,9 @@ export default function Pluto () {
         </div>
       </div>
 
-      <div className="img-spacer">
-        <img src={img1} alt="main" className="dog-image" />
-      </div>
-    
-      <div className="img-spacer">
-        <img src={img2} alt="main" className="dog-image" />
-      </div>
+      {img_maker(img1)}
+                        
+      {img_maker(img2)}
      
     </div>
   );

@@ -122,8 +122,6 @@ export default function Vicke() {
         <source src={mov2} type="video/mp4" />
       </video>
 
-      <br />
-      <br />
     </>
   );
 }

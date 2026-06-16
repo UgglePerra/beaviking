@@ -49,9 +49,6 @@ export default function Louis () {
         1 januari 2026 fyllde Louis 13 år.
       </div>
 
-      <br /><br /><br /><br /><br /><br /><br /><br />
-    
-
     </div>
   );
 }

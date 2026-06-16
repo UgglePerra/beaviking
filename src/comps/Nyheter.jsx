@@ -6,16 +6,10 @@ import img2 from "../imgs/nyheter/img2.jpeg";
 import img3 from "../imgs/nyheter/img3.jpeg";
 import img4 from "../imgs/nyheter/img4.jpeg";
 import img5 from "../imgs/nyheter/img5.jpeg";
+import img_maker from "./imagemaker/ImageMaker";
 
 
 export default function Nyheter() {
-
-   function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">

@@ -5,7 +5,6 @@ import img3 from "../imgs/valkommen/img3.jpeg";
 import img4 from "../imgs/valkommen/img4.jpeg";
 import img5 from "../imgs/valkommen/img5.jpeg";
 import img6 from "../imgs/valkommen/img6.jpeg";
-
 import simg1 from "../imgs/valkommen/simg1.jpeg";
 import simg2 from "../imgs/valkommen/simg2.jpeg";
 import simg3 from "../imgs/valkommen/simg3.jpeg";
@@ -38,8 +37,9 @@ import simg30 from "../imgs/valkommen/simg30.jpeg";
 import simg31 from "../imgs/valkommen/simg31.jpeg";
 import simg32 from "../imgs/valkommen/simg32.jpeg";
 import simg33 from "../imgs/valkommen/simg33.jpeg";
-
 import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
+import img_maker from "./imagemaker/ImageMaker";
+
 
 export default function Valkommen() {
   const images = [
@@ -68,13 +68,6 @@ export default function Valkommen() {
     simg32,
     simg11,
   ];
-
-   function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">

@@ -8,17 +8,11 @@ import img5 from "../imgs/omoss/img5.jpeg";
 import img6 from "../imgs/omoss/img6.jpeg";
 import mov6 from "../imgs/omoss/mov6.mp4"
 import ImageSlider from "./imageslider/ImageSlider";
+import img_maker from "./imagemaker/ImageMaker";
 
 
 export default function Omoss() {
   const images = [img1, img5, img4];
-
-   function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <>

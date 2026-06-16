@@ -12,21 +12,13 @@ import img9 from "../imgs/resultat/img9.jpeg";
 import img10 from "../imgs/resultat/img10.jpeg";
 import img11 from "../imgs/resultat/img11.jpeg";
 import img12 from "../imgs/resultat/img12.jpeg";
-
-
 import img21 from "../imgs/resultat/img21.jpeg";
 import img22 from "../imgs/resultat/img22.jpeg";
-
+import img_maker from "./imagemaker/ImageMaker";
+import small_img_maker from "./imagemaker/SmallImageMaker";
 
 
 export default function Resultat() {
-
-  function small_img_maker (img) {
-    return(
-      <div className="small-img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   function img_maker (img) {
     return(

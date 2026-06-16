@@ -1,15 +1,9 @@
 import "./comps.css";
 import img1 from "../imgs/kullar/img1.jpeg";
+import img_maker from "./imagemaker/ImageMaker";
 
 
 export default function Kullar() {
-
-   function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">

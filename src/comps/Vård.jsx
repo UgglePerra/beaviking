@@ -2,15 +2,10 @@ import "./comps.css";
 import img1 from "../imgs/vård/img1.jpeg";
 import img2 from "../imgs/vård/img2.jpeg";
 import img3 from "../imgs/vård/img3.jpeg";
+import img_maker from "./imagemaker/ImageMaker";
+
 
 export default function Vård() {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">

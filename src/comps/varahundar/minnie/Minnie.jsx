@@ -20,22 +20,13 @@ export default function Minnie() {
           <br />
           Född 8 april 2024
           <br /><br />
-          Minnie är vårt lilla underverk, en gåva från ovan: jo hon kommer från
-          Luleå (!) Anna och Linnea, Kennel Evan’s Aha. Hennes mormor Vickan, Be
-          A Viking Berylla Boffin, är född här hemma hos oss och hennes
-          mormorsmor Malva, Peach Blossom Blue Temptation var vår första tik som
-          vi hämtade hem från östra Tyskland. Minnie har fyra av våra hundar
-          bakom sig i stamtavlan.
+          Minnie är vårt lilla underverk, en gåva från ovan: jo hon kommer från Luleå, Anna och Linnea, Kennel Evan’s Aha där mamma Soda bor. Minnies mormor Vickan, Be A Viking Berylla Boffin, är född här hemma hos oss och hennes mormorsmor Malva, Peach Blossom Blue Temptation var vår första tik som vi hämtade hem från Tyskland. Minnie har fyra av våra hundar bakom sig i stamtavlan.
           <br /><br />
-          Men främst är hon en rolig, kavat och otroligt vacker ung dam. Så
-          kärleksfull; överöser alla med nospussar, nyfiken och smart! Minnie
-          har utnämnt sig själv till chefen här hemma!! Hon har också gjort det
-          bra i utställningsringarna; Köpenhavns Vinnare 2025, Köpenhavns Junior
-          Vinnare 2025, Bäst i Rasen Askersund, ett flertal Bästa tik
-          placeringar och championcertifikat i både Sverige och Danmark.
+          Men främst är hon en rolig och vacker ung dam, trygg och nyfiken. Så kärleksfull; överöser alla med nospussar. Minnie har utnämnt sig själv till chefen här hemma! Hon har också gjort det bra i utställningsringarna; Köpenhavns Vinnare 2025, Köpenhavns Junior Vinnare 2025, Bäst i Rasen Askersund, ett flertal Bästa tik placeringar och championcertifikat i både Sverige och Danmark.
           <br /><br />
-          På första försöket blev hon svensk och dansk champion på den nordiska utställningen i Västerås 26 april 2026
+          På första försöket blev hon svensk och dansk champion på den nordiska utställningen i Västerås 26 april 2026!
           <br /><br />
+          Minnie är hälsotestad; ögon, hjärta, patella utan anmärkning.
         </div>
       </div>
 

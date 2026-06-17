@@ -19,11 +19,15 @@ export default function Louis () {
           <br />
           Född 1 januari 2013
           <br /><br />
-          Louis var en dröm som blev sann. Nästan 100 mil från Göteborg utanför Trondheim i Norge bodde en av de vackraste Havanais tikar jag mött, Skystar’s Alicia. Hon och Napoleon Viking var ett så vackert par, samma mjuka sobelfärger och teckningar. 
+          Louis var en dröm som blev sann. Nästan 100 mil från Göteborg utanför Trondheim i Norge bodde en av de vackraste Havanais tikar jag mött, Skystar’s Alicia. Hon och Napoleon Viking var ett så vackert par, samma mjuka sobelfärger och teckningar.
           <br /><br />
-          Så en solig vårvinterdag i början av 2013 flög jag över de snöklädda bergen vidTrollheimen Fjell och träffade deras valpar som fötts på nyårsnatten. Med hem på flyget var Louis, en liten vacker prins efter de vackra föräldrarna med ett ljuvligt temperament ❤️❤️
+          Så en solig vårvinterdag i början av 2013 flög jag över de snöklädda bergen vid Trollheimen Fjell och träffade deras valpar som fötts på nyårsnatten. Med hem på flyget var Louis, en liten vacker prins med ett ljuvligt temperament ❤️❤️
+          <br /><br />
+          På Västsvenska Kennelklubbens utställning i Backamo 2013 blev Louis Best In Show Valp!! Därefter Svensk Juniorvinnare och Dansk Juniorvinnare samt dubbla championat :)
           <br /><br />
           Louis har lämnat mycket vackra och vinstrika avkommor - och han har gett oss vår vackra Vicke♥️
+          <br /><br />
+          Louis är hälsotestad; ögon, hjärta, patella utan anmärkning.
         </div>
       </div>
       

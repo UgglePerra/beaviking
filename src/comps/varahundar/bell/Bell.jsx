@@ -4,15 +4,10 @@ import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
 import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
+import img_maker from "../../imagemaker/ImageMaker";
+
 
 export default function Bell () {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">
@@ -24,10 +19,11 @@ export default function Bell () {
           <br />
           Född 10 september 2013
           <br /><br />
-          Bell är född här hemma tillsammans med sina fem syskon och hon blev den lilla prinsessan som Ida bestämde skulle bli kvar! Och det var ju helt rätt val – för vilka fantastiska minnen hon har gett oss! Inte bara hennes stora personlighet, roliga karaktär och skönhet utan också en fantastiskt utställningskarriär med resultat som Junior Världs Vinnare 2014 och Europa Vinnare 2015, Norsk Junior Vinnare 2014, championat i de nordiska länderna samt Best In Show SDHK 2017. 
+          BBell är född här hemma tillsammans med sina fem syskon och hon blev den lilla prinsessan som Ida bestämde skulle bli kvar! Och det var ju helt rätt val – för vilka fantastiska minnen hon har gett oss! Inte bara hennes personlighet, roliga karaktär och skönhet utan också en fantastiskt utställningskarriär med resultat som Junior Världs Vinnare 2014 och Europa Vinnare 2015, Norsk Junior Vinnare 2014, championat i de nordiska länderna samt Best In Show SDHK 2017. 
           <br /><br />
-          I september 2026 fyller hon tretton år och hon är fortfarande glad och pigg och springer med ungdomarna i trädgården och på promenad.
+          I september 2026 fyller hon tretton år, hon är fortfarande glad och pigg och springer med ungdomarna i trädgården och på promenad.
           <br /><br />
+          Bell är hälsotestad; ögon, hjärta, patella utan anmärkning.
         </div>
       </div>
 

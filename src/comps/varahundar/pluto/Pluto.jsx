@@ -1,16 +1,10 @@
 import "../varahundar.css";
 import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
+import img_maker from "../../imagemaker/ImageMaker";
 
 
 export default function Pluto () {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">

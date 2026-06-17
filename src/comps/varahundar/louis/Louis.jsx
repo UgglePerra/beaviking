@@ -5,16 +5,10 @@ import img3 from "./imgs/img3.jpeg";
 import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 import img6 from "./imgs/img6.jpeg";
+import img_maker from "../../imagemaker/ImageMaker";
 
 
 export default function Louis () {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">

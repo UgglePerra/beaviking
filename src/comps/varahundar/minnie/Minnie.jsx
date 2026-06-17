@@ -6,17 +6,10 @@ import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img6.jpeg";
 import img6 from "./imgs/img7.jpeg";
 import img7 from "./imgs/img8.jpeg";
-
+import img_maker from "../../imagemaker/ImageMaker";
 
 
 export default function Minnie() {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">
@@ -26,27 +19,23 @@ export default function Minnie() {
         <div>
           <br />
           Född 8 april 2024
-          <br />
-          <br />
+          <br /><br />
           Minnie är vårt lilla underverk, en gåva från ovan: jo hon kommer från
           Luleå (!) Anna och Linnea, Kennel Evan’s Aha. Hennes mormor Vickan, Be
           A Viking Berylla Boffin, är född här hemma hos oss och hennes
           mormorsmor Malva, Peach Blossom Blue Temptation var vår första tik som
           vi hämtade hem från östra Tyskland. Minnie har fyra av våra hundar
           bakom sig i stamtavlan.
-          <br />
-          <br />
+          <br /><br />
           Men främst är hon en rolig, kavat och otroligt vacker ung dam. Så
           kärleksfull; överöser alla med nospussar, nyfiken och smart! Minnie
           har utnämnt sig själv till chefen här hemma!! Hon har också gjort det
           bra i utställningsringarna; Köpenhavns Vinnare 2025, Köpenhavns Junior
           Vinnare 2025, Bäst i Rasen Askersund, ett flertal Bästa tik
           placeringar och championcertifikat i både Sverige och Danmark.
-          <br />
-          <br />
+          <br /><br />
           På första försöket blev hon svensk och dansk champion på den nordiska utställningen i Västerås 26 april 2026
-          <br />
-          <br />
+          <br /><br />
         </div>
       </div>
 

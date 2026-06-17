@@ -7,17 +7,10 @@ import img5 from "./imgs/img5.jpeg";
 import img6 from "./imgs/img6.jpeg";
 import img7 from "./imgs/img7.jpeg";
 import img8 from "./imgs/img8.jpeg";
-
+import img_maker from "../../imagemaker/ImageMaker";
 
 
 export default function Malva() {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">

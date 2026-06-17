@@ -6,15 +6,10 @@ import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 import img6 from "./imgs/img6.jpeg";
 import img7 from "./imgs/img7.jpeg";
+import img_maker from "../../imagemaker/ImageMaker";
+
 
 export default function Napoleon () {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">
@@ -26,18 +21,17 @@ export default function Napoleon () {
         <div>
           <br />
           Född 23 februari 2006
-          <br />
-          <br />
-          Första gången jag höll Napoleon i mina händer tittade hans mörka ögon klart in i mina ögon och sedan somnade han tryggt, han var då fem veckor. Där började en kärlek växa så stor och innerlig, ett samförstånd mellan hund och människa med ett djup som är svårt att beskriva.<br /><br />
-
-          Han tog oss ut på en resa fylld av äventyr, glädje, lycka och lärdomar. Hans personlighet var så stor, trygg, tillitsfull, lyhörd, han ville alltid samarbeta och göra oss glada. Hans blick ”jag är med matte” sa mer än tusen ord. Att se honom springa fri över klipporna vid havet var högsta glädjen.<br /><br />
-
-          Hans vilja att samarbeta och starka mentalitet gjorde att han nådde mycket stora framgångar i utställningsringarna med ett flertal Best In Show, Best In Group, Bäst i Rasen, Mestvinnande Havanais tre år i rad, Best In Show på Rasspecialen och Vinnar-titlar!<br /><br />
-
-          Viktigast av allt var lyckan att leva tillsammans med Nappe varje dag. Saknad för alltid ♥️<br /><br />
+          <br /><br />
+          Första gången jag höll Napoleon i mina händer tittade hans mörka ögon klart in i mina ögon och sedan somnade han tryggt, han var då fem veckor. Där började en kärlek växa så stor och innerlig, ett samförstånd mellan hund och människa med ett djup som är svårt att beskriva.
+          <br /><br />
+          Han tog oss ut på en resa fylld av äventyr, glädje, lycka och lärdomar. Hans personlighet var så stor, trygg, tillitsfull, lyhörd, han ville alltid samarbeta och göra oss glada. Hans blick ”jag är med matte” sa mer än tusen ord. Att se honom springa fri över klipporna vid havet var högsta glädjen.
+          <br /><br />
+          Hans vilja att samarbeta och starka mentalitet gjorde att han nådde mycket stora framgångar i utställningsringarna med ett flertal Best In Show, Best In Group, Bäst i Rasen, Mestvinnande Havanais tre år i rad, Best In Show på Rasspecialen och Vinnar-titlar!
+          <br /><br />
+          Viktigast av allt var lyckan att leva tillsammans med Nappe varje dag. Saknad för alltid ♥️
+          <br /><br />
 
           Han var en på miljonen ♥️♥️♥️
-
           
         </div>
       </div>

@@ -8,15 +8,10 @@ import img6 from "./imgs/img6.jpeg";
 import img7 from "./imgs/img7.jpeg";
 import img9 from "./imgs/img9.jpeg";
 import img10 from "./imgs/img10.jpeg";
+import img_maker from "../../imagemaker/ImageMaker";
+
 
 export default function Sessan() {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <div className="gallery-page">
@@ -28,23 +23,20 @@ export default function Sessan() {
         <div>
           <br />
           Född 26 juli 2012
-          <br />
-          <br />
+          <br /><br />
           Sessan föddes i vår första kull 2012. Hon var den av sex valpar som
           stannade kvar i en kull med mycket vackra valpar efter Malva och
           Napoleon. Hon hade den mest ljuvliga personligheten, kärleksfull och
           lyhörd som sin pappa. Med en ambitiös personlighet, omtanke om alla
           och en superduktig mamma till sina valpar.
-          <br />
-          <br />
+          <br /><br />
           I utställningsringen gick vackra Sessan från klarhet till klarhet,
           blev bästa tik på sin första officiella utställning och så fortsatte
           hon! Fram till två-års dagen hade hon hunnit få 12 championcertifikat!
           Internationell champion, svensk och norsk juniorvinnare, flerfaldig
           norsk vinnare - men viktigast av allt, den största vinnaren på
           hemmaplan!
-          <br />
-          <br />
+          <br /><br />
           Älskade Sessan - tack för all kärlek du gav oss ♥️
         </div>
       </div>

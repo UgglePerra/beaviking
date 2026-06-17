@@ -6,15 +6,10 @@ import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 import img7 from "./imgs/img7.jpeg";
 import mov2 from "./imgs/mov2.mp4";
+import img_maker from "../../imagemaker/ImageMaker";
+
 
 export default function Vicke() {
-
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
 
   return (
     <>
@@ -25,25 +20,12 @@ export default function Vicke() {
           <div>
             <br />
             Född 30 januari 2024
-            <br />
-            <br />
-            Vicke är född i Skåne hos Vivianne och Virginia, Tilevis kennel.
-            Mamma är Bichavas Scilla och pappa vår älskade Skystar&apos;s Louis.
-            Det var bara nödvändigt att sonen skulle bli en Göteborgare! Tredje
-            generationen Viking med samma ögon som sin farfar; lyhörd, mycket
-            smart och en ordningsman. Ställer tjejerna till det så kommer Vicke
-            direkt och skvallrar! Han är väldigt observant och har mängder av
-            energi, lekfull och duktig med nosen. Vi har tränat olika
-            aktiviteter med honom; Nosework är hans favorit.
-            <br />
-            <br />
-            På sin första utställning efter två-årsdagen gick han in i ringen
-            och blev svensk och finsk champion!! Han har blivit Bäst I Rasen,
-            BIS 2 Unghund SDHK Gimo, har ett flertal Bästa hane-placeringar och
-            championcertifikat. På World Dog Show i Helsingfors 2025 och WDS
-            CIRCUIT tog han championcertifikaten båda dagarna!
-            <br />
-            <br />
+            <br /><br />
+            Vicke är född i Skåne hos Vivianne och Virginia, Tilevis kennel. Mamma är Bichavas Scilla och pappa vår älskade Skystar's Louis. Det var bara nödvändigt att sonen skulle bli en Göteborgare! Tredje generationen Viking med samma ögon som sin farfar; lyhörd, smart och en ordningsman. Ställer tjejerna till det så kommer Vicke direkt och skvallrar! Han är väldigt observant och har mängder av energi, lekfull och duktig med nosen. Vi har tränat olika aktiviteter med honom; Nosework är hans favorit.
+            <br /><br />
+            På sin första utställning efter två-årsdagen gick han in i ringen och blev svensk och finsk champion!! Han har blivit Bäst I Rasen, BIS 2 Unghund SDHK Gimo, har ett flertal Bästa hane-placeringar och championcertifikat. På World Dog Show i Helsingfors 2025 och WDS CIRCUIT tog han championcertifikaten båda dagarna!
+            <br /><br />
+            Vicke är hälsotestad; ögon, hjärta, patella utan anmärkning
           </div>
         </div>
 
@@ -67,33 +49,27 @@ export default function Vicke() {
           kors. Bra päls. Välformat, maskulint huvud. Vackra, mörka stora ögon.
           Bra, fyllig nos. Rör sig effektivt med bra steglängd. Vacker svans i
           rörelse.
-          <br />
-          <br />
+          <br /><br />
           Domare: Kajsa Gold, Finland
-          <br />
-          <br />
+          <br /><br />
           <h3>SDHK National Dog Show<br />Gimo september 2025<br />Best in Show 2 Unghund</h3>
           Bedömning: Mycket fin siluett. Utmärkta proportioner och balans.
           Utmärkt storlek. Maskulint uttryck. Korrekt skalle. Mörka, fina
           välformade ögon. Fin längd på nospartiet. Snygg hals, överlinje och
           svans. Välvinklad och välkroppad. Utmärkt pälskvalitet.Typiska,
           frapperande rörelser. En lovande unghund.
-          <br />
-          <br />
+          <br /><br />
           Domare: Marcus Gisslén
-          <br />
-          <br />
+          <br /><br />
           <h3> SKK National Dog Show<br />Ljungskile augusti 2025<br />Bästa hane 2 med CERT</h3>
           Bedömning: Utmärkt typ, maskulin hane av bra storlek och goda
           proportioner.Utrycksfulla ögon, härligt pigment, bra hals och
           överlinje. Välkroppad och välmusklad. Välvinklad, rör sig med lätt och
           alert steg och välburen svans. Utmärkt pälskvalitet som är
           välpresenterad.
-          <br />
-          <br />
+          <br /><br />
           Domare: Joel Lantz
-          <br />
-          <br />
+          <br /><br />
         </div>
 
         {img_maker(img4)}

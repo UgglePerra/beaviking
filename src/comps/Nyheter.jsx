@@ -16,7 +16,7 @@ export default function Nyheter() {
       <div className="text">
         <h1>Nyheter</h1>
 
-        <div className="text-spacer-news">
+        <div className="text-spacer">
           <h3>26 april 2026</h3>
           Så stolt och glad över vår fina Minnie som på första försöket blev Champion idag!! ⭐️⭐️⭐️<br />
           Bästa tik med CERT, Nordic Show-certifikat och därmed Svensk och Dansk champion🏆🏆<br />

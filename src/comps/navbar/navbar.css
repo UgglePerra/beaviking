@@ -2,7 +2,6 @@
 .header {
   background-size: cover;
   background-position: center;
-  height: 300px;
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -104,13 +103,15 @@
   margin-top: 7px;
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 430px) {
   .page {
-    width: 750px;
+    width: 100%;
   }
   .header {
     height: 120px;
-    width: 390px;
+    
   }
   .coloredText {
     margin-top: 10px;

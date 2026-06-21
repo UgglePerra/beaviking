@@ -1,7 +1,7 @@
  function SmallImageMaker (img) {
     return(
-      <div className="small-img-spacer">
-        <img src={img} alt="main" className="dog-image" />
+      <div>
+        <img src={img} alt="main" className="small-dog-image" />
       </div>)
   }
 

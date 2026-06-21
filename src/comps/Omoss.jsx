@@ -17,13 +17,12 @@ export default function Omoss() {
   return (
     <>
       <div className="gallery-page">
-        <div className="text">
-          <h1>Om oss</h1>
-        </div>
-
+        
+        <h1>Om oss</h1>
+        
         {img_maker(img0)}
 
-        <div className="text-spacer">
+        <div className="text-under-img">
           Välkommen till Be A Viking Kennel och våra underbara Havanaiser. För snart tjugofem år sedan, 2002 kom vår första Havanais hem, och ganska snart blev de fler. Min dotter Ida och jag har kenneln Be A Viking och 2012 föddes vår första kull. Att ha Havanaiser i familjen är bland det finaste som finns, varje dag sprider de glädje!! Vi är aktiva med hundarna i naturen, olika aktiveringskurser, på utställning, Nosework, Rallylydnad - allt som gör hundarna och oss glada!
           <br /> <br />
           En sommar träffade vi för första gången Havanaiser och blev förälskade. 2002 hämtade vi hem vår första Havanais Pluto från Aco Tara’s kennel i Stockholm. Han följde med oss på allt ifrån skidåkning, fjällvandring, båtturer i skärgården, agility och trivdes med allt, bara han fick vara med. När Napoleon från Buenazo's kennel kom in i familjen och klev rakt in i våra hjärtan började intresset för hundutställningar ta fart på allvar. En fantastisk resa började och drivkraften växte att lära mer om hundens beteende, positiv inlärning, avelsarbete och anatomi. Då Napoleon blev pappa för första gången hävdade Ida bestämt att man måste behålla en valp – så Sirius från kennel Honungsmåne flyttade in! Så efter alla kurser, utbildningar och utställningar – ivrigt påhejade av vänner att vi måste skaffa en tik då intresset var stort - så hämtade vi hem vår Malva från Blue Temptation i Tyskland 2010, en underbart vacker och rolig liten tik! Hon blev mamma till våra två första valpkullar där Sessan och Bell stannade kvar. Två underbara Havanais tikar; som förutom att glädja oss varje dag nådde mycket fina framgångar i utställningsringarna!
@@ -37,9 +36,16 @@ export default function Omoss() {
 
         {img_maker(img1)}
 
+        <div className="space-between-imgs"></div>
+
         {img_maker(img2)}
 
+        <div className="space-between-imgs"></div>
+
         {img_maker(img3)}
+
+        <div className="space-between-imgs"></div>
+
 
       </div>
 

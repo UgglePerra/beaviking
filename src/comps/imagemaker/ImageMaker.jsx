@@ -1,6 +1,6 @@
 function ImageMaker (img) {
     return(
-      <div className="img-spacer">
+      <div>
         <img src={img} alt="main" className="dog-image" />
       </div>)
   }

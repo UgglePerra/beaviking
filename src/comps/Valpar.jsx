@@ -26,7 +26,7 @@ export default function Valpar() {
 
   return (
     <div className="gallery-page">
-      <div className="text">
+      <div className="text-over-img">
         <h1>Valpar</h1>
         Är du intresserad av en valp efter våra hundar så är du välkommen att höra av dig! Vi hälsotestar våra hundar regelbundet och följer SKK&apos;s grundregler och avelspolicy samt BBHC&apos;s avelspolicy. <br /><br />Våra hundar som används i avel är hälsotestade utan anmärkning avseende hjärta, ögon och knän 0/0 enligt rasklubbens riktlinjer. De är utställda med fina resultat vilket visar på utmärkt mentalitet och exteriör.<br /><br />
         Anna-Karin och Ida Jernberg<br />
@@ -37,16 +37,25 @@ export default function Valpar() {
 
       {img_maker(img1)}
 
+      <div className="space-between-imgs"></div>
+
       {img_maker(img5)}
+
+      <div className="space-between-imgs"></div>
 
       {img_maker(img6)}
 
+      <div className="space-between-imgs"></div>
+
       {img_maker(img7)}
+
+      <div className="space-between-imgs"></div>
       
       {img_maker(img8)}
 
-      <div className="img-spacer">
-        <h2></h2>
+      <div className="space-between-imgs"></div>
+
+      <div className="dog-image">
         <ImageSliderAuto images={images} />
       </div>
 

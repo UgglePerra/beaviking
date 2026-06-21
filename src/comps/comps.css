@@ -1,17 +1,36 @@
 .gallery-page {
   width: 60%;
   margin: auto;
-  font-size: 16px;
-  font-weight: 50;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gallery-page h1 {
+  font-size: 44px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .dog-image {
   width: 100%;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
-.img-spacer {
-  margin-top: 3rem;
-  
+.small-dog-image {
+  width: 45%;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+.text-over-img {
+  margin-top:40px;
+  margin-bottom:10px;
+}
+.text-under-img {
+  margin-top: 10px;
+  margin-bottom:40px;
+}
+.text-between-imgs {
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.space-between-imgs {
+  margin-top: 30px;
 }
 .small-img-spacer {
   margin-top: 3rem;
@@ -20,67 +39,62 @@
   margin-left: auto;
   margin-right: auto;
 }
-.text-spacer{
-  margin-top: 5rem;
-  margin-bottom:-2rem;
-}
-.text-spacer-news{
-  margin-top: 2rem;
-  margin-bottom: -2rem;
-
-}
 .text-spacer-2{
-  margin-top: 1rem;
+  margin-top: 0px;
   text-align: left;
+  font-weight:bold;
+  font-size:20px;
+  line-height: 50px;
 }
-.text-spacer-2-special{
-  margin-top: 1rem;
-  text-align: left;
-  font-size: 24px;
-  font-family: var(--heading);
-  font-weight: bold;
-}
-.indent-text-spacer{
-  margin-top: -4px;
-  text-indent: 22px;
-}
+
 .indent-text-spacer-2{
-  margin-top: -4px;;
+  margin-top: 0px;;
   text-align: left;
   text-indent: 22px;
+  font-size:20px;
+  line-height: 50px;
 }
 video {
   display: block;
   margin: 0 auto;
-  max-width: 60%;
+  max-width:60%;
   border-radius: 12px;
-  margin-top: 3rem;
+  margin-top: 0px;
+}
+.merit-text {
+  text-align: left;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 @media (max-width: 430px) {
   .gallery-page {
     width: 90%;
-    font-size: 10px;
-
+    font-size: 12px;
+  }
+  .gallery-page h1 {
+    font-size: 28px;
   }
   video {
     max-width: 90%;
   }
   .dog-image {
-    width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-    margin-left: 0px;
   }
-  .text {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-    font-size: 14px;
-  }
-  .text h2 {
-    font-size: 16px;
+  .text-spacer-2{
+    font-weight:bold;
+    font-size:14px;
+    line-height: 20px;
   }
 
+  .indent-text-spacer-2{
+    margin-top: 0px;;
+    text-indent: 22px;
+    font-size:14px;
+    line-height: 20px;
+  }
+  .merit-text {
+    font-size: 22px;
+  }
 }

@@ -9,7 +9,7 @@ export default function Valkommen() {
 
   return (
     <div className="gallery-page">
-      <div className="text">
+      <div className="text-over-img">
         <h1>Kontakt</h1>
         Anna-Karin och Ida Jernberg<br /><br /> 
 
@@ -28,6 +28,9 @@ export default function Valkommen() {
       </div>
 
       {img_maker(img1)}
+
+      <div className="space-between-imgs"></div>
+
                         
       {img_maker(img2)}
       

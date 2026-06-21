@@ -14,7 +14,7 @@ export default function Vicke() {
   return (
     <>
       <div className="gallery-page">
-        <div className="text">
+        <div className="text-spacer">
           <h1>Vicke❤️</h1>
           <h2>SE UCH FI UCH Tilevis Flitwick Be A Viking</h2>
           <div>

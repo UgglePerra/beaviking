@@ -1,4 +1,4 @@
-import "../varahundar.css";
+import "../../comps.css"
 import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
@@ -13,12 +13,11 @@ export default function Napoleon () {
 
   return (
     <div className="gallery-page">
-      <div className="text">
+      <div className="text-over-img">
         <h1>Napoleon Viking</h1>
         <h2>C.I.B. SE V-12 NORD V-10 NO V-12 NO V-08
           <br />
           NORD UCH FI UCH Buenazo&apos;s Viking</h2>
-        <div>
           <br />
           Född 23 februari 2006
           <br /><br />
@@ -30,40 +29,37 @@ export default function Napoleon () {
           <br /><br />
           Viktigast av allt var lyckan att leva tillsammans med Nappe varje dag. Saknad för alltid ♥️
           <br /><br />
-
           Han var en på miljonen ♥️♥️♥️
-          
-        </div>
       </div>
 
       {img_maker(img1)}
+
+      <div className="space-between-imgs"></div>
     
       {img_maker(img2)}
       
-      <div className="text-spacer">
-        <div>
+      <div className="text-over-img">
           <h3>Best In Show SDHK</h3>
-        </div>
       </div>
 
       {img_maker(img3)}
+
+      <div className="space-between-imgs"></div>
     
       {img_maker(img4)}
 
+      <div className="space-between-imgs"></div>
+
       {img_maker(img5)}
 
-      <div className="text-spacer">
-        <div>
-          <h3>Best of Bread Best in Group 3 SKK Sofiero 2011</h3>
-        </div>
+      <div className="text-over-img">
+        
       </div>
       
       {img_maker(img6)}
 
-      <div className="text-spacer">
-        <div>
-          <h3> Best In Show SDHK Eket 2012</h3>
-        </div>
+      <div className="text-over-img">
+        <h3> Best In Show SDHK Eket 2012</h3>
       </div>
       
       {img_maker(img7)}

@@ -12,7 +12,7 @@ export default function Louis () {
 
   return (
     <div className="gallery-page">
-      <div className="text">
+      <div className="text-over-img">
         <h1>Louis </h1>
         <h2>SE JV-13 DK JV-13 SE UCH DK UCH Skystar&apos;s Louis</h2>
         <div>
@@ -32,20 +32,30 @@ export default function Louis () {
       </div>
       
       {img_maker(img1)}
+
+      <div className="space-between-imgs"></div>
             
       {img_maker(img2)}
+
+      <div className="space-between-imgs"></div>
             
       {img_maker(img3)}
 
+      <div className="space-between-imgs"></div>
+
       {img_maker(img4)}
+
+      <div className="space-between-imgs"></div>
 
       {img_maker(img5)}
 
-      {img_maker(img6)}
+      <div className="space-between-imgs"></div>
 
-      <div className="text-spacer">
+      <div className="text-over-img">
         1 januari 2026 fyllde Louis 13 år.
       </div>
+
+       {img_maker(img6)}
 
     </div>
   );

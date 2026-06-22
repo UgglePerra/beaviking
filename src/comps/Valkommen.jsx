@@ -71,7 +71,7 @@ export default function Valkommen() {
 
   return (
     <div className="gallery-page">
-      <div className="text-over-image">
+      <div className="text-over-img">
         <h1>Välkommen</h1>
         Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi delat våra liv med sedan 2002. Vårt mål är att föda upp friska, sociala och vackra Havanaiser som sprider glädje hos sina ägare och familjer. Under åren har vi haft ett fåtal kullar då tid och omsorg om valparna är viktigast för att de ska bli trygga och glada små hundar!
         <br />

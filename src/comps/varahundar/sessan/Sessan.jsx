@@ -1,4 +1,4 @@
-import "../varahundar.css";
+import "../../comps.css"
 import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
@@ -15,47 +15,61 @@ export default function Sessan() {
 
   return (
     <div className="gallery-page">
-      <div className="text">
+      <div className="text-over-img">
         <h1>Sessan</h1>
         <h2>
           C.I.B. NO V-15 SE JV-13 NO V-13 NO JV-13 NORD UCH Be A Viking Anduril
         </h2>
-        <div>
-          <br />
-          Född 26 juli 2012
-          <br /><br />
-          Sessan föddes i vår första kull 2012. Hon var den av sex valpar som
-          stannade kvar i en kull med mycket vackra valpar efter Malva och
-          Napoleon. Hon hade den mest ljuvliga personligheten, kärleksfull och
-          lyhörd som sin pappa. Med en ambitiös personlighet, omtanke om alla
-          och en superduktig mamma till sina valpar.
-          <br /><br />
-          I utställningsringen gick vackra Sessan från klarhet till klarhet,
-          blev bästa tik på sin första officiella utställning och så fortsatte
-          hon! Fram till två-års dagen hade hon hunnit få 12 championcertifikat!
-          Internationell champion, svensk och norsk juniorvinnare, flerfaldig
-          norsk vinnare - men viktigast av allt, den största vinnaren på
-          hemmaplan!
-          <br /><br />
-          Älskade Sessan - tack för all kärlek du gav oss ♥️
-        </div>
+        <br />
+        Född 26 juli 2012
+        <br /><br />
+        Sessan föddes i vår första kull 2012. Hon var den av sex valpar som
+        stannade kvar i en kull med mycket vackra valpar efter Malva och
+        Napoleon. Hon hade den mest ljuvliga personligheten, kärleksfull och
+        lyhörd som sin pappa. Med en ambitiös personlighet, omtanke om alla
+        och en superduktig mamma till sina valpar.
+        <br /><br />
+        I utställningsringen gick vackra Sessan från klarhet till klarhet,
+        blev bästa tik på sin första officiella utställning och så fortsatte
+        hon! Fram till två-års dagen hade hon hunnit få 12 championcertifikat!
+        Internationell champion, svensk och norsk juniorvinnare, flerfaldig
+        norsk vinnare - men viktigast av allt, den största vinnaren på
+        hemmaplan!
+        <br /><br />
+        Älskade Sessan - tack för all kärlek du gav oss ♥️
       </div>
 
       {img_maker(img1)}
+
+      <div className="space-between-imgs"></div>
                         
       {img_maker(img2)}
+
+      <div className="space-between-imgs"></div>
             
       {img_maker(img3)}
 
+      <div className="space-between-imgs"></div>
+
       {img_maker(img4)}
+
+      <div className="space-between-imgs"></div>
 
       {img_maker(img5)}
 
+      <div className="space-between-imgs"></div>
+
       {img_maker(img6)}
+
+      <div className="space-between-imgs"></div>
 
       {img_maker(img7)}
 
+      <div className="space-between-imgs"></div>
+
       {img_maker(img9)}
+
+      <div className="space-between-imgs"></div>
 
       {img_maker(img10)}
 

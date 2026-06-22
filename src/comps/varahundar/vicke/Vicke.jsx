@@ -1,4 +1,4 @@
-import "../varahundar.css";
+import "../../comps.css"
 import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
@@ -14,7 +14,7 @@ export default function Vicke() {
   return (
     <>
       <div className="gallery-page">
-        <div className="text-spacer">
+        <div className="text-over-img">
           <h1>Vicke❤️</h1>
           <h2>SE UCH FI UCH Tilevis Flitwick Be A Viking</h2>
           <div>
@@ -29,20 +29,24 @@ export default function Vicke() {
           </div>
         </div>
 
-        {img_maker(img1)}
-
-        <div className="text-spacer">
+        <div className="text-over-img">
           <h3>Agria Dog Show Jönköping Internationell <br />28 februari 2026<br />Svensk och finsk champion!!</h3>
           Bedömning: Snygg hane, utmärkta proportioner, vackert huvud, mörka vackra ögon, snygg överlinje, utmärkt förbröst, ngt framskjuten skuldra, bra framben, passande vinklar, välformad bröstkorg, snygg svans, vacker välskött päls, rör sig med härlig stil och energi, välpresenterad.
           <br /><br />
           Domare: Nina Lönner Andersson
         </div>
 
+        {img_maker(img1)}
+
+        <div className="space-between-imgs"></div>
+
         {img_maker(img2)}
+
+        <div className="space-between-imgs"></div>
 
         {img_maker(img3)}
 
-        <div className="text-spacer">
+        <div className="text-over-img">
           <h3>World Dog Show Circuit <br />Helsingfors augusti 2025<br />Finskt Championcertifikat</h3>
           Bedömning: 18 månader, utmärkt storlek. En välutvecklad ung hane för
           sin ålder. Goda vinklar. Bra längd och stark bröstkorg. Något brant
@@ -74,21 +78,21 @@ export default function Vicke() {
 
         {img_maker(img4)}
 
-        <div className="text-spacer">
+        <div className="text-over-img">
           <h3>World Dog Show 2025 Helsinki</h3>
           
         </div>
 
         {img_maker(img5)}
 
-         <div className="text-spacer">
+         <div className="text-over-img">
           <h3>Svensk och Finsk Champion!!<br />Agria Dog Show Jönköping Internationell<br />28 februari 2026</h3>
         </div>
 
 
         {img_maker(img7)}
 
-        <div className="text-spacer">
+        <div className="text-over-img">
           
           <h3>World Dog Show <br />Helsingfors augusti 2025<br />Finskt Championcertifikat!</h3>
         </div>

@@ -1,23 +1,17 @@
-import "../varahundar.css";
+import "../../comps.css"
 import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
+import img_maker from "../../imagemaker/ImageMaker";
 
 
 
 export default function Albus () {
 
-  function img_maker (img) {
-    return(
-      <div className="img-spacer">
-        <img src={img} alt="main" className="dog-image" />
-      </div>)
-  }
-
   return (
     <div className="gallery-page">
       
-      <div className="text">
+      <div className="text-over-img">
         <h1>Albus</h1>
         <h2>Tilevis Eddie be A Viking</h2>
         <div>
@@ -32,7 +26,11 @@ export default function Albus () {
 
       {img_maker(img1)}
 
+      <div className="space-between-imgs"></div>
+
       {img_maker(img2)}
+
+      <div className="space-between-imgs"></div>
       
       {img_maker(img3)}
      

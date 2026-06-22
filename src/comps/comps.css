@@ -73,7 +73,8 @@ video {
 @media (max-width: 430px) {
   .gallery-page {
     width: 90%;
-    font-size: 13px;
+    font-size: 14
+    px;
   }
   .gallery-page h1 {
     font-size: 28px;

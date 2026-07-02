@@ -31,23 +31,34 @@ export default function Vicke() {
 
         <div className="text-over-img">
           <h3>Agria Dog Show Jönköping Internationell <br />28 februari 2026<br />Svensk och finsk champion!!</h3>
+        </div>
+
+        {img_maker(img1)}
+
+        <div className="text-under-img">
           Bedömning: Snygg hane, utmärkta proportioner, vackert huvud, mörka vackra ögon, snygg överlinje, utmärkt förbröst, ngt framskjuten skuldra, bra framben, passande vinklar, välformad bröstkorg, snygg svans, vacker välskött päls, rör sig med härlig stil och energi, välpresenterad.
           <br /><br />
           Domare: Nina Lönner Andersson
         </div>
 
-        {img_maker(img1)}
+        <div className="space-between-imgs"></div>
+
+        <video controls autoPlay loop muted playsInline>
+          <source src={mov2} type="video/mp4" />
+        </video>
 
         <div className="space-between-imgs"></div>
 
         {img_maker(img2)}
 
-        <div className="space-between-imgs"></div>
+        <div className="text-over-img">
+          <h3>World Dog Show Circuit 
+            <br />Helsingfors augusti 2025<br />Finskt Championcertifikat</h3>
+        </div>
 
         {img_maker(img3)}
 
-        <div className="text-over-img">
-          <h3>World Dog Show Circuit <br />Helsingfors augusti 2025<br />Finskt Championcertifikat</h3>
+        <div className="text-under-img">
           Bedömning: 18 månader, utmärkt storlek. En välutvecklad ung hane för
           sin ålder. Goda vinklar. Bra längd och stark bröstkorg. Något brant
           kors. Bra päls. Välformat, maskulint huvud. Vackra, mörka stora ögon.
@@ -55,7 +66,21 @@ export default function Vicke() {
           rörelse.
           <br /><br />
           Domare: Kajsa Gold, Finland
-          <br /><br />
+        </div>
+
+        <div className="text-over-img">
+          <h3>World Dog Show <br />Helsingfors augusti 2025<br />Finskt Championcertifikat!</h3>
+        </div>
+        
+        {img_maker(img7)}
+
+        <div className="text-over-img">
+          <h3>Vicke och Ida på World Dog Show Helsinki 2025!!</h3>
+        </div>
+
+        {img_maker(img4)}
+       
+        <div className="text-over-img">
           <h3>SDHK National Dog Show<br />Gimo september 2025<br />Best in Show 2 Unghund</h3>
           Bedömning: Mycket fin siluett. Utmärkta proportioner och balans.
           Utmärkt storlek. Maskulint uttryck. Korrekt skalle. Mörka, fina
@@ -73,34 +98,17 @@ export default function Vicke() {
           välpresenterad.
           <br /><br />
           Domare: Joel Lantz
-          <br /><br />
         </div>
 
-        {img_maker(img4)}
-
         <div className="text-over-img">
-          <h3>World Dog Show 2025 Helsinki</h3>
-          
+          <h3>Svensk och Finsk Champion!!<br />Agria Dog Show Jönköping Internationell<br />28 februari 2026</h3>
         </div>
 
         {img_maker(img5)}
 
-         <div className="text-over-img">
-          <h3>Svensk och Finsk Champion!!<br />Agria Dog Show Jönköping Internationell<br />28 februari 2026</h3>
-        </div>
-
-
-        {img_maker(img7)}
-
-        <div className="text-over-img">
-          
-          <h3>World Dog Show <br />Helsingfors augusti 2025<br />Finskt Championcertifikat!</h3>
-        </div>
       </div>
 
-      <video controls autoPlay loop muted playsInline>
-        <source src={mov2} type="video/mp4" />
-      </video>
+     
 
     </>
   );

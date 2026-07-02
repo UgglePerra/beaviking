@@ -22,7 +22,7 @@ export default function Minnie() {
         <br />
         Född 8 april 2024
         <br /><br />
-        Minnie är vårt lilla underverk, en gåva från ovan: jo hon kommer från Luleå, Anna och Linnea, Kennel Evan’s Aha där mamma Soda bor. Pappa heter Texas. Minnies mormor Vickan, Be A Viking Berylla Boffin, är född här hemma hos oss och hennes mormorsmor Malva, Peach Blossom Blue Temptation var vår första tik som vi hämtade hem från Tyskland. Minnie har fyra av våra hundar bakom sig i stamtavlan.
+        Minnie är vårt lilla underverk, en gåva från ovan: jo hon kommer från Luleå, Anna och Linnea, Kennel Evan’s Aha där mamma Soda bor. Pappa heter Texas från Candygolds. Minnies mormor Vickan, Be A Viking Berylla Boffin, är född här hemma hos oss och hennes mormorsmor Malva, Peach Blossom Blue Temptation var vår första tik som vi hämtade hem från Tyskland. Minnie har fyra av våra hundar bakom sig i stamtavlan.
         <br /><br />
         Men främst är hon en rolig och vacker ung dam, trygg och nyfiken. Så kärleksfull; överöser alla med nospussar. Minnie har utnämnt sig själv till chefen här hemma! Hon har också gjort det bra i utställningsringarna; Köpenhavns Vinnare 2025, Köpenhavns Junior Vinnare 2025, Bäst i Rasen Askersund, ett flertal Bästa tik placeringar och championcertifikat i både Sverige och Danmark.
         <br /><br />

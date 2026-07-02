@@ -25,7 +25,7 @@ export default function Napoleon () {
           <br /><br />
           Han tog oss ut på en resa fylld av äventyr, glädje, lycka och lärdomar. Hans personlighet var så stor, trygg, tillitsfull, lyhörd, han ville alltid samarbeta och göra oss glada. Hans blick ”jag är med matte” sa mer än tusen ord. Att se honom springa fri över klipporna vid havet var högsta glädjen.
           <br /><br />
-          Hans vilja att samarbeta och starka mentalitet gjorde att han nådde mycket stora framgångar i utställningsringarna med ett flertal Best In Show, Best In Group, Bäst i Rasen, Mestvinnande Havanais tre år i rad, Best In Show på Rasspecialen och Vinnar-titlar!
+          Hans vilja att samarbeta, starka mentalitet och exteriör gjorde att han nådde mycket stora framgångar i utställningsringarna med ett flertal Best In Show, Best In Group, Bäst i Rasen, Mestvinnande Havanais tre år i rad, Best In Show på Rasspecialen och Vinnar-titlar!
           <br /><br />
           Viktigast av allt var lyckan att leva tillsammans med Nappe varje dag. Saknad för alltid ♥️
           <br /><br />

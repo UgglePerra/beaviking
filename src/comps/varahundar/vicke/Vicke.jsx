@@ -23,7 +23,9 @@ export default function Vicke() {
             <br /><br />
             Vicke är född i Skåne hos Vivianne och Virginia, Tilevis kennel. Mamma är Bichavas Scilla och pappa vår älskade Skystar's Louis. Det var bara nödvändigt att sonen skulle bli en Göteborgare! Tredje generationen Viking med samma ögon som sin farfar; lyhörd, smart och en ordningsman. Ställer tjejerna till det så kommer Vicke direkt och skvallrar! Han är väldigt observant och har mängder av energi, lekfull och duktig med nosen. Vi har tränat olika aktiviteter med honom; Nosework är hans favorit.
             <br /><br />
-            På sin första utställning efter två-årsdagen gick han in i ringen och blev svensk och finsk champion!! Han har blivit Bäst I Rasen, BIS 2 Unghund SDHK Gimo, har ett flertal Bästa hane-placeringar och championcertifikat. På World Dog Show i Helsingfors 2025 och WDS CIRCUIT tog han championcertifikaten båda dagarna!
+            Sin utställningskarriär började Vicke på bästa sätt med att bli Best In Show Valp på SDHK i Vänersborg fyra månader gammal! Det upprepade han en månad senare i Borås då han även där blev Best In Show Valp.
+            <br /><br />
+            På sin första utställning efter två-årsdagen gick Vicke in i ringen och blev svensk och finsk champion!! Han har blivit Bäst I Rasen, BIS 2 Unghund SDHK Gimo, har ett flertal Bästa hane-placeringar och championcertifikat. På World Dog Show i Helsingfors 2025 och WDS CIRCUIT tog han championcertifikaten båda dagarna!
             <br /><br />
             Vicke är hälsotestad; ögon, hjärta, patella utan anmärkning
           </div>

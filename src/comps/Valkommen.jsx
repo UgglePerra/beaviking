@@ -73,7 +73,10 @@ export default function Valkommen() {
     <div className="gallery-page">
       <div className="text-over-img">
         <h1>Välkommen</h1>
-        Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi delat våra liv med sedan 2002. Vårt mål är att föda upp friska, sociala och vackra Havanaiser som sprider glädje hos sina ägare och familjer. Under åren har vi haft ett fåtal kullar då tid och omsorg om valparna är viktigast för att de ska bli trygga och glada små hundar!
+        Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi delat våra liv med sedan 2002. Vårt mål är att föda upp friska, sociala och vackra Havanaiser som sprider glädje hos sina ägare och familjer. Det ställer krav på mental och exteriör sundhet. Havanaisen ska vara en liten energisk hund, välkroppad med livliga och energiska rörelser och ett ljuvligt temperament.
+        <br />
+        <br />
+        Under åren har vi haft ett fåtal kullar då tid och omsorg om valparna är viktigast för att de ska bli trygga och glada små hundar!
         <br />
         <br />
         Välkommen att titta runt på vår hemsida!

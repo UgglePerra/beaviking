@@ -75,8 +75,6 @@ export default function Minnie() {
          <br /> 
          Bästa Junior Jun. CERT Jun. CACIB
         KÖPENHAMNSJUNIORVINNARE 2025 🏆</h2>
-        <br />
-        Domare Hans Almgren
       </div>
 
       {img_maker(img4)}

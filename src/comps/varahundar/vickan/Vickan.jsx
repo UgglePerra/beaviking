@@ -11,7 +11,9 @@ export default function Vickan () {
     <div className="gallery-page">
       <div className="text-over-img">
         <h1>Vickan</h1>
-        <h2>SE V-15 FI JV-14 SE UCH FI UCH NO UCH Be A Viking Berylla Boffin</h2>
+        <h2>SE V-15 FI JV-14 SE UCH FI UCH NO UCH 
+          <br />
+          Be A Viking Berylla Boffin</h2>
         <br />
         Född 10 september 2013
         <br /><br />

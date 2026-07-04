@@ -14,7 +14,8 @@ export default function Bell () {
       
       <div className="text-over-img">
         <h1>Bell❤️</h1>
-        <h2>EUW-15 JWW-14 FI UCH NO JV-14 NO UCH SE UCH Be A Viking Bell Gamgee</h2>
+        <h2>EUW-15 JWW-14 FI UCH NO JV-14 NO UCH SE UCH <br />
+        Be A Viking Bell Gamgee</h2>
         <br />
         Född 10 september 2013
         <br /><br />

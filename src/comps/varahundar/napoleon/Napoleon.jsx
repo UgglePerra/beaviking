@@ -15,9 +15,11 @@ export default function Napoleon () {
     <div className="gallery-page">
       <div className="text-over-img">
         <h1>Napoleon Viking</h1>
-        <h2>C.I.B. SE V-12 NORD V-10 NO V-12 NO V-08
+        <h2>C.I.B. SE V-12 NORD V-10 NO V-12 NO V-08 SE UCH DK UCH NO UCH
           <br />
-          NORD UCH FI UCH Buenazo&apos;s Viking</h2>
+          NORD UCH FI UCH 
+          <br />
+          Buenazo&apos;s Viking</h2>
           <br />
           Född 23 februari 2006
           <br /><br />

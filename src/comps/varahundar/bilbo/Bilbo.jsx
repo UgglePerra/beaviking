@@ -12,7 +12,8 @@ export default function Bilbo () {
 
       <div className="text-over-img">
         <h1>Bilbo</h1>
-        <h2>NORD JV-14 NO JV-14 Be A Viking Bilbo Baggins</h2>
+        <h2>NORD JV-14 NO JV-14 
+          <br />Be A Viking Bilbo Baggins</h2>
           <br />
           Född 10 september 2013
       </div>

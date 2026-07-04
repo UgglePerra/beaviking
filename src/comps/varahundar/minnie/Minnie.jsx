@@ -18,7 +18,9 @@ export default function Minnie() {
     <div className="gallery-page">
       <div className="text-over-img">
         <h1>Minnie❤️</h1>
-        <h2>SE UCH DK UCH KBHV-25 KBHJV-25 Evan’s Aha Magic Be A Viking</h2>
+        <h2>SE UCH DK UCH KBHV-25 KBHJV-25 
+          <br />
+          Evan’s Aha Magic Be A Viking</h2>
         <br />
         Född 8 april 2024
         <br /><br />

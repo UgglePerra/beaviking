@@ -18,7 +18,9 @@ export default function Sessan() {
       <div className="text-over-img">
         <h1>Sessan</h1>
         <h2>
-          C.I.B. NO V-15 SE JV-13 NO V-13 NO JV-13 NORD UCH Be A Viking Anduril
+          C.I.B. NO V-15 SE JV-13 NO V-13 NO JV-13 SE UCH DK UCH NO UCH NORD UCH 
+          <br />
+          Be A Viking Anduril
         </h2>
         <br />
         Född 26 juli 2012

@@ -12,7 +12,9 @@ export default function Sirius () {
     <div className="gallery-page">
       <div className="text-over-img">
         <h1>Sirius</h1>
-        <h2>C.I.B. DK UCH NO UCH SE UCH Honungsmåne Love Me Do</h2>
+        <h2>C.I.B. DK UCH NO UCH SE UCH 
+          <br />
+          Honungsmåne Love Me Do</h2>
         <br />
         Född 6 juni 2008
         <br /><br />

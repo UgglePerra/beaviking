@@ -16,7 +16,9 @@ export default function Malva() {
     <div className="gallery-page">
       <div className="text-over-img">
         <h1>Malva</h1>
-        <h2>C.I.B. DK UCH NO UCH SE UCH Peach Blossom Blue Temptation</h2>
+        <h2>C.I.B. DK UCH NO UCH SE UCH 
+          <br />
+          Peach Blossom Blue Temptation</h2>
         <br />
         Född 14 februari 2010
         <br /><br />

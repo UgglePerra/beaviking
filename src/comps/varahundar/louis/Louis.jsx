@@ -14,7 +14,9 @@ export default function Louis () {
     <div className="gallery-page">
       <div className="text-over-img">
         <h1>Louis </h1>
-        <h2>SE JV-13 DK JV-13 SE UCH DK UCH Skystar&apos;s Louis</h2>
+        <h2>SE JV-13 DK JV-13 SE UCH DK UCH 
+          <br />
+          Skystar&apos;s Louis</h2>
         <div>
           <br />
           Född 1 januari 2013

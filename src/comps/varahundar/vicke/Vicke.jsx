@@ -5,6 +5,7 @@ import img3 from "./imgs/img3.jpeg";
 import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 import img7 from "./imgs/img7.jpeg";
+import img8 from "./imgs/img8.jpeg";
 import mov2 from "./imgs/mov2.mp4";
 import img_maker from "../../imagemaker/ImageMaker";
 
@@ -16,7 +17,9 @@ export default function Vicke() {
       <div className="gallery-page">
         <div className="text-over-img">
           <h1>Vicke❤️</h1>
-          <h2>SE UCH FI UCH Tilevis Flitwick Be A Viking</h2>
+          <h2>SE UCH FI UCH 
+            <br />
+            Tilevis Flitwick Be A Viking</h2>
           <div>
             <br />
             Född 30 januari 2024
@@ -57,13 +60,17 @@ export default function Vicke() {
           <h3>Nordic Dog Show Borås 2026
           <br />
           Bästa Hane 2 Reserv Nordic Show Cert</h3>
+        </div>
+
+        {img_maker(img8)}
+
+        <div className="text-under-img"></div>
           Bedömning: 2 år, utmärkt storlek. Fina proportioner avseende höjd och längd.
           Välformad skalle, med bra längd i nospartiet. Mörka uttrycksfulla ögon.
           Tillräcklig hals, utmärkt överlinje och kors. Väl utfylld bröstkorg med mycket bra kropp. Passande benstomme. Korrekta vinklar bak med breda välmusklade lår. Rör sig med snabba fria rörelser. Utmärkt pälskvalitet. 
           <br /><br />
           Domare: HIERNER JULIA
-        </div>
-       
+      
        <div className="space-between-imgs"></div>
 
         {img_maker(img2)}

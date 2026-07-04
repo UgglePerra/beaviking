@@ -6,6 +6,7 @@ import img2 from "../imgs/nyheter/img2.jpeg";
 import img3 from "../imgs/nyheter/img3.jpeg";
 import img4 from "../imgs/nyheter/img4.jpeg";
 import img5 from "../imgs/nyheter/img5.jpeg";
+import img6 from "../imgs/nyheter/img6.jpeg";
 import img_maker from "./imagemaker/ImageMaker";
 
 
@@ -15,6 +16,21 @@ export default function Nyheter() {
     <div className="gallery-page">
       
       <h1>Nyheter</h1>
+
+      <div className="text-over-img">
+        <h3>28 juni 2026</h3>
+        Vicke blev andra bästa hane med fin kritik - en mycket regnig förmiddag i Borås.
+        <br /><br />
+        Bedömning: 2 år, utmärkt storlek. Fina proportioner avseende höjd och längd.
+        Välformad skalle, med bra längd i nospartiet. Mörka uttrycksfulla ögon.
+        Tillräcklig hals, utmärkt överlinje och kors. Väl utfylld bröstkorg med mycket bra kropp. Passande benstomme. Korrekta vinklar bak med breda välmusklade lår. Rör sig med snabba fria rörelser. Utmärkt pälskvalitet. 
+        <br /><br />
+        Domare: HIERNER JULIA
+      </div>
+
+      {img_maker(img6)}
+
+      <div className="text-under-img"></div>
 
       <div className="text-over-img">
         <h3>26 april 2026</h3>

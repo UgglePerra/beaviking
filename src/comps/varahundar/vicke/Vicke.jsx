@@ -49,7 +49,22 @@ export default function Vicke() {
           <source src={mov2} type="video/mp4" />
         </video>
 
+
+
         <div className="space-between-imgs"></div>
+
+        <div className="text-over-img">
+          <h3>Nordic Dog Show Borås 2026
+          <br />
+          Bästa Hane 2 Reserv Nordic Show Cert</h3>
+          Bedömning: 2 år, utmärkt storlek. Fina proportioner avseende höjd och längd.
+          Välformad skalle, med bra längd i nospartiet. Mörka uttrycksfulla ögon.
+          Tillräcklig hals, utmärkt överlinje och kors. Väl utfylld bröstkorg med mycket bra kropp. Passande benstomme. Korrekta vinklar bak med breda välmusklade lår. Rör sig med snabba fria rörelser. Utmärkt pälskvalitet. 
+          <br /><br />
+          Domare: HIERNER JULIA
+        </div>
+       
+       <div className="space-between-imgs"></div>
 
         {img_maker(img2)}
 
@@ -82,17 +97,7 @@ export default function Vicke() {
 
         {img_maker(img4)}
 
-        <div className="text-over-img">
-          <h3>Nordic Dog Show Borås 2026
-          <br />
-          Bästa Hane 2 Reserv Nordic Show Cert</h3>
-          Bedömning: 2 år, utmärkt storlek. Fina proportioner avseende höjd och längd.
-          Välformad skalle, med bra längd i nospartiet. Mörka uttrycksfulla ögon.
-          Tillräcklig hals, utmärkt överlinje och kors. Väl utfylld bröstkorg med mycket bra kropp. Passande benstomme. Korrekta vinklar bak med breda välmusklade lår. Rör sig med snabba fria rörelser. Utmärkt pälskvalitet. 
-          <br /><br />
-          Domare: HIERNER JULIA
-        </div>
-       
+        
         <div className="text-over-img">
           <h3>SDHK National Dog Show<br />Gimo september 2025<br />Best in Show 2 Unghund</h3>
           Bedömning: Mycket fin siluett. Utmärkta proportioner och balans.

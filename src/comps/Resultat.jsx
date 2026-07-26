@@ -16,15 +16,39 @@ import img21 from "../imgs/resultat/img21.jpeg";
 import img22 from "../imgs/resultat/img22.jpeg";
 import img_maker from "./imagemaker/ImageMaker";
 import small_img_maker from "./imagemaker/SmallImageMaker";
+import React from "react";
+import { useSelector } from "react-redux";
 
 
 export default function Resultat() {
 
+  const language = useSelector((state) => state.language.language);
+
+  const svt1 = 
+  "Vi har haft glädjen att våra hundar och deras avkommor har varit framgångsrika i utställningsringarna. Nedan en sammanställning på meriterade hundar utan inbördes ordning;"
+
+  const ent1 = 
+  "English text missing...";
+
+  const svt2 = 
+  "Meriterade avkommor till våra hundar under annat prefix:"
+
+  const ent2 = 
+  "English text missing...";
+
+  const svt3 = 
+  "European Winner Show 2015 Best in Show 4 Uppfödargrupp "
+
+  const ent3 = 
+  "English text missing...";
+
   return (
     <div className="gallery-page">
       <div className="text-between-imgs">
-        <h1>Resultat</h1>
-        Vi har haft glädjen att våra hundar och deras avkommor har varit framgångsrika i utställningsringarna. Nedan en sammanställning på meriterade hundar utan inbördes ordning;
+        <h1>
+          {language === "sv" ? "Resultat" : "Results"}
+        </h1>
+        {language === "sv" ? svt1 : ent1}
       </div>
 
       <div className="text-over-img">
@@ -126,7 +150,7 @@ export default function Resultat() {
       <br /><br /><br /><br />
 
       <div className="merit-text">
-        Meriterade avkommor till våra hundar under annat prefix:
+        {language === "sv" ? svt2 : ent2}
       </div>
 
       <br />
@@ -241,7 +265,7 @@ export default function Resultat() {
       
       <div className="text-over-img">
         <h3>
-          European Winner Show 2015 Best in Show 4 Uppfödargrupp 
+          {language === "sv" ? svt3 : ent3} 
         </h3>
       </div>
 

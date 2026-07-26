@@ -1,18 +1,47 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { setLanguage } from "../../store/languageSlice";
 import "./navbar.css";
 import img1 from "../../imgs/navbar/img1.jpg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dogsOpen, setDogsOpen] = useState(false);
-  // const [puppiesOpen, setPuppiesOpen] = useState(false);
+ 
+  const dispatch = useDispatch();
+
+  const language = useSelector(
+    state => state.language.language
+  );
+
 
   return (
     <div className="page">
       <div className="header" style={{ backgroundImage: `url(${img1})` }}>
-        <h1 className="coloredText">Be a Viking - Bichon Havanais</h1>
+
+  <div className="languageSelector">
+
+    <span
+      className={language === "sv" ? "activeFlag" : ""}
+      onClick={() => dispatch(setLanguage("sv"))}
+    >
+      🇸🇪
+    </span>
+
+    <span
+      className={language === "en" ? "activeFlag" : ""}
+      onClick={() => dispatch(setLanguage("en"))}
+    >
+      🇬🇧
+    </span>
+
+  </div>
+
+  <h1 className="coloredText">
+    Be a Viking - Bichon Havanais
+  </h1>
         <div />
 
         {/* MENU */}
@@ -32,7 +61,7 @@ export default function Navbar() {
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Välkommen
+              {language === "sv" ? "Välkommen" : "Welcome"}
             </Link>
 
             <Link
@@ -40,7 +69,7 @@ export default function Navbar() {
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Om oss
+              {language === "sv" ? "Om oss" : "About us"}
             </Link>
 
 
@@ -49,11 +78,13 @@ export default function Navbar() {
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Nyheter
+              {language === "sv" ? "Nyheter" : "News"}
             </Link>
 
             <div className="dropdown">
-              <div onClick={() => setDogsOpen(!dogsOpen)}>Våra hundar ▾</div>
+              <div onClick={() => setDogsOpen(!dogsOpen)}>
+                {language === "sv" ? "Våra hundar ▾" : "Our dogs ▾"}
+                </div>
               {dogsOpen && (
                 <div className="dropdown-links">
                   <Link
@@ -92,7 +123,9 @@ export default function Navbar() {
                     Louis
                   </Link>
 
-                  <p>För Evigt Älskade:</p>
+                  <p>
+                    {language === "sv" ? "För Evigt Älskade:" : "Forever loved"}
+                    </p>
                   <Link
                     to="/Napoleon"
                     className="dropdown-links"
@@ -129,7 +162,9 @@ export default function Navbar() {
                     Pluto
                   </Link>
 
-                  <p>Hos Vänner:</p>
+                  <p>
+                    {language === "sv" ? "Hos Vänner:" : "With Friends"}
+                    </p>
                   <Link
                     to="/Vickan"
                     className="dropdown-links"
@@ -174,7 +209,7 @@ export default function Navbar() {
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Resultat
+              {language === "sv" ? "Resultat" : "Results"}
             </Link>
 
             <Link
@@ -182,7 +217,7 @@ export default function Navbar() {
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Valpar
+              {language === "sv" ? "Valpar" : "Puppies"}
             </Link>
 
             <Link
@@ -190,7 +225,7 @@ export default function Navbar() {
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Skötsel och pälsvård
+              {language === "sv" ? "Skötsel och pälsvård" : "Care & Grooming"}
             </Link>
 
             <Link
@@ -198,7 +233,7 @@ export default function Navbar() {
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
-              Kontakt
+              {language === "sv" ? "Kontakt" : "Contact"}
             </Link>
           </div>
         </div>

@@ -39,7 +39,9 @@ import simg32 from "../imgs/valkommen/simg32.jpeg";
 import simg33 from "../imgs/valkommen/simg33.jpeg";
 import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
 import img_maker from "./imagemaker/ImageMaker";
-
+import { useState } from "react";
+import React from "react";
+import { useSelector } from "react-redux";
 
 export default function Valkommen() {
   const images = [
@@ -69,17 +71,37 @@ export default function Valkommen() {
     simg11,
   ];
 
+  const language = useSelector((state) => state.language.language);
+
+  const svt1 =
+    "Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi delat våra liv med sedan 2002. Vårt mål är att föda upp friska, sociala och vackra Havanaiser som sprider glädje hos sina ägare och familjer. Det ställer krav på mental och exteriör sundhet. Havanaisen ska vara en liten energisk hund, välkroppad med livliga och energiska rörelser och ett ljuvligt temperament.";
+
+  const ent1 =
+    "Welcome to Be A Viking Kennel and our wonderful Havanaise dogs with which we have shared our lives since 2002. Our aim is to breed healthy, social and beautiful Havanaise dogs...";
+
+  const svt2 =
+    "Under åren har vi haft ett fåtal kullar då tid och omsorg om valparna är viktigast för att de ska bli trygga och glada små hundar!";
+
+  const ent2 =
+    "Over the years, we have had only a few litters, as giving our puppies the time, care, and attention they need is our highest priority, helping them grow into happy, confident little dogs.";
+
+  const svt3 = "Välkommen att titta runt på vår hemsida!";
+
+  const ent3 = "Feel free to have a look around our website!";
+
   return (
     <div className="gallery-page">
       <div className="text-over-img">
-        <h1>Välkommen</h1>
-        Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi delat våra liv med sedan 2002. Vårt mål är att föda upp friska, sociala och vackra Havanaiser som sprider glädje hos sina ägare och familjer. Det ställer krav på mental och exteriör sundhet. Havanaisen ska vara en liten energisk hund, välkroppad med livliga och energiska rörelser och ett ljuvligt temperament.
+        <h1>
+          {language === "sv" ? "Välkommen" : "Welcome"}
+        </h1>
+          {language === "sv" ? svt1 : ent1}
         <br />
         <br />
-        Under åren har vi haft ett fåtal kullar då tid och omsorg om valparna är viktigast för att de ska bli trygga och glada små hundar!
+          {language === "sv" ? svt2 : ent2}
         <br />
         <br />
-        Välkommen att titta runt på vår hemsida!
+          {language === "sv" ? svt3 : ent3}
       </div>
 
       <div className="dog-image">
@@ -104,13 +126,12 @@ export default function Valkommen() {
       {img_maker(img2)}
 
       <div className="space-between-imgs"></div>
-                  
+
       {img_maker(img3)}
 
       <div className="space-between-imgs"></div>
 
       {img_maker(img4)}
-
     </div>
   );
 }

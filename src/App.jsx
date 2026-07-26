@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
+import { useSelector } from "react-redux";
+
 import Navbar from "./comps/navbar/Navbar";
 import Valkommen from "./comps/Valkommen";
 import Omoss from "./comps/Omoss";
@@ -26,9 +28,17 @@ import Bella from "./comps/varahundar/bella/Bella";
 import Albus from "./comps/varahundar/albus/Albus";
 
 export default function App() {
+
+  const language = useSelector(
+        state => state.language.language
+    );
+
   return (
+
     <BrowserRouter>
-      <Navbar />
+      <Navbar
+        
+      />
 
       <Routes>
         <Route path="/" element={<Valkommen />} />

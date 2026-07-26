@@ -7,6 +7,25 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
+.languageSelector {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    display: flex;
+    gap: 10px;
+
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.languageSelector span:hover {
+    transform: scale(1.5);
+}
+
+.activeFlag {
+    border-bottom: 3px solid white;
+}
 .coloredText {
   color: white;
   margin-top: 10px;
@@ -103,16 +122,24 @@
   margin-top: 7px;
 }
 
-
-
 @media (max-width: 430px) {
   .page {
     width: 100%;
   }
   .header {
-    height: 120px;
-    
+    height: 100px;
   }
+  .languageSelector {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    display: flex;
+    gap: 6px;
+
+    font-size: 15px;
+    cursor: pointer;
+}
   .coloredText {
     margin-top: 10px;
     font-size: 22px;

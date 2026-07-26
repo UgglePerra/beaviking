@@ -19,33 +19,68 @@ import simg12 from "../imgs/valpar/simg12.jpeg";
 import simg13 from "../imgs/valpar/simg13.jpeg";
 import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
 import img_maker from "./imagemaker/ImageMaker";
+import React from "react";
+import { useSelector } from "react-redux";
 
 
 export default function Valpar() {
   const images = [simg1, simg2, simg3, simg4, simg5, simg6, simg7, simg8, simg9, simg10, simg11, simg12, simg13];
 
+  const language = useSelector((state) => state.language.language);
+
+  const svt1 = 
+    "Är du intresserad av en valp efter våra hundar så är du välkommen att höra av dig! Vi hälsotestar våra hundar regelbundet och följer SKK's grundregler, avelspolicy samt BBHC's avelsrekommendationer. BBHC har även förslag på frågor att ställa till uppfödare inför planerna på att köpa en valp. Nedan hittar du en länk till dessa."
+
+  const ent1 = 
+  "English text missing...";
+
+  const svt2 = 
+    "Vi är naturligtvis angelägna om att lära känna dig, din familj och den omgivande miljön som valpen kommer flytta till. Vi finns tillgängliga för våra valpköpare för frågor, tips och stöd, inte bara under valptiden utan även fortsatt. För att undvika små problem och onödiga veterinärbesök så delar vi gärna med oss av bra tips och erfarenheter."
+
+  const ent2 = 
+  "English text missing...";
+
+  const svt3 = 
+    "Vi vill att ni ska få ett fantastiskt liv tillsammans!"
+
+  const ent3 = 
+  "English text missing...";
+
+  const svt4 = 
+    "Våra hundar som används i avel är hälsotestade utan anmärkning avseende hjärta, ögon och knän 0/0 enligt rasklubbens riktlinjer. De är utställda med fina resultat vilket visar på utmärkt mentalitet och exteriör."
+
+  const ent4 = 
+  "English text missing...";
+
+  const svt5 = 
+    "Anna-Karin och Ida Jernberg"
+
+  const ent5 = 
+  "English text missing...";
+
+
+
   return (
     <div className="gallery-page">
       <div className="text-over-img">
-        <h1>Valpar</h1>
-        Är du intresserad av en valp efter våra hundar så är du välkommen att höra av dig! Vi hälsotestar våra hundar regelbundet och följer SKK's grundregler, avelspolicy samt BBHC's avelsrekommendationer. BBHC har även förslag på frågor att ställa till uppfödare inför planerna på att köpa en valp. Nedan hittar du en länk till dessa.
+        <h1>
+          {language === "sv" ? "Valpar" : "Puppies"}
+        </h1>
+        {language === "sv" ? svt1 : ent1}
         <br /><br />
-        Vi är naturligtvis angelägna om att lära känna dig, din familj och den omgivande miljön som valpen kommer flytta till. Vi finns tillgängliga för våra valpköpare för frågor, tips och stöd, inte bara under valptiden utan även fortsatt. För att undvika små problem och onödiga veterinärbesök så delar vi gärna med oss av bra tips och erfarenheter. 
+        {language === "sv" ? svt2 : ent2}
         <br /><br />
-        Vi vill att ni ska få ett fantastiskt liv tillsammans!
+        {language === "sv" ? svt3 : ent3}
         <br /><br />
-        Våra hundar som används i avel är hälsotestade utan anmärkning avseende hjärta, ögon och knän 0/0 enligt rasklubbens riktlinjer. De är utställda med fina resultat vilket visar på utmärkt mentalitet och exteriör.
+        {language === "sv" ? svt4 : ent4}
         <br /><br />
-
-
-        Anna-Karin och Ida Jernberg
-
+        {language === "sv" ? svt5 : ent5}
         <br /><br />
 
         Mail:&nbsp; 
         <span>
-          <a href="mailto:anna-karin.jernberg@telia.com">
-          anna-karin.jernberg@telia.com
+          <a href="mailto:Be.a.viking.kennel@gmail.com">
+          Be.a.viking.kennel@gmail.com
           </a>
         </span>
 

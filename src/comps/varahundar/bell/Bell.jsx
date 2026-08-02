@@ -26,7 +26,7 @@ export default function Bell () {
   "English text missing...";
   
   const svt3 = 
-  "AI september 2026 fyller hon tretton år, hon är fortfarande glad och pigg och springer med ungdomarna i trädgården och på promenad.";
+  "I september 2026 fyller hon tretton år, hon är fortfarande glad och pigg och springer med ungdomarna i trädgården och på promenad.";
 
   const ent3 = 
   "English text missing...";

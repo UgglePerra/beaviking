@@ -32,7 +32,7 @@ export default function Napoleon () {
   "English text missing..."
 
   const svt4 = 
-  "Hans vilja att samarbeta, starka mentalitet och exteriör gjorde att han nådde mycket stora framgångar i utställningsringarna med ett flertal Best In Show, Best In Group, Bäst i Rasen, Mestvinnande Havanais tre år i rad, Best In Show på";
+  "Hans vilja att samarbeta och naturligtvis hans tygga, starka mentalitet gjorde att han nådde mycket stora framgångar i utställningsringarna med ett flertal Best In Show, Best In Group, Bäst i Rasen, Mestvinnande Havanais tre år i rad, Best In Show på Rasspecialen och Vinnartitlar!";
 
   const ent4 = 
   "English text missing..."

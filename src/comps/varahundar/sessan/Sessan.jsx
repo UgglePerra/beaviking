@@ -25,7 +25,7 @@ export default function Sessan() {
   const ent2 = "English text missing...";
 
   const svt3 =
-    "I utställningsringen gick vackra Sessan från klarhet till klarhet, blev bästa tik på sin första officiella utställning och så fortsatte hon! Fram till två-års dagen hade hon hunnit få 12 championcertifikat! Internationell champion, svensk och norsk juniorvinnare, flerfaldig norsk vinnare - men viktigast av allt den största vinnaren på hemmaplan !";
+    "I utställningsringen gick vackra Sessan från klarhet till klarhet, blev bästa tik på sin första officiella utställning och så fortsatte hon! Fram till två-års dagen hade hon hunnit få 12 championcertifikat! Internationell champion, svensk och norsk juniorvinnare, flerfaldig norsk vinnare - men viktigast av allt den största vinnaren på hemmaplan!";
 
   const ent3 = "English text missing...";
 

@@ -18,121 +18,121 @@ export default function Nyheter() {
   "Vicke blev andra bästa hane med fin kritik - en mycket regnig förmiddag i Borås."
 
   const ent1 = 
-  "English text missing...";
+  "Vicke placed second best male with a fine critique – on a very rainy morning in Borås.";
 
   const svt2 = 
   "Bedömning: 2 år, utmärkt storlek. Fina proportioner avseende höjd och längd. Välformad skalle, med bra längd i nospartiet. Mörka uttrycksfulla ögon. Tillräcklig hals, utmärkt överlinje och kors. Väl utfylld bröstkorg med mycket bra kropp. Passande benstomme. Korrekta vinklar bak med breda välmusklade lår. Rör sig med snabba fria rörelser. Utmärkt pälskvalitet."
 
   const ent2 = 
-  "English text missing...";
+  "Evaluation: 2 years old, excellent size. Fine proportions regarding height and length. Well-shaped skull, with good muzzle length. Dark, expressive eyes. Sufficient neck, excellent topline and croup. Well-filled chest with a very good body. Appropriate bone structure. Correct rear angulation with broad, well-muscled thighs. Moves with quick, free movement. Excellent coat quality.";
 
   const svt3 = 
   "Domare: HIERNER JULIA"
 
   const ent3 = 
-  "English text missing...";
+  "Judge: Julia Hierner";
 
   const svt4 = 
   "Så stolt och glad över vår fina Minnie som på första försöket blev Champion idag!! ⭐️⭐️⭐️"
 
   const ent4 = 
-  "English text missing...";
+  "So proud and happy about our lovely Minnie, who became a Champion today on her first attempt!! ⭐️⭐️⭐️";
 
   const svt5 = 
   "Bästa tik med CERT, Nordic Show-certifikat och därmed Svensk och Dansk champion🏆🏆"
 
   const ent5 = 
-  "English text missing...";
+  "Best Bitch with CC, Nordic Show Certificate, and thereby Swedish and Danish Champion 🏆🏆";
 
   const svt6 = 
   "💖Minnie💖 SE UCH DK UCH KBHV-25 KBHJV-25 Evan’s Aha Magic Be A Viking"
 
   const ent6 = 
-  "English text missing...";
+  "💖Minnie💖 SE CH DK CH KBHV-25 KBHJV-25 Evan’s Aha Magic Be A Viking";
 
   const svt7 = 
   "Nordic Dog Show Västerås 26 april 2026"
 
   const ent7 = 
-  "English text missing...";
+  "Nordic Dog Show Västerås, April 26, 2026";
 
   const svt8 = 
   "Domare Attila Czeglédi , Ungern"
 
   const ent8 = 
-  "English text missing...";
+  "Judge: Attila Czeglédi, Hungary";
 
   const svt9 = 
   "Josef och Vicke har blivit omslagspojkar på Rasklubbens tidning för Havanais och Bolognese BBHC❣️Glad Påsk🐣🐣🐣"
 
   const ent9 = 
-  "English text missing...";
+  "Josef and Vicke have become cover boys for the breed club’s magazine for Havanese and Bolognese (BBHC)❣️ Happy Easter🐣🐣🐣";
 
   const svt10 = 
   "Vi har en ny champion!!!⭐️⭐️⭐️🏆Stolta och glada för vår lilla kille som idag blev svensk och finsk champion första gången i öppen klass 🤩"
 
   const ent10 = 
-  "English text missing...";
+  "We have a new champion!!!⭐️⭐️⭐️🏆 So proud and happy for our little guy, who today became a Swedish and Finnish Champion—his first time competing in the Open Class 🤩.";
 
   const svt11 = 
   "SE UCH FI UCH Tilevis Flitwick Be A Viking💖💖"
 
   const ent11 = 
-  "English text missing...";
+  "SE CH FI CH Tilevis Flitwick Be A Viking💖💖";
 
 const svt12 = 
   "Agria Dog Show Jönköping Internationell"
 
   const ent12 = 
-  "English text missing...";
+  "Agria Dog Show Jönköping International";
 
   const svt13 = 
     "Domare Nina Lönner Andersson"
 
   const ent13 = 
-  "English text missing...";
+  "Judge: Nina Lönner Andersson";
 
   const svt14 = 
     "Idag fyller han 13 år!! 💖"
 
   const ent14 = 
-  "English text missing...";
+  "Today he turns 13!! 💖";
 
   const svt15 = 
     "Stort grattis älskade Louis❤️❤️❤️"
 
   const ent15 = 
-  "English text missing...";
+  "Happy birthday, beloved Louis❤️❤️❤️";
 
   const svt16 = 
     "Roskilde Internationell utställning"
 
   const ent16 = 
-  "English text missing...";
+  "Roskilde International Show";
 
   const svt17 = 
     "21 september 2025 KÖPENHAMNSVINNARE 2025 🏆"
 
   const ent17 = 
-  "English text missing...";
+  "September 21, 2025 COPENHAGEN WINNER 2025 🏆";
 
   const svt18 = 
     "Bästa Tik Bästa Junior CERT Jun. CERT Jun. CACIB KÖPENHAMNSJUNIORVINNARE 2025 🏆"
 
   const ent18 = 
-  "English text missing...";
+  "Best Bitch, Best Junior, CAC, Junior CAC, Junior CACIB, COPENHAGEN v";
 
   const svt19 = 
     "Domare Hans Almgren"
 
   const ent19 = 
-  "English text missing...";
+  "Judge: Hans Almgren";
 
   const svt20 = 
     "Grattis till Jenny och Jax!!"
 
   const ent20 = 
-  "English text missing...";
+  "Congratulations to Jenny and Jax!!";
 
   return (
     <div className="gallery-page">
@@ -143,7 +143,7 @@ const svt12 =
 
       <div className="text-over-img">
         <h3>
-          {language === "sv" ? "28 juni 2026" : "28 June, 2026"}
+          {language === "sv" ? "28 juni 2026" : "June 28, 2026"}
         </h3>
         {language === "sv" ? svt1 : ent1}
         <br /><br />
@@ -158,7 +158,7 @@ const svt12 =
 
       <div className="text-over-img">
         <h3>
-          {language === "sv" ? "26 april 2026" : "26 April, 2026"}
+          {language === "sv" ? "26 april 2026" : "April 26, 2026"}
         </h3>
         {language === "sv" ? svt4 : ent4}
         <br />
@@ -175,7 +175,7 @@ const svt12 =
 
       <div className="text-over-img">
         <h3>
-          {language === "sv" ? "1 april 2026" : "1 April, 2026"}
+          {language === "sv" ? "1 april 2026" : "April 1, 2026"}
         </h3>
         {language === "sv" ? svt9 : ent9}
       </div>
@@ -185,7 +185,7 @@ const svt12 =
       <div className="text-over-img">
   
         <h3>
-          {language === "sv" ? "28 februari 2026" : "28 February, 2026"}
+          {language === "sv" ? "28 februari 2026" : "February 28, 2026"}
         </h3>
         {language === "sv" ? svt10 : ent10}
         <br />
@@ -202,7 +202,7 @@ const svt12 =
       <div className="text-over-img">
   
         <h3>
-          {language === "sv" ? "1 januari 2026" : "1 January, 2026"}
+          {language === "sv" ? "1 januari 2026" : "January 1, 2026"}
         </h3>
         {language === "sv" ? svt14 : ent14}
         <br />

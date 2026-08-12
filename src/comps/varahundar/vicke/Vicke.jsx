@@ -26,109 +26,110 @@ export default function Vicke() {
   "Vicke är född i Skåne hos Vivianne och Virginia, Tilevis kennel. Mamma är Bichavas Scilla och pappa vår älskade Skystar's Louis. Det var bara nödvändigt att sonen skulle bli en Göteborgare! Tredje generationen Viking med samma ögon som sin farfar; lyhörd, smart och en ordningsman. Ställer tjejerna till det så kommer Vicke direkt och skvallrar! Han är väldigt observant och har mängder av energi, lekfull och duktig med nosen. Vi har tränat olika aktiviteter med honom; Nosework är hans favorit.";
 
   const ent2 = 
-  "English text missing...";
+  "Vicke was born in Skåne at Vivianne and Virginia’s Tilevis kennel. His mother is Bichavas Scilla, and his father is our beloved Skystar's Louis." +
+  ' It was only fitting that the son would become a Gothenburg local! He is a third-generation "Viking" with the same eyes as his paternal grandfather; he is attentive, smart, and a stickler for the rules. If the girls cause trouble, Vicke comes straight over to tell on them! He is very observant and full of energy; he is playful and has a great nose. We have trained him in various activities, with Nosework being his favorite.';
 
   const svt3 = 
   "Sin utställningskarriär började Vicke på bästa sätt med att bli Best In Show Valp på SDHK i Vänersborg fyra månader gammal! Det upprepade han en månad senare i Borås då han även där blev Best In Show Valp.";
 
   const ent3 = 
-  "English text missing...";
+  "Vicke got off to the best possible start in his show career by winning Best in Show Puppy at the SDHK show in Vänersborg at just four months old! He repeated this feat a month later in Borås, where he was once again named Best in Show Puppy.";
 
   const svt4 = 
   "På sin första utställning efter två-årsdagen gick Vicke in i ringen och blev svensk och finsk champion!! Han har blivit Bäst I Rasen, BIS 2 Unghund SDHK Gimo, har ett flertal Bästa hane-placeringar och championcertifikat. På World Dog Show i Helsingfors 2025 och WDS CIRCUIT tog han championcertifikaten båda dagarna!";
 
   const ent4 = 
-  "English text missing...";
+  "At his first show after turning two, Vicke entered the ring and became both a Swedish and Finnish Champion!! He has achieved Best of Breed and BIS-2 Junior/Young Dog at the SDHK show in Gimo, and holds multiple Best Male placements and championship certificates. At the World Dog Show in Helsinki in 2025 and the WDS Circuit, he won the championship certificates on both days!";
 
   const svt5 = 
   "Vicke är hälsotestad; ögon, hjärta, patella utan anmärkning.";
 
   const ent5 = 
-  "English text missing...";
+  "Vicke has undergone health testing; his eyes, heart, and patellas are all clear/normal.";
 
   const svt6 = 
   "Bedömning: Snygg hane, utmärkta proportioner, vackert huvud, mörka vackra ögon, snygg överlinje, utmärkt förbröst, ngt framskjuten skuldra, bra framben, passande vinklar, välformad bröstkorg, snygg svans, vacker välskött päls, rör sig med härlig stil och energi, välpresenterad.";
 
   const ent6 = 
-  "English text missing...";
+  "";
 
   const svt7 = 
   "Domare: Nina Lönner Andersson";
 
   const ent7 = 
-  "English text missing...";
+  "";
 
   const svt8 = 
   "Bästa Hane 2 Reserv Nordic Show Cert";
 
   const ent8 = 
-  "English text missing...";
+  "Second Best Male June 28";
 
   const svt9 = 
   "Bedömning: 2 år, utmärkt storlek. Fina proportioner avseende höjd och längd.Välformad skalle, med bra längd i nospartiet. Mörka uttrycksfulla ögon. Tillräcklig hals, utmärkt överlinje och kors. Väl utfylld bröstkorg med mycket bra kropp. Passande benstomme. Korrekta vinklar bak med breda välmusklade lår. Rör sig med snabba fria rörelser. Utmärkt pälskvalitet. ";
 
   const ent9 = 
-  "English text missing...";
+  "Evaluation: 2 years old, excellent size. Fine proportions regarding height and length. Well-shaped skull, with good muzzle length. Dark, expressive eyes. Sufficient neck, excellent topline and croup. Well-filled chest with a very good body. Appropriate bone structure. Correct rear angulation with broad, well-muscled thighs. Moves with quick, free movement. Excellent coat quality.";
 
   const svt10 = 
   "Domare: HIERNER JULIA";
 
   const ent10 = 
-  "English text missing...";
+  "Judge: Julia Hierner";
 
   const svt11 = 
   "Bedömning: 18 månader, utmärkt storlek. En välutvecklad ung hane för sin ålder. Goda vinklar. Bra längd och stark bröstkorg. Något brant kors. Bra päls. Välformat, maskulint huvud. Vackra, mörka stora ögon.Bra, fyllig nos. Rör sig effektivt med bra steglängd. Vacker svans i rörelse.";
 
   const ent11 = 
-  "English text missing...";
+  "";
 
   const svt12 = 
   "Domare: Kajsa Gold, Finland";
 
   const ent12 = 
-  "English text missing...";
+  "";
 
   const svt13 = 
   "Vicke och Ida på World Dog Show Helsinki 2025!!";
 
   const ent13 = 
-  "English text missing...";
+  "";
 
   const svt14 = 
   "Best in Show 2 Unghund";
 
   const ent14 = 
-  "English text missing...";
+  "";
 
   const svt15 = 
   "Bedömning: Mycket fin siluett. Utmärkta proportioner och balans. Utmärkt storlek. Maskulint uttryck. Korrekt skalle. Mörka, fina välformade ögon. Fin längd på nospartiet. Snygg hals, överlinje och svans. Välvinklad och välkroppad. Utmärkt pälskvalitet.Typiska, frapperande rörelser. En lovande unghund.";
 
   const ent15 = 
-  "English text missing...";
+  "";
 
   const svt16 = 
   "Domare: Marcus Gisslén";
 
   const ent16 = 
-  "English text missing...";
+  "";
 
   const svt17 = 
   "Bästa hane 2 med CERT";
 
   const ent17 = 
-  "English text missing...";
+  "";
 
   const svt18 = 
   "Bedömning: Utmärkt typ, maskulin hane av bra storlek och goda proportioner.Utrycksfulla ögon, härligt pigment, bra hals och överlinje. Välkroppad och välmusklad. Välvinklad, rör sig med lätt och alert steg och välburen svans. Utmärkt pälskvalitet som är välpresenterad.";
 
   const ent18 = 
-  "English text missing...";
+  "";
 
   const svt19 = 
   "Domare: Joel Lantz";
 
   const ent19 = 
-  "English text missing...";
+  "";
 
 
 

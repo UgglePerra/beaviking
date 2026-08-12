@@ -16,43 +16,43 @@ export default function Louis () {
         
   const svt1 = "Född 1 januari 2013";
 
-  const ent1 = "Born on January 1, 2013"
+  const ent1 = "Born January 1, 2013"
 
   const svt2 = 
   "Louis var en dröm som blev sann. Nästan 100 mil från Göteborg utanför Trondheim i Norge bodde en av de vackraste Havanais tikar jag mött, Skystar’s Alicia. Hon och Napoleon Viking var ett så vackert par, samma mjuka sobelfärger och teckningar.";
 
   const ent2 = 
-  "English text missing..."
+  "Louis was a dream come true. Nearly 1,000 kilometers from Gothenburg—just outside Trondheim, Norway—lived one of the most beautiful Havanese females I have ever met: Skystar’s Alicia. She and Napoleon Viking made a stunning pair, sharing the same soft sable colors and markings."
 
   const svt3 = 
   "Så en solig vårvinterdag i början av 2013 flög jag över de snöklädda bergen vid Trollheimen Fjell och träffade deras valpar som fötts på nyårsnatten. Med hem på flyget var Louis, en liten vacker prins med ett ljuvligt temperament ❤️❤️";
 
   const ent3 = 
-  "English text missing..."
+  "So, on a sunny late-winter day in early 2013, I flew over the snow-capped peaks of the Trollheimen mountains to meet their puppies, who had been born on New Year's Eve. I brought Louis home with me on the flight—a beautiful little prince with a lovely temperament ❤️❤️"
 
   const svt4 = 
   "På Västsvenska Kennelklubbens utställning i Backamo 2013 blev Louis Best In Show Valp!! Därefter Svensk Juniorvinnare och Dansk Juniorvinnare samt dubbla championat :)";
 
   const ent4 = 
-  "English text missing..."
+  "At the West Swedish Kennel Club’s show in Backamo in 2013, Louis was named Best in Show Puppy!! He went on to become Swedish Junior Winner and Danish Junior Winner, and earned dual championships :)"
 
   const svt5 = 
   "Louis har lämnat mycket vackra och vinstrika avkommor - och han har gett oss vår vackra Vicke♥️";
 
   const ent5 = 
-  "English text missing..."
+  "Louis has sired very beautiful and successful offspring—and he gave us our lovely Vicke ♥️"
 
   const svt6 = 
   "Louis är hälsotestad; ögon, hjärta, patella utan anmärkning.";
 
   const ent6 = 
-  "English text missing..."
+  "Louis has undergone health testing; his eyes, heart, and patellae are all clear."
 
   const svt7 = 
   "1 januari 2026 fyllde Louis 13 år.";
 
   const ent7 = 
-  "English text missing..."
+  "Louis turned 13 on January 1, 2026"
 
   return (
     <div className="gallery-page">

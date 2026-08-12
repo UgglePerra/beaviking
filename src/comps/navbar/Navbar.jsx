@@ -27,14 +27,14 @@ export default function Navbar() {
       className={language === "sv" ? "activeFlag" : ""}
       onClick={() => dispatch(setLanguage("sv"))}
     >
-      
+      🇸🇪
     </span>
 
     <span
       className={language === "en" ? "activeFlag" : ""}
       onClick={() => dispatch(setLanguage("en"))}
     >
-      
+      🇬🇧
     </span>
 
   </div>

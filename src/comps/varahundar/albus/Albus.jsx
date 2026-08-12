@@ -15,19 +15,19 @@ export default function Albus () {
   "Född 17 februari 2023";
 
   const ent1 = 
-  "Born on February 17, 2023"
+  "Born February 17, 2023"
 
   const svt2 = 
   "Albus är Idas hund och är född hos Virginia och Vivianne, Tilevis kennel i Skåne. När längtan efter en ny hund blev för stor då Sirius lämnade oss efter drygt 14 år blev det Albus! Hans mamma Petunia har våra linjer bakom sig, hans pappa är en import från Polen.";
 
   const ent2 = 
-  "English text missing..."
+  "Albus is Ida's dog and was born at Virginia and Vivianne, Tilevis kennel in Skåne. When the longing for a new dog became too great when Sirius left us after just over 14 years, Albus became it! His mother Petunia has our lines behind her, his father is an import from Poland."
 
   const svt3 = 
-  "Han är en riktig myspropp enligt Ida, ligger gärna kvar i sängen när hon gått upp. Älskar sina leksaker och bjuder gärna in till lek. Ida har gått kurs med honom i Nosework vilket han tycker om. Då Albus och Ida bor i stan passar det bra att vara kl";
+  "Han är en riktig myspropp enligt Ida, ligger gärna kvar i sängen när hon gått upp. Älskar sina leksaker och bjuder gärna in till lek. Ida har gått kurs med honom i Nosework vilket han tycker om. Då Albus och Ida bor i stan passar det bra att vara klippt.";
 
   const ent3 = 
-  "English text missing..."
+  "He is a real cuddler according to Ida, likes to stay in bed when she gets up. Loves his toys and likes to invite him to play. Ida has taken a course with him in Nosework which he enjoys. Since Albus and Ida live in the city, it is a good time to be cut."
 
   return (
     <div className="gallery-page">

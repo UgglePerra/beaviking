@@ -23,39 +23,39 @@ export default function Napoleon () {
   "Första gången jag höll Napoleon i mina händer tittade hans mörka ögon klart in i mina ögon och sedan somnade han tryggt, han var då fem veckor. Där började en kärlek växa så stor och innerlig, ett samförstånd mellan hund och människa med ett djup som är svårt att beskriva.";
 
   const ent2 = 
-  "English text missing..."
+  "The first time I held Napoleon in my arms, his dark eyes looked clearly into mine, and then he fell asleep securely; he was five weeks old at the time. That marked the beginning of a love that grew so vast and profound—a bond between dog and human with a depth difficult to describe."
 
   const svt3 = 
   "Han tog oss ut på en resa fylld av äventyr, glädje, lycka och lärdomar. Hans personlighet var så stor, trygg, tillitsfull, lyhörd, han ville alltid samarbeta och göra oss glada. Hans blick ”jag är med matte” sa mer än tusen ord. Att se honom springa fri över klipporna vid havet var högsta glädjen.";
 
   const ent3 = 
-  "English text missing..."
+  'He took us on a journey filled with adventure, joy, happiness, and lessons learned. His personality was magnificent—secure, trusting, and responsive; he always wanted to cooperate and make us happy. The look in his eyes—"I’m with you, Mom"—spoke volumes. Watching him run free across the seaside cliffs was pure joy.'
 
   const svt4 = 
   "Hans vilja att samarbeta och naturligtvis hans tygga, starka mentalitet gjorde att han nådde mycket stora framgångar i utställningsringarna med ett flertal Best In Show, Best In Group, Bäst i Rasen, Mestvinnande Havanais tre år i rad, Best In Show på Rasspecialen och Vinnartitlar!";
 
   const ent4 = 
-  "English text missing..."
+  "His willingness to cooperate and, of course, his secure, strong temperament led to immense success in the show ring, including multiple Best in Show and Best in Group wins, Best of Breed titles, Top-Winning Havanese three years running, Best in Show at the breed specialty, and various Winner titles!"
 
   const svt5 = 
   "Viktigast av allt var lyckan att leva tillsammans med Nappe varje dag. Saknad för alltid ♥️";
 
   const ent5 = 
-  "English text missing..."
+  "EMost important of all was the happiness of living with Nappe every day. Missed forever ♥️"
 
   const svt6 = 
   "Han var en på miljonen ♥️♥️♥️";
 
   const ent6 = 
-  "English text missing..."
+  "He was one in a Million ♥️♥️♥️"
 
   return (
     <div className="gallery-page">
       <div className="text-over-img">
         <h1>Napoleon Viking</h1>
-        <h2>C.I.B. SE V-12 NORD V-10 NO V-12 NO V-08 SE UCH DK UCH NO UCH
+        <h2>C.I.B. SE V-12 NORD V-10 NO V-12 NO V-08 SE CH DK CH NO CH
           <br />
-          NORD UCH FI UCH 
+          NORD CH FI CH
           <br />
           Buenazo&apos;s Viking</h2>
           <br />

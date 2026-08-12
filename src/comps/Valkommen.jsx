@@ -77,17 +77,17 @@ export default function Valkommen() {
     "Välkommen till Be A Viking Kennel och våra underbara Havanaiser som vi delat våra liv med sedan 2002. Vårt mål är att föda upp friska, sociala och vackra Havanaiser som sprider glädje hos sina ägare och familjer. Det ställer krav på mental och exteriör sundhet. Havanaisen ska vara en liten energisk hund, välkroppad med livliga och energiska rörelser och ett ljuvligt temperament.";
 
   const ent1 =
-    "Welcome to Be A Viking Kennel and our wonderful Havanaise dogs with which we have shared our lives since 2002. Our aim is to breed healthy, social and beautiful Havanaise dogs...";
+    "Welcome to Be A Viking Kennel and our wonderful Havanese, a breed we have shared our lives with since 2002. Our goal is to breed healthy, sociable, and beautiful Havanese that bring joy to their owners and families. This requires soundness in both temperament and conformation. The Havanese is a small, energetic dog—well-built, with lively, spirited movement and a delightful temperament.";
 
   const svt2 =
     "Under åren har vi haft ett fåtal kullar då tid och omsorg om valparna är viktigast för att de ska bli trygga och glada små hundar!";
 
   const ent2 =
-    "Over the years, we have had only a few litters, as giving our puppies the time, care, and attention they need is our highest priority, helping them grow into happy, confident little dogs.";
+    "Over the years, we have had only a few litters, as time and dedicated care for the puppies are paramount to ensuring they grow into confident, happy little dogs!";
 
   const svt3 = "Välkommen att titta runt på vår hemsida!";
 
-  const ent3 = "Feel free to have a look around our website!";
+  const ent3 = "Feel free to browse our website!";
 
   return (
     <div className="gallery-page">

@@ -28,19 +28,19 @@ export default function Resultat() {
   "Vi har haft glädjen att våra hundar och deras avkommor har varit framgångsrika i utställningsringarna. Nedan en sammanställning på meriterade hundar utan inbördes ordning;"
 
   const ent1 = 
-  "English text missing...";
+  "We have had the pleasure of seeing our dogs and their offspring succeed in the show ring. Below is a list of titled dogs, in no particular order:";
 
   const svt2 = 
   "Meriterade avkommor till våra hundar under annat prefix:"
 
   const ent2 = 
-  "English text missing...";
+  "Accomplished offspring of our dogs under other prefixes:";
 
   const svt3 = 
-  "European Winner Show 2015 Best in Show 4 Uppfödargrupp "
+  "World Dog Show 2014 Uppfödargrupp Helsingfors Finland"
 
   const ent3 = 
-  "English text missing...";
+  "World Dog Show 2014 Breeders Group Helsinki Finland";
 
   return (
     <div className="gallery-page">
@@ -273,7 +273,7 @@ export default function Resultat() {
 
       <div className="text-over-img">
         <h3>
-          World Dog Show 2014
+          
         </h3>
       </div>
 

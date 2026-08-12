@@ -11,11 +11,11 @@ export default function Valkommen() {
 
   const svt1 = "Anna-Karin och Ida Jernberg";
 
-  const ent1 = "English text missing...";
+  const ent1 = "Anna-Karin and Ida Jernberg";
 
   const svt2 = "Välkommen att kontakta oss om du har frågor!";
 
-  const ent2 = "English text missing...";
+  const ent2 = "Please feel free to contact us if you have any questions.";
 
   return (
     <div className="gallery-page">

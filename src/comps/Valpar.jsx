@@ -44,25 +44,25 @@ export default function Valpar() {
   const svt1 =
     "Är du intresserad av en valp efter våra hundar så är du välkommen att höra av dig! Vi hälsotestar våra hundar regelbundet och följer SKK's grundregler, avelspolicy samt BBHC's avelsrekommendationer. BBHC har även förslag på frågor att ställa till uppfödare inför planerna på att köpa en valp. Nedan hittar du en länk till dessa.";
 
-  const ent1 = "English text missing...";
+  const ent1 = "If you are interested in a puppy from our dogs, please feel free to get in touch! We regularly health-test our dogs and adhere to the Swedish Kennel Club’s (SKK) basic rules and breeding policy, as well as the BBHC’s breeding recommendations. The BBHC also provides a list of suggested questions to ask breeders when planning to buy a puppy; you can find a link to these below.";
 
   const svt2 =
     "Vi är naturligtvis angelägna om att lära känna dig, din familj och den omgivande miljön som valpen kommer flytta till. Vi finns tillgängliga för våra valpköpare för frågor, tips och stöd, inte bara under valptiden utan även fortsatt. För att undvika små problem och onödiga veterinärbesök så delar vi gärna med oss av bra tips och erfarenheter.";
 
-  const ent2 = "English text missing...";
+  const ent2 = "We are, of course, keen to get to know you, your family, and the environment where the puppy will be living. We remain available to our puppy buyers for questions, advice, and support—not just during the puppy stage, but long-term. We are happy to share useful tips and our own experiences to help prevent minor issues and avoid unnecessary veterinary visits.";
 
   const svt3 = "Vi vill att ni ska få ett fantastiskt liv tillsammans!";
 
-  const ent3 = "English text missing...";
+  const ent3 = "We want you to have a wonderful life together!";
 
   const svt4 =
     "Våra hundar som används i avel är hälsotestade utan anmärkning avseende hjärta, ögon och knän 0/0 enligt rasklubbens riktlinjer. De är utställda med fina resultat vilket visar på utmärkt mentalitet och exteriör.";
 
-  const ent4 = "English text missing...";
+  const ent4 = "The dogs we use for breeding have passed health screenings with no remarks regarding heart, eyes, and knees (graded 0/0), in accordance with the breed club’s guidelines. They have also achieved excellent results in the show ring, demonstrating outstanding temperament and conformation.";
 
   const svt5 = "Anna-Karin och Ida Jernberg";
 
-  const ent5 = "English text missing...";
+  const ent5 = "Anna-Karin and Ida Jernberg";
 
   return (
     <div className="gallery-page">

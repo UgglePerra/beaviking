@@ -1,4 +1,5 @@
 import "./comps.css";
+import img0 from "../imgs/valpar/img0.jpeg";
 import img1 from "../imgs/valpar/img1.jpeg";
 import img5 from "../imgs/valpar/img5.jpeg";
 import img6 from "../imgs/valpar/img6.jpeg";
@@ -41,6 +42,15 @@ export default function Valpar() {
 
   const language = useSelector((state) => state.language.language);
 
+  const svtx1 = 
+  "Vi väntar valpar!! Efter ett långt uppehåll väntar vi nu äntligen Viking valpar 🥰 Glädjen är stor då kärlek uppstått mellan Minnie och Jax ❤️❤️ Båda har underbara och kärleksfulla temperament samt mycket fina pälsar! De är hälsoundersökta utan anmärkning; ögon, hjärta och patella. Minnie och Jax är svenska och danska Champions samt Københavnsvinder 2025 då de förra hösten blev Bästa Tik och Bästa Hane i Roskilde Danmark❣️";
+  
+  const svtx2 = "KBHV-25 KBHJV-25 SE UCH DK UCH Evan’s Aha Magic Be A Viking";
+
+  const svtx3 = "FJORDJV-25 KBHJV-25 SE UCH DK UCH Minitrix Double Gold";
+
+  const entx1='We are expecting puppies!! After a long break, we are finally expecting "Viking" puppies 🥰 We are overjoyed that romance has blossomed between Minnie and Jax ❤️❤️ Both have wonderful, loving temperaments and beautiful coats! They have passed all health screenings—eyes, heart, and patella—with excellent results. Minnie and Jax are Swedish and Danish Champions, as well as Copenhagen Winners 2025, having been awarded Best Bitch and Best Dog in Roskilde, Denmark, last autumn❣️';
+
   const svt1 =
     "Är du intresserad av en valp efter våra hundar så är du välkommen att höra av dig! Vi hälsotestar våra hundar regelbundet och följer SKK's grundregler, avelspolicy samt BBHC's avelsrekommendationer. BBHC har även förslag på frågor att ställa till uppfödare inför planerna på att köpa en valp. Nedan hittar du en länk till dessa.";
 
@@ -66,8 +76,35 @@ export default function Valpar() {
 
   return (
     <div className="gallery-page">
+
+      <>
+      <h1>
+         {language === "sv" ? "Valpar" : "Puppies"}
+      </h1>
+
       <div className="text-over-img">
-        <h1>{language === "sv" ? "Valpar" : "Puppies"}</h1>
+        <h3>
+          {language === "sv" ? "13 augusti 2026" : "August 13, 2026"}
+        </h3>
+        {language === "sv" ? svtx1 : entx1}
+        <br /><br /><br />
+        {language === "sv" ? svtx2 : svtx2} 
+        <br />
+   
+        <span style={{fontSize: "30px"}}>
+          ❤️
+        </span>
+        
+        <br />
+
+        {language === "sv" ? svtx3 : svtx3}
+      </div>
+      </>
+
+      {img_maker(img0)}
+
+      <div className="text-over-img">
+       
         {language === "sv" ? svt1 : ent1}
         <br />
         <br />

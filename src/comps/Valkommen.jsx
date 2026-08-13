@@ -89,6 +89,10 @@ export default function Valkommen() {
 
   const ent3 = "Feel free to browse our website!";
 
+  const svt4 = 'Vi väntar valpar! Mer information under flik "Nyheter".';
+
+  const ent4 = 'We are expecting puppies! More info in "News" tab.';
+
   return (
     <div className="gallery-page">
       <div className="text-over-img">
@@ -102,6 +106,11 @@ export default function Valkommen() {
         <br />
         <br />
           {language === "sv" ? svt3 : ent3}
+        <br />
+        <br />
+        <span style={{fontSize: "24px", fontWeight:"bold"}}>
+          {language === "sv" ? svt4 : ent4}
+        </span>
       </div>
 
       <div className="dog-image">

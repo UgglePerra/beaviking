@@ -159,7 +159,7 @@ const svt12 =
           {language === "sv" ? "13 augusti 2026" : "August 13, 2026"}
         </h3>
         {language === "sv" ? svtx1 : entx1}
-        <br /><br /><br /><br />
+        <br /><br />
         {language === "sv" ? svtx2 : entx2} 
    
         <h1>

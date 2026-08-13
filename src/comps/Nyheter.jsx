@@ -22,11 +22,7 @@ export default function Nyheter() {
 
   const svtx3 = "FJORDJV-25 KBHJV-25 SE UCH DK UCH Minitrix Double Gold";
 
-  const entx1="";
-
-  const entx2="";
-
-  const entx3="";
+  const entx1='We are expecting puppies!! After a long break, we are finally expecting "Viking" puppies 🥰 We are overjoyed that romance has blossomed between Minnie and Jax ❤️❤️ Both have wonderful, loving temperaments and beautiful coats! They have passed all health screenings—eyes, heart, and patella—with excellent results. Minnie and Jax are Swedish and Danish Champions, as well as Copenhagen Winners 2025, having been awarded Best Bitch and Best Dog in Roskilde, Denmark, last autumn ';
 
   const svt1 = "Vicke blev andra bästa hane med fin kritik - en mycket regnig förmiddag i Borås."
 
@@ -160,7 +156,7 @@ const svt12 =
         </h3>
         {language === "sv" ? svtx1 : entx1}
         <br /><br /><br />
-        {language === "sv" ? svtx2 : entx2} 
+        {language === "sv" ? svtx2 : svtx2} 
         <br />
    
         <span style={{fontSize: "30px"}}>
@@ -169,7 +165,7 @@ const svt12 =
         
         <br />
 
-        {language === "sv" ? svtx3 : entx3}
+        {language === "sv" ? svtx3 : svtx3}
       </div>
       </>
 

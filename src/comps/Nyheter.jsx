@@ -1,4 +1,5 @@
 import "./comps.css"
+import img0 from "../imgs/nyheter/img0.jpeg";
 import img1 from "../imgs/nyheter/img1.jpeg";
 import img2 from "../imgs/nyheter/img2.jpeg";
 import img3 from "../imgs/nyheter/img3.jpeg";
@@ -14,8 +15,20 @@ export default function Nyheter() {
 
   const language = useSelector((state) => state.language.language);
 
-  const svt1 = 
-  "Vicke blev andra bästa hane med fin kritik - en mycket regnig förmiddag i Borås."
+  const svtx1 = 
+  "Vi väntar valpar!! Efter ett långt uppehåll väntar vi nu äntligen Viking valpar 🥰 Glädjen är stor då kärlek uppstått mellan Minnie och Jax ❤️❤️ Båda har underbara och kärleksfulla temperament samt mycket fina pälsar! De är hälsoundersökta utan anmärkning; ögon, hjärta och patella. Minnie och Jax är svenska och danska Champions samt Københavnsvinder 2025 då de förra hösten blev Bästa Tik och Bästa Hane i Roskilde Danmark❣️";
+  
+  const svtx2 = "KBHV-25 KBHJV-25 SE UCH DK UCH Evan’s Aha Magic Be A Viking";
+
+  const svtx3 = "FJORDJV-25 KBHJV-25 SE UCH DK UCH Minitrix Double Gold";
+
+  const entx1="";
+
+  const entx2="";
+
+  const entx3="";
+
+  const svt1 = "Vicke blev andra bästa hane med fin kritik - en mycket regnig förmiddag i Borås."
 
   const ent1 = 
   "Vicke placed second best male with a fine critique – on a very rainy morning in Borås.";
@@ -136,10 +149,28 @@ const svt12 =
 
   return (
     <div className="gallery-page">
-      
+      <>
       <h1>
         {language === "sv" ? "Nyheter" : "News"}
       </h1>
+
+      <div className="text-over-img">
+        <h3>
+          {language === "sv" ? "13 augusti 2026" : "August 13, 2026"}
+        </h3>
+        {language === "sv" ? svtx1 : entx1}
+        <br /><br /><br /><br />
+        {language === "sv" ? svtx2 : entx2} 
+   
+        <h1>
+        ❤️
+        </h1>
+
+        {language === "sv" ? svtx3 : entx3}
+      </div>
+      </>
+
+      {img_maker(img0)}
 
       <div className="text-over-img">
         <h3>

@@ -17,12 +17,14 @@ export default function Nyheter() {
   const svty1 =
     "Idag fyller de 13 år!!! Stort grattis till Bella ❤️ Holger ❤️ Vickan ❤️ Bell ❤️ friska och pigga underbaringar 💖💖💖💖 Nytagna och gamla foton!";
 
-  const enty1 = svty1;
+  const enty1 = 
+  "Today they turn 13 years!!! Huge congratulations to Bella ❤️ Holger ❤️ Vickan ❤️ Bell ❤️ - healthy, lively, wonderful darlings 💖💖💖💖 New and old photos!";
 
   const svty2 =
     "Tack till Eva o Jan, Anna o Linnea, Ann-Marie o Paul för att ni tar hand om dem på bästa sätt 💕💕💕";
 
-  const enty2 = svty2;
+  const enty2 = 
+  "Thanks to Eva & Jan, Anna & Linnea, and Ann-Marie & Paul for taking such wonderful care of them 💕💕💕";
 
   const svtx1 =
     "Vi väntar valpar!! Efter ett långt uppehåll väntar vi nu äntligen Viking valpar 🥰 Glädjen är stor då kärlek uppstått mellan Minnie och Jax ❤️❤️ Båda har underbara och kärleksfulla temperament samt mycket fina pälsar! De är hälsoundersökta utan anmärkning; ögon, hjärta och patella. Minnie och Jax är svenska och danska Champions samt Københavnsvinder 2025 då de förra hösten blev Bästa Tik och Bästa Hane i Roskilde Danmark❣️";
@@ -143,7 +145,7 @@ export default function Nyheter() {
           <br />
           <br />
           
-          {language === "sv" ? svty2 : svty2}
+          {language === "sv" ? svty2 : enty2}
           <br />
         </div>
 

@@ -6,7 +6,7 @@ import img3 from "../imgs/nyheter/img3.jpeg";
 import img4 from "../imgs/nyheter/img4.jpeg";
 import img5 from "../imgs/nyheter/img5.jpeg";
 import img6 from "../imgs/nyheter/img6.jpeg";
-import img7 from "../imgs/nyheter/img7.jpg";
+import img8 from "../imgs/nyheter/img8.jpg";
 import img_maker from "./imagemaker/ImageMaker";
 import React from "react";
 import { useSelector } from "react-redux";
@@ -147,7 +147,7 @@ export default function Nyheter() {
           <br />
         </div>
 
-        {img_maker(img7)}
+        {img_maker(img8)}
 
         <div className="text-over-img">
           <h3>{language === "sv" ? "13 augusti 2026" : "August 13, 2026"}</h3>

@@ -18,7 +18,7 @@ export default function Vickan() {
       <div className="text-over-img">
         <h1>Vickan</h1>
         <h2>
-          SE V-15 FI JV-14 SE UCH FI UCH NO UCH
+          C.I.B SE V-15 FI JV-14 SE UCH FI UCH NO UCH
           <br />
           Be A Viking Berylla Boffin
         </h2>

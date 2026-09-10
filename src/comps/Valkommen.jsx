@@ -89,26 +89,24 @@ export default function Valkommen() {
 
   const ent3 = "Feel free to browse our website!";
 
-  const svt4 = 'Vi väntar valpar! Mer information under Nyheter!';
+  const svt4 = "Vi väntar valpar! Mer information under Nyheter!";
 
-  const ent4 = 'We are expecting puppies! More info, see News!';
+  const ent4 = "We are expecting puppies! More info, see News!";
 
   return (
     <div className="gallery-page">
       <div className="text-over-img">
-        <h1>
-          {language === "sv" ? "Välkommen" : "Welcome"}
-        </h1>
-          {language === "sv" ? svt1 : ent1}
+        <h1>{language === "sv" ? "Välkommen" : "Welcome"}</h1>
+        {language === "sv" ? svt1 : ent1}
         <br />
         <br />
-          {language === "sv" ? svt2 : ent2}
+        {language === "sv" ? svt2 : ent2}
         <br />
         <br />
-          {language === "sv" ? svt3 : ent3}
+        {language === "sv" ? svt3 : ent3}
         <br />
         <br />
-        <span style={{fontSize: "24px", fontWeight:"bold"}}>
+        <span style={{ fontSize: "24px", fontWeight: "bold" }}>
           {language === "sv" ? svt4 : ent4}
         </span>
       </div>

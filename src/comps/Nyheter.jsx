@@ -142,7 +142,7 @@ export default function Nyheter() {
           {language === "sv" ? svty1 : enty1}
           <br />
           <br />
-          <br />
+          
           {language === "sv" ? svty2 : svty2}
           <br />
         </div>

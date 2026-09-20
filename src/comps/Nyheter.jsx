@@ -6,7 +6,9 @@ import img3 from "../imgs/nyheter/img3.jpeg";
 import img4 from "../imgs/nyheter/img4.jpeg";
 import img5 from "../imgs/nyheter/img5.jpeg";
 import img6 from "../imgs/nyheter/img6.jpeg";
-import img8 from "../imgs/nyheter/img8.jpg";
+import img8 from "../imgs/nyheter/img8.jpeg";
+import img9 from "../imgs/nyheter/img9.jpeg";
+import img10 from "../imgs/nyheter/img10.jpeg";
 import img_maker from "./imagemaker/ImageMaker";
 import React from "react";
 import { useSelector } from "react-redux";
@@ -14,17 +16,29 @@ import { useSelector } from "react-redux";
 export default function Nyheter() {
   const language = useSelector((state) => state.language.language);
 
+  const svtz1 = 
+  "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Det blev fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰"
+
+  const entz1 = 
+  "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Det blev fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰"
+
+  const svtz2 =
+  "Se mer om föräldrarna nedan."
+
+  const entz2 =
+  "Se mer om föräldrarna nedan."
+
   const svty1 =
     "Idag fyller de 13 år!!! Stort grattis till Bella ❤️ Holger ❤️ Vickan ❤️ Bell ❤️ friska och pigga underbaringar 💖💖💖💖 Nytagna och gamla foton!";
 
-  const enty1 = 
-  "Today they turn 13 years!!! Huge congratulations to Bella ❤️ Holger ❤️ Vickan ❤️ Bell ❤️ - healthy, lively, wonderful darlings 💖💖💖💖 New and old photos!";
+  const enty1 =
+    "Today they turn 13 years!!! Huge congratulations to Bella ❤️ Holger ❤️ Vickan ❤️ Bell ❤️ - healthy, lively, wonderful darlings 💖💖💖💖 New and old photos!";
 
   const svty2 =
     "Tack till Eva o Jan, Anna o Linnea, Ann-Marie o Paul för att ni tar hand om dem på bästa sätt 💕💕💕";
 
-  const enty2 = 
-  "Thanks to Eva & Jan, Anna & Linnea, and Ann-Marie & Paul for taking such wonderful care of them 💕💕💕";
+  const enty2 =
+    "Thanks to Eva & Jan, Anna & Linnea, and Ann-Marie & Paul for taking such wonderful care of them 💕💕💕";
 
   const svtx1 =
     "Vi väntar valpar!! Efter ett långt uppehåll väntar vi nu äntligen Viking valpar 🥰 Glädjen är stor då kärlek uppstått mellan Minnie och Jax ❤️❤️ Båda har underbara och kärleksfulla temperament samt mycket fina pälsar! De är hälsoundersökta utan anmärkning; ögon, hjärta och patella. Minnie och Jax är svenska och danska Champions samt Københavnsvinder 2025 då de förra hösten blev Bästa Tik och Bästa Hane i Roskilde Danmark❣️";
@@ -138,13 +152,25 @@ export default function Nyheter() {
         <h1>{language === "sv" ? "Nyheter" : "News"}</h1>
 
         <div className="text-over-img">
+         
+          {language === "sv" ? svtz1 : entz1}
+          <br /><br />
+          {language === "sv" ? svtz2 : entz2}
+
+        </div>
+
+        {img_maker(img9)}
+        <br />
+        {img_maker(img10)}
+
+        <div className="text-over-img">
           <h3>
             {language === "sv" ? "10 September 2026" : "September 10, 2026"}
           </h3>
           {language === "sv" ? svty1 : enty1}
           <br />
           <br />
-          
+
           {language === "sv" ? svty2 : enty2}
           <br />
         </div>

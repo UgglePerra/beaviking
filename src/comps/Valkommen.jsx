@@ -5,6 +5,8 @@ import img3 from "../imgs/valkommen/img3.jpeg";
 import img4 from "../imgs/valkommen/img4.jpeg";
 import img5 from "../imgs/valkommen/img5.jpeg";
 import img6 from "../imgs/valkommen/img6.jpeg";
+import img7 from "../imgs/valkommen/img7.jpeg";
+import img8 from "../imgs/valkommen/img8.jpeg";
 import simg1 from "../imgs/valkommen/simg1.jpeg";
 import simg2 from "../imgs/valkommen/simg2.jpeg";
 import simg3 from "../imgs/valkommen/simg3.jpeg";
@@ -89,9 +91,9 @@ export default function Valkommen() {
 
   const ent3 = "Feel free to browse our website!";
 
-  const svt4 = "Vi väntar valpar! Mer information under Nyheter!";
+  const svt4 = "Vi har fått valpar!!";
 
-  const ent4 = "We are expecting puppies! More info, see News!";
+  const ent4 = "Vi har fått valpar!!";
 
   return (
     <div className="gallery-page">
@@ -109,6 +111,11 @@ export default function Valkommen() {
         <span style={{ fontSize: "24px", fontWeight: "bold" }}>
           {language === "sv" ? svt4 : ent4}
         </span>
+        <br /><br />
+        {img_maker(img7)}
+        <br />
+        {img_maker(img8)}
+        <br />
       </div>
 
       <div className="dog-image">

@@ -5,6 +5,8 @@ import img5 from "../imgs/valpar/img5.jpeg";
 import img6 from "../imgs/valpar/img6.jpeg";
 import img7 from "../imgs/valpar/img7.jpeg";
 import img8 from "../imgs/valpar/img8.jpeg";
+import img9 from "../imgs/valpar/img9.jpeg";
+import img10 from "../imgs/valpar/img10.jpeg";
 import simg1 from "../imgs/valpar/simg1.jpeg";
 import simg2 from "../imgs/valpar/simg2.jpeg";
 import simg3 from "../imgs/valpar/simg3.jpeg";
@@ -41,6 +43,18 @@ export default function Valpar() {
   ];
 
   const language = useSelector((state) => state.language.language);
+
+  const svtz1 = 
+  "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Det blev fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰"
+
+  const entz1 = 
+  "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Det blev fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰"
+
+  const svtz2 =
+  "Se mer om föräldrarna nedan."
+
+  const entz2 =
+  "Se mer om föräldrarna nedan."
 
   const svtx1 = 
   "Vi väntar valpar!! Efter ett långt uppehåll väntar vi nu äntligen Viking valpar 🥰 Glädjen är stor då kärlek uppstått mellan Minnie och Jax ❤️❤️ Båda har underbara och kärleksfulla temperament samt mycket fina pälsar! De är hälsoundersökta utan anmärkning; ögon, hjärta och patella. Minnie och Jax är svenska och danska Champions samt Københavnsvinder 2025 då de förra hösten blev Bästa Tik och Bästa Hane i Roskilde Danmark❣️";
@@ -81,6 +95,18 @@ export default function Valpar() {
       <h1>
          {language === "sv" ? "Valpar" : "Puppies"}
       </h1>
+
+      <div className="text-over-img">
+         
+          {language === "sv" ? svtz1 : entz1}
+          <br /><br />
+          {language === "sv" ? svtz2 : entz2}
+
+        </div>
+
+        {img_maker(img9)}
+        <br />
+        {img_maker(img10)}
 
       <div className="text-over-img">
         <h3>

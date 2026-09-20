@@ -91,9 +91,9 @@ export default function Valkommen() {
 
   const ent3 = "Feel free to browse our website!";
 
-  const svt4 = "Vi har fått valpar!!";
+  const svt4 = "Vi har fått valpar!! Se mer under Nyheter och Valpar!";
 
-  const ent4 = "Vi har fått valpar!!";
+  const ent4 = "Vi har fått valpar!! Se mer under Nyheter och Valpar!";
 
   return (
     <div className="gallery-page">
@@ -111,7 +111,8 @@ export default function Valkommen() {
         <span style={{ fontSize: "24px", fontWeight: "bold" }}>
           {language === "sv" ? svt4 : ent4}
         </span>
-        <br /><br />
+        <br />
+        <br />
         {img_maker(img7)}
         <br />
         {img_maker(img8)}

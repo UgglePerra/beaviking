@@ -60,7 +60,11 @@ export default function Louis () {
         <h1>Louis </h1>
         <h2>SE JV-13 DK JV-13 SE UCH DK UCH 
           <br />
-          Skystar&apos;s Louis</h2>
+          Skystar&apos;s Louis
+        </h2>
+
+        {img_maker(img2)}
+
         <div>
           <br />
           {language === "sv" ? svt1 : ent1}
@@ -78,10 +82,6 @@ export default function Louis () {
       </div>
       
       {img_maker(img1)}
-
-      <div className="space-between-imgs"></div>
-            
-      {img_maker(img2)}
 
       <div className="space-between-imgs"></div>
             

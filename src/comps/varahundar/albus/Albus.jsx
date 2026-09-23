@@ -35,6 +35,9 @@ export default function Albus () {
       <div className="text-over-img">
         <h1>Albus</h1>
         <h2>Tilevis Eddie be A Viking</h2>
+
+        {img_maker(img1)}
+
         <div>
           <br />
           {language === "sv" ? svt1 : ent1}
@@ -44,10 +47,6 @@ export default function Albus () {
           {language === "sv" ? svt3 : ent3}
         </div>
       </div>
-
-      {img_maker(img1)}
-
-      <div className="space-between-imgs"></div>
 
       {img_maker(img2)}
 

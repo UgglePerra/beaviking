@@ -7,6 +7,7 @@ import img5 from "./imgs/img5.jpeg";
 import img6 from "./imgs/img6.jpeg";
 import img7 from "./imgs/img7.jpeg";
 import img8 from "./imgs/img8.jpeg";
+import img9 from "./imgs/img9.jpeg";
 import img_maker from "../../imagemaker/ImageMaker";
 import React from "react";
 import { useSelector } from "react-redux";
@@ -125,6 +126,9 @@ export default function Minnie() {
           <br />
           Evan’s Aha Magic Be A Viking
         </h2>
+
+        {img_maker(img9)}
+
         <br />
         {language === "sv" ? svt1 : ent1}
         <br />

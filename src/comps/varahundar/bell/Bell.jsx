@@ -51,6 +51,9 @@ export default function Bell () {
         <h1>Bell❤️</h1>
         <h2>EUW-15 JWW-14 NO JV-14 FI UCH NO UCH SE UCH <br />
         Be A Viking Bell Gamgee</h2>
+
+        {img_maker(img1)}
+
         <br />
         {language === "sv" ? svt1 : ent1}
         <br /><br />
@@ -61,9 +64,7 @@ export default function Bell () {
         {language === "sv" ? svt4: ent4}
       </div>
 
-      {img_maker(img1)}
-
-      <div className="space-between-imgs"></div>
+     
 
       {img_maker(img2)}
       

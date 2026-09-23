@@ -6,6 +6,7 @@ import img4 from "./imgs/img4.jpeg";
 import img5 from "./imgs/img5.jpeg";
 import img7 from "./imgs/img7.jpeg";
 import img8 from "./imgs/img8.jpeg";
+import img9 from "./imgs/img9.jpeg";
 import mov2 from "./imgs/mov2.mp4";
 import img_maker from "../../imagemaker/ImageMaker";
 import React from "react";
@@ -142,6 +143,9 @@ export default function Vicke() {
           <h2>SE UCH FI UCH 
             <br />
             Tilevis Flitwick Be A Viking</h2>
+
+          {img_maker(img9)}
+
           <div>
             <br />
             {language === "sv" ? svt1 : ent1}

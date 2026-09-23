@@ -17,16 +17,16 @@ export default function Nyheter() {
   const language = useSelector((state) => state.language.language);
 
   const svtz1 = 
-  "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Det blev fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰"
+  "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 föddes 14 september 2026. Mor och valpar mår bra och Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰"
 
   const entz1 = 
-  "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Det blev fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰"
+  "We are so happy – our puppies by Minnie and Jax have arrived! There are four girls and three boys ❤️❤️❤️❤️💙💙💙, born on September 14, 2026. Mom and puppies are all well and Minnie is such a wonderful mom. Thank you, Jenny, for letting Jax be the father of the puppies 🥰"
 
   const svtz2 =
   "Se mer om föräldrarna nedan."
 
   const entz2 =
-  "Se mer om föräldrarna nedan."
+  "Read about the parents Minnie and Jax below."
 
   const svty1 =
     "Idag fyller de 13 år!!! Stort grattis till Bella ❤️ Holger ❤️ Vickan ❤️ Bell ❤️ friska och pigga underbaringar 💖💖💖💖 Nytagna och gamla foton!";

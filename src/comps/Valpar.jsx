@@ -44,37 +44,37 @@ export default function Valpar() {
 
   const language = useSelector((state) => state.language.language);
 
-  const svtz1 = 
-  "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 föddes 14 september 2026. Mor och valpar mår bra och Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰"
+  const svtz1 =
+    "Vi är så glada - nu har våra valpar efter Minnie och Jax kommit! Fyra flickor och tre pojkar ❤️❤️❤️❤️💙💙💙 föddes 14 september 2026. Mor och valpar mår bra och Minnie är en så duktig mamma. Tack Jenny för att Jax fick bli pappa till valparna 🥰";
 
-  const entz1 = 
-  "We are so happy – our puppies by Minnie and Jax have arrived! There are four girls and three boys ❤️❤️❤️❤️💙💙💙, born on September 14, 2026. Mom and puppies are all well and Minnie is such a wonderful mom. Thank you, Jenny, for letting Jax be the father of the puppies 🥰"
+  const entz1 =
+    "We are so happy – our puppies by Minnie and Jax have arrived! There are four girls and three boys ❤️❤️❤️❤️💙💙💙, born on September 14, 2026. Mom and puppies are all well and Minnie is such a wonderful mom. Thank you, Jenny, for letting Jax be the father of the puppies 🥰";
 
-  const svtz2 =
-  "Se mer om föräldrarna nedan."
+  const svtz2 = "Se mer om föräldrarna nedan.";
 
-  const entz2 =
-  "Read about the parents Minnie and Jax below."
+  const entz2 = "Read about the parents Minnie and Jax below.";
 
+  const svtx1 =
+    "Vi väntar valpar!! Efter ett långt uppehåll väntar vi nu äntligen Viking valpar 🥰 Glädjen är stor då kärlek uppstått mellan Minnie och Jax ❤️❤️ Båda har underbara och kärleksfulla temperament samt mycket fina pälsar! De är hälsoundersökta utan anmärkning; ögon, hjärta och patella. Minnie och Jax är svenska och danska Champions samt Københavnsvinder 2025 då de förra hösten blev Bästa Tik och Bästa Hane i Roskilde Danmark❣️";
 
-  const svtx1 = 
-  "Vi väntar valpar!! Efter ett långt uppehåll väntar vi nu äntligen Viking valpar 🥰 Glädjen är stor då kärlek uppstått mellan Minnie och Jax ❤️❤️ Båda har underbara och kärleksfulla temperament samt mycket fina pälsar! De är hälsoundersökta utan anmärkning; ögon, hjärta och patella. Minnie och Jax är svenska och danska Champions samt Københavnsvinder 2025 då de förra hösten blev Bästa Tik och Bästa Hane i Roskilde Danmark❣️";
-  
   const svtx2 = "KBHV-25 KBHJV-25 SE UCH DK UCH Evan’s Aha Magic Be A Viking";
 
   const svtx3 = "FJORDJV-25 KBHJV-25 SE UCH DK UCH Minitrix Double Gold";
 
-  const entx1='We are expecting puppies!! After a long break, we are finally expecting "Viking" puppies 🥰 We are overjoyed that romance has blossomed between Minnie and Jax ❤️❤️ Both have wonderful, loving temperaments and beautiful coats! They have passed all health screenings—eyes, heart, and patella—with excellent results. Minnie and Jax are Swedish and Danish Champions, as well as Copenhagen Winners 2025, having been awarded Best Bitch and Best Dog in Roskilde, Denmark, last autumn❣️';
+  const entx1 =
+    'We are expecting puppies!! After a long break, we are finally expecting "Viking" puppies 🥰 We are overjoyed that romance has blossomed between Minnie and Jax ❤️❤️ Both have wonderful, loving temperaments and beautiful coats! They have passed all health screenings—eyes, heart, and patella—with excellent results. Minnie and Jax are Swedish and Danish Champions, as well as Copenhagen Winners 2025, having been awarded Best Bitch and Best Dog in Roskilde, Denmark, last autumn❣️';
 
   const svt1 =
     "Är du intresserad av en valp efter våra hundar så är du välkommen att höra av dig! Vi hälsotestar våra hundar regelbundet och följer SKK's grundregler, avelspolicy samt BBHC's avelsrekommendationer. BBHC har även förslag på frågor att ställa till uppfödare inför planerna på att köpa en valp. Nedan hittar du en länk till dessa.";
 
-  const ent1 = "If you are interested in a puppy from our dogs, please feel free to get in touch! We regularly health-test our dogs and adhere to the Swedish Kennel Club’s (SKK) basic rules and breeding policy, as well as the BBHC’s breeding recommendations. The BBHC also provides a list of suggested questions to ask breeders when planning to buy a puppy; you can find a link to these below.";
+  const ent1 =
+    "If you are interested in a puppy from our dogs, please feel free to get in touch! We regularly health-test our dogs and adhere to the Swedish Kennel Club’s (SKK) basic rules and breeding policy, as well as the BBHC’s breeding recommendations. The BBHC also provides a list of suggested questions to ask breeders when planning to buy a puppy; you can find a link to these below.";
 
   const svt2 =
     "Vi är naturligtvis angelägna om att lära känna dig, din familj och den omgivande miljön som valpen kommer flytta till. Vi finns tillgängliga för våra valpköpare för frågor, tips och stöd, inte bara under valptiden utan även fortsatt. För att undvika små problem och onödiga veterinärbesök så delar vi gärna med oss av bra tips och erfarenheter.";
 
-  const ent2 = "We are, of course, keen to get to know you, your family, and the environment where the puppy will be living. We remain available to our puppy buyers for questions, advice, and support—not just during the puppy stage, but long-term. We are happy to share useful tips and our own experiences to help prevent minor issues and avoid unnecessary veterinary visits.";
+  const ent2 =
+    "We are, of course, keen to get to know you, your family, and the environment where the puppy will be living. We remain available to our puppy buyers for questions, advice, and support—not just during the puppy stage, but long-term. We are happy to share useful tips and our own experiences to help prevent minor issues and avoid unnecessary veterinary visits.";
 
   const svt3 = "Vi vill att ni ska få ett fantastiskt liv tillsammans!";
 
@@ -83,7 +83,8 @@ export default function Valpar() {
   const svt4 =
     "Våra hundar som används i avel är hälsotestade utan anmärkning avseende hjärta, ögon och knän 0/0 enligt rasklubbens riktlinjer. De är utställda med fina resultat vilket visar på utmärkt mentalitet och exteriör.";
 
-  const ent4 = "The dogs we use for breeding have passed health screenings with no remarks regarding heart, eyes, and knees (graded 0/0), in accordance with the breed club’s guidelines. They have also achieved excellent results in the show ring, demonstrating outstanding temperament and conformation.";
+  const ent4 =
+    "The dogs we use for breeding have passed health screenings with no remarks regarding heart, eyes, and knees (graded 0/0), in accordance with the breed club’s guidelines. They have also achieved excellent results in the show ring, demonstrating outstanding temperament and conformation.";
 
   const svt5 = "Anna-Karin och Ida Jernberg";
 
@@ -91,47 +92,40 @@ export default function Valpar() {
 
   return (
     <div className="gallery-page">
-
       <>
-      <h1>
-         {language === "sv" ? "Valpar" : "Puppies"}
-      </h1>
+        <h1>{language === "sv" ? "Valpar" : "Puppies"}</h1>
 
-      <div className="text-over-img">
-         
+        <div className="text-over-img">
           {language === "sv" ? svtz1 : entz1}
-          <br /><br />
+          <br />
+          <br />
           {language === "sv" ? svtz2 : entz2}
-
         </div>
 
         {img_maker(img9)}
         <br />
         {img_maker(img10)}
 
-      <div className="text-over-img">
-        <h3>
-          {language === "sv" ? "13 augusti 2026" : "August 13, 2026"}
-        </h3>
-        {language === "sv" ? svtx1 : entx1}
-        <br /><br /><br />
-        {language === "sv" ? svtx2 : svtx2} 
-        <br />
-   
-        <span style={{fontSize: "30px"}}>
-          ❤️
-        </span>
-        
-        <br />
+        <div className="text-over-img">
+          <h3>{language === "sv" ? "13 augusti 2026" : "August 13, 2026"}</h3>
+          {language === "sv" ? svtx1 : entx1}
+          <br />
+          <br />
+          <br />
+          {language === "sv" ? svtx2 : svtx2}
+          <br />
 
-        {language === "sv" ? svtx3 : svtx3}
-      </div>
+          <span style={{ fontSize: "30px" }}>❤️</span>
+
+          <br />
+
+          {language === "sv" ? svtx3 : svtx3}
+        </div>
       </>
 
       {img_maker(img0)}
 
       <div className="text-over-img">
-       
         {language === "sv" ? svt1 : ent1}
         <br />
         <br />

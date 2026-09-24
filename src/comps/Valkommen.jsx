@@ -93,7 +93,7 @@ export default function Valkommen() {
 
   const svt4 = "Vi har fått valpar!! Se mer under Nyheter och Valpar!";
 
-  const ent4 = "Vi har fått valpar!! Se mer under Nyheter och Valpar!";
+  const ent4 = "We have puppies!! Find out more under News and Puppies!";
 
   return (
     <div className="gallery-page">

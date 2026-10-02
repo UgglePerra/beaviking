@@ -7,6 +7,7 @@ import img7 from "../imgs/valpar/img7.jpeg";
 import img8 from "../imgs/valpar/img8.jpeg";
 import img9 from "../imgs/valpar/img9.jpeg";
 import img10 from "../imgs/valpar/img10.jpeg";
+import img11 from "../imgs/valpar/img11.jpeg";
 import simg1 from "../imgs/valpar/simg1.jpeg";
 import simg2 from "../imgs/valpar/simg2.jpeg";
 import simg3 from "../imgs/valpar/simg3.jpeg";
@@ -90,10 +91,22 @@ export default function Valpar() {
 
   const ent5 = "Anna-Karin and Ida Jernberg";
 
+  const svt6 = "Nyöppnade ögon…..som möter oss 💕"
+
+  const ent6 = "Nyöppnade ögon…..som möter oss 💕"
+
   return (
     <div className="gallery-page">
       <>
         <h1>{language === "sv" ? "Valpar" : "Puppies"}</h1>
+
+        <div className="text-over-img">
+          {language === "sv" ? svt6 : ent6}
+          <br />
+         
+        </div>
+
+        {img_maker(img11)}
 
         <div className="text-over-img">
           {language === "sv" ? svtz1 : entz1}

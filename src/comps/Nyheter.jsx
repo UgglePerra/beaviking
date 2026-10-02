@@ -9,6 +9,7 @@ import img6 from "../imgs/nyheter/img6.jpeg";
 import img8 from "../imgs/nyheter/img8.jpeg";
 import img9 from "../imgs/nyheter/img9.jpeg";
 import img10 from "../imgs/nyheter/img10.jpeg";
+import img11 from "../imgs/nyheter/img11.jpeg";
 import img_maker from "./imagemaker/ImageMaker";
 import React from "react";
 import { useSelector } from "react-redux";
@@ -146,10 +147,23 @@ export default function Nyheter() {
 
   const ent20 = "Congratulations to Jenny and Jax!!";
 
+  const svt21 = "Nyöppnade ögon…..som möter oss 💕"
+
+  const ent21 = "Nyöppnade ögon…..som möter oss 💕"
+
   return (
     <div className="gallery-page">
       <>
         <h1>{language === "sv" ? "Nyheter" : "News"}</h1>
+
+        <div className="text-over-img">
+          {language === "sv" ? svt21 : ent21}
+          <br />
+         
+        </div>
+
+        {img_maker(img11)}
+
 
         <div className="text-over-img">
          

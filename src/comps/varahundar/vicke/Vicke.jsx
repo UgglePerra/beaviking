@@ -7,6 +7,7 @@ import img5 from "./imgs/img5.jpeg";
 import img7 from "./imgs/img7.jpeg";
 import img8 from "./imgs/img8.jpeg";
 import img9 from "./imgs/img9.jpeg";
+import img10 from "./imgs/img10.jpeg";
 import mov2 from "./imgs/mov2.mp4";
 import img_maker from "../../imagemaker/ImageMaker";
 import React from "react";
@@ -158,6 +159,9 @@ export default function Vicke() {
             <br /><br />
             {language === "sv" ? svt5 : ent5}
           </div>
+          <br />
+           {img_maker(img10)}
+
         </div>
 
         <div className="text-over-img">

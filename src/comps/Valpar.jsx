@@ -92,13 +92,13 @@ export default function Valpar() {
 
   const ent5 = "Anna-Karin and Ida Jernberg";
 
-  const svt6 = "Nyöppnade ögon…..som möter oss 💕"
+  const svt6 = "Nyöppnade ögon…..som möter oss 💕";
 
-  const ent6 = "Nyöppnade ögon…..som möter oss 💕"
+  const ent6 = "Nyöppnade ögon…..som möter oss 💕";
 
-  const svt7 = "3 veckor gamla 💕"
+  const svt7 = "3 veckor gamla 💕";
 
-  const ent7 = "3 veckor gamla 💕"
+  const ent7 = "3 veckor gamla 💕";
 
   return (
     <div className="gallery-page">
@@ -108,7 +108,6 @@ export default function Valpar() {
         <div className="text-over-img">
           {language === "sv" ? svt7 : ent7}
           <br />
-         
         </div>
 
         {img_maker(img12)}
@@ -116,7 +115,6 @@ export default function Valpar() {
         <div className="text-over-img">
           {language === "sv" ? svt6 : ent6}
           <br />
-         
         </div>
 
         {img_maker(img11)}

@@ -8,6 +8,7 @@ import img6 from "../imgs/valkommen/img6.jpeg";
 import img7 from "../imgs/valkommen/img7.jpeg";
 import img8 from "../imgs/valkommen/img8.jpeg";
 import img9 from "../imgs/valkommen/img9.jpeg";
+import img10 from "../imgs/valkommen/img10.jpeg";
 import simg1 from "../imgs/valkommen/simg1.jpeg";
 import simg2 from "../imgs/valkommen/simg2.jpeg";
 import simg3 from "../imgs/valkommen/simg3.jpeg";
@@ -114,9 +115,8 @@ export default function Valkommen() {
         </span>
         <br />
         <br />
-        {img_maker(img9)}
+        {img_maker(img10)}
         <br />
-        
       </div>
 
       <div className="dog-image">

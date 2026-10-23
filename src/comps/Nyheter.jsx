@@ -11,6 +11,8 @@ import img9 from "../imgs/nyheter/img9.jpeg";
 import img10 from "../imgs/nyheter/img10.jpeg";
 import img11 from "../imgs/nyheter/img11.jpeg";
 import img12 from "../imgs/nyheter/img12.jpeg";
+import img13 from "../imgs/nyheter/img13.jpeg";
+import img14 from "../imgs/nyheter/img14.jpeg";
 import img_maker from "./imagemaker/ImageMaker";
 import React from "react";
 import { useSelector } from "react-redux";
@@ -156,10 +158,25 @@ export default function Nyheter() {
 
   const ent22 = "3 veckor gamla 💕"
 
+  const svt23 = "5 veckor ❤️"
+
+  const ent23 = "5 veckor ❤️"
+
   return (
     <div className="gallery-page">
       <>
         <h1>{language === "sv" ? "Nyheter" : "News"}</h1>
+
+
+        <div className="text-over-img">
+          {language === "sv" ? svt23 : ent23}
+          <br />
+         
+        </div>
+
+        {img_maker(img13)}
+        {img_maker(img14)}
+
 
         <div className="text-over-img">
           {language === "sv" ? svt22 : ent22}
@@ -183,7 +200,6 @@ export default function Nyheter() {
          
           {language === "sv" ? svtz1 : entz1}
           <br /><br />
-          {language === "sv" ? svtz2 : entz2}
 
         </div>
 

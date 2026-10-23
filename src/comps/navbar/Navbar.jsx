@@ -65,20 +65,19 @@ export default function Navbar() {
             </Link>
 
             <Link
-              to="/Omoss"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              {language === "sv" ? "Om oss" : "About us"}
-            </Link>
-
-
-            <Link
               to="/Nyheter"
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
               {language === "sv" ? "Nyheter" : "News"}
+            </Link>
+
+             <Link
+              to="/Valpar"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              {language === "sv" ? "Valpar" : "Puppies"}
             </Link>
 
             <div className="dropdown">
@@ -213,19 +212,19 @@ export default function Navbar() {
             </Link>
 
             <Link
-              to="/Valpar"
-              className="otherlinks"
-              onClick={() => setMenuOpen(false)}
-            >
-              {language === "sv" ? "Valpar" : "Puppies"}
-            </Link>
-
-            <Link
               to="/Vård"
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
             >
               {language === "sv" ? "Skötsel och pälsvård" : "Care & Grooming"}
+            </Link>
+
+            <Link
+              to="/Omoss"
+              className="otherlinks"
+              onClick={() => setMenuOpen(false)}
+            >
+              {language === "sv" ? "Om oss" : "About us"}
             </Link>
 
             <Link

@@ -9,6 +9,8 @@ import img9 from "../imgs/valpar/img9.jpeg";
 import img10 from "../imgs/valpar/img10.jpeg";
 import img11 from "../imgs/valpar/img11.jpeg";
 import img12 from "../imgs/valpar/img12.jpeg";
+import img13 from "../imgs/nyheter/img13.jpeg";
+import img14 from "../imgs/nyheter/img14.jpeg";
 import simg1 from "../imgs/valpar/simg1.jpeg";
 import simg2 from "../imgs/valpar/simg2.jpeg";
 import simg3 from "../imgs/valpar/simg3.jpeg";
@@ -100,10 +102,22 @@ export default function Valpar() {
 
   const ent7 = "3 veckor gamla 💕";
 
+  const svt8 = "5 veckor ❤️"
+
+  const ent8 = "5 veckor ❤️"
+
   return (
     <div className="gallery-page">
       <>
         <h1>{language === "sv" ? "Valpar" : "Puppies"}</h1>
+
+        <div className="text-over-img">
+          {language === "sv" ? svt8 : ent8}
+          <br />
+        </div>
+
+        {img_maker(img13)}
+        {img_maker(img14)}
 
         <div className="text-over-img">
           {language === "sv" ? svt7 : ent7}

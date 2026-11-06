@@ -9,39 +9,31 @@ import img1 from "../../imgs/navbar/img1.jpg";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dogsOpen, setDogsOpen] = useState(false);
- 
+
   const dispatch = useDispatch();
 
-  const language = useSelector(
-    state => state.language.language
-  );
-
+  const language = useSelector((state) => state.language.language);
 
   return (
     <div className="page">
       <div className="header" style={{ backgroundImage: `url(${img1})` }}>
+        <div className="languageSelector">
+          <span
+            className={language === "sv" ? "activeFlag" : ""}
+            onClick={() => dispatch(setLanguage("sv"))}
+          >
+            🇸🇪
+          </span>
 
-  <div className="languageSelector">
+          <span
+            className={language === "en" ? "activeFlag" : ""}
+            onClick={() => dispatch(setLanguage("en"))}
+          >
+            🇬🇧
+          </span>
+        </div>
 
-    <span
-      className={language === "sv" ? "activeFlag" : ""}
-      onClick={() => dispatch(setLanguage("sv"))}
-    >
-      🇸🇪
-    </span>
-
-    <span
-      className={language === "en" ? "activeFlag" : ""}
-      onClick={() => dispatch(setLanguage("en"))}
-    >
-      🇬🇧
-    </span>
-
-  </div>
-
-  <h1 className="coloredText">
-    Be a Viking - Bichon Havanais
-  </h1>
+        <h1 className="coloredText">Be a Viking - Bichon Havanais</h1>
         <div />
 
         {/* MENU */}
@@ -72,7 +64,7 @@ export default function Navbar() {
               {language === "sv" ? "Nyheter" : "News"}
             </Link>
 
-             <Link
+            <Link
               to="/Valpar"
               className="otherlinks"
               onClick={() => setMenuOpen(false)}
@@ -83,7 +75,7 @@ export default function Navbar() {
             <div className="dropdown">
               <div onClick={() => setDogsOpen(!dogsOpen)}>
                 {language === "sv" ? "Våra hundar ▾" : "Our dogs ▾"}
-                </div>
+              </div>
               {dogsOpen && (
                 <div className="dropdown-links">
                   <Link
@@ -124,7 +116,7 @@ export default function Navbar() {
 
                   <p>
                     {language === "sv" ? "För Evigt Älskade:" : "Forever loved"}
-                    </p>
+                  </p>
                   <Link
                     to="/Napoleon"
                     className="dropdown-links"
@@ -161,9 +153,7 @@ export default function Navbar() {
                     Pluto
                   </Link>
 
-                  <p>
-                    {language === "sv" ? "Hos Vänner:" : "With Friends"}
-                    </p>
+                  <p>{language === "sv" ? "Hos Vänner:" : "With Friends"}</p>
                   <Link
                     to="/Vickan"
                     className="dropdown-links"
@@ -242,7 +232,6 @@ export default function Navbar() {
 }
 
 //🇸🇪 🇬🇧
-
 
 /// Kan va bra att spara ///
 /*

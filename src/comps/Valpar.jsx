@@ -12,6 +12,7 @@ import img12 from "../imgs/valpar/img12.jpeg";
 import img13 from "../imgs/valpar/img13.jpeg";
 import img14 from "../imgs/valpar/img14.jpeg";
 import img15 from "../imgs/valpar/img15.jpeg";
+import img16 from "../imgs/valpar/img16.jpeg";
 import simg1 from "../imgs/valpar/simg1.jpeg";
 import simg2 from "../imgs/valpar/simg2.jpeg";
 import simg3 from "../imgs/valpar/simg3.jpeg";
@@ -103,41 +104,49 @@ export default function Valpar() {
 
   const ent7 = "3 veckor gamla 💕";
 
-  const svt8 = "5 veckor ❤️"
+  const svt8 = "5 veckor ❤️";
 
-  const ent8 = "5 veckor ❤️"
+  const ent8 = "5 veckor ❤️";
 
-  const svt9 = " är en ljuvlig liten tik som snart är redo att flytta till sin familj. Hon är glad, pigg och framåt, älskar att pussas! En trygg tjej! Minnie är en duktig mamma som pysslar om henne. Hennes föräldrar har underbara och kärleksfulla temperament. De är hälsoundersökta utan anmärkning och är utställda med fina resultat. Är du intresserad av Estella så hör av dig till "
+  const svt9 =
+    " är en ljuvlig liten tik som snart är redo att flytta till sin familj. Hon är glad, pigg och framåt, älskar att pussas! En trygg tjej! Minnie är en duktig mamma som pysslar om henne. Hennes föräldrar har underbara och kärleksfulla temperament. De är hälsoundersökta utan anmärkning och är utställda med fina resultat. Är du intresserad av Estella så hör av dig till ";
 
-  const ent9 = " är en ljuvlig liten tik som snart är redo att flytta till sin familj. Hon är glad, pigg och framåt, älskar att pussas! En trygg tjej! Minnie är en duktig mamma som pysslar om henne. Hennes föräldrar har underbara och kärleksfulla temperament. De är hälsoundersökta utan anmärkning och är utställda med fina resultat. Är du intresserad av Estella så hör av dig till "
+  const ent9 =
+    " är en ljuvlig liten tik som snart är redo att flytta till sin familj. Hon är glad, pigg och framåt, älskar att pussas! En trygg tjej! Minnie är en duktig mamma som pysslar om henne. Hennes föräldrar har underbara och kärleksfulla temperament. De är hälsoundersökta utan anmärkning och är utställda med fina resultat. Är du intresserad av Estella så hör av dig till ";
 
-  const svt10 = " är en nyfiken glad och trygg kille som snart är redo att flytta till sin familj. Han älskar att mysa i knät, leka och är en liten ordningspolis som säger till sina syskon om de bråkar - ett typiskt Havanais drag! Minnie är en duktig mamma som pysslar om honom. Hans föräldrar har underbara och kärleksfulla temperament. De är hälsoundersökta utan anmärkning och är utställda med fina resultat. Är du intresserad av Éomer så hör av dig till "
+  const svt10 =
+    " är en nyfiken glad och trygg kille som snart är redo att flytta till sin familj. Han älskar att mysa i knät, leka och är en liten ordningspolis som säger till sina syskon om de bråkar - ett typiskt Havanais drag! Minnie är en duktig mamma som pysslar om honom. Hans föräldrar har underbara och kärleksfulla temperament. De är hälsoundersökta utan anmärkning och är utställda med fina resultat. Är du intresserad av Éomer så hör av dig till ";
 
-  const ent10 = " är en nyfiken glad och trygg kille som snart är redo att flytta till sin familj. Han älskar att mysa i knät, leka och är en liten ordningspolis som säger till sina syskon om de bråkar - ett typiskt Havanais drag! Minnie är en duktig mamma som pysslar om honom. Hans föräldrar har underbara och kärleksfulla temperament. De är hälsoundersökta utan anmärkning och är utställda med fina resultat. Är du intresserad av Éomer så hör av dig till "
+  const ent10 =
+    " är en nyfiken glad och trygg kille som snart är redo att flytta till sin familj. Han älskar att mysa i knät, leka och är en liten ordningspolis som säger till sina syskon om de bråkar - ett typiskt Havanais drag! Minnie är en duktig mamma som pysslar om honom. Hans föräldrar har underbara och kärleksfulla temperament. De är hälsoundersökta utan anmärkning och är utställda med fina resultat. Är du intresserad av Éomer så hör av dig till ";
 
   return (
     <div className="gallery-page">
       <>
         <h1>{language === "sv" ? "Valpar" : "Puppies"}</h1>
 
-        <div className="text-over-img">
-          <strong>Estella</strong> 
+        {img_maker(img16)}
+
+        <div className="text-under-img">
+          <strong>Estella</strong>
           {language === "sv" ? svt9 : ent9}
           <span style={{ color: "blue", textDecoration: "underline" }}>
-          be.a.viking.kennel@gmail.com
+            be.a.viking.kennel@gmail.com
           </span>
         </div>
 
-        <div >
-          <strong>Éomer</strong> 
+         {img_maker(img15)}
+
+        <div className="text-under-img">
+          <strong>Éomer</strong>
           {language === "sv" ? svt10 : ent10}
           <span style={{ color: "blue", textDecoration: "underline" }}>
-          be.a.viking.kennel@gmail.com
+            be.a.viking.kennel@gmail.com
           </span>
-          <br /><br />
+
         </div>
 
-        {img_maker(img15)}
+       
 
         <div className="text-over-img">
           {language === "sv" ? svt8 : ent8}

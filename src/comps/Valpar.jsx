@@ -26,6 +26,12 @@ import simg10 from "../imgs/valpar/simg10.jpeg";
 import simg11 from "../imgs/valpar/simg11.jpeg";
 import simg12 from "../imgs/valpar/simg12.jpeg";
 import simg13 from "../imgs/valpar/simg13.jpeg";
+import simg14 from "../imgs/valpar/simg14.jpeg";
+import simg15 from "../imgs/valpar/simg15.jpeg";
+import simg16 from "../imgs/valpar/simg16.jpeg";
+import simg17 from "../imgs/valpar/simg17.jpeg";
+import simg18 from "../imgs/valpar/simg18.jpeg";
+import simg19 from "../imgs/valpar/simg19.jpeg";
 import ImageSliderAuto from "./imagesliderauto/ImageSliderAuto";
 import img_maker from "./imagemaker/ImageMaker";
 import React from "react";
@@ -47,6 +53,15 @@ export default function Valpar() {
     simg12,
     simg13,
   ];
+
+  const top_images = [
+    simg14,
+    simg15,
+    simg16,
+    simg17,
+    simg18,
+    simg19
+  ]
 
   const language = useSelector((state) => state.language.language);
 
@@ -135,7 +150,7 @@ export default function Valpar() {
           </span>
         </div>
 
-         {img_maker(img15)}
+        {img_maker(img15)}
 
         <div className="text-under-img">
           <strong>Éomer</strong>
@@ -143,10 +158,11 @@ export default function Valpar() {
           <span style={{ color: "blue", textDecoration: "underline" }}>
             be.a.viking.kennel@gmail.com
           </span>
-
         </div>
 
-       
+        <div className="dog-image">
+        <ImageSliderAuto images={top_images} />
+      </div>
 
         <div className="text-over-img">
           {language === "sv" ? svt8 : ent8}

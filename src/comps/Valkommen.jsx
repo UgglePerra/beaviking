@@ -95,9 +95,9 @@ export default function Valkommen() {
 
   const ent3 = "Feel free to browse our website!";
 
-  const svt4 = "Vi har fått valpar!! Se mer under Nyheter och Valpar!";
+  const svt4 = "Vi har valpar!! Se mer under Valpar!";
 
-  const ent4 = "We have puppies!! Find out more under News and Puppies!";
+  const ent4 = "We have puppies!! Find out more under Puppies!";
 
   return (
     <div className="gallery-page">

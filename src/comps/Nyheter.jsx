@@ -158,9 +158,9 @@ export default function Nyheter() {
 
   const ent22 = "3 veckor gamla 💕"
 
-  const svt23 = "5 veckor ❤️"
+  const svt23 = "Vi har valpar!! Se mer under Valpar!";
 
-  const ent23 = "5 veckor ❤️"
+  const ent23 = "We have puppies!! Find out more under Puppies!";
 
   return (
     <div className="gallery-page">
@@ -169,8 +169,9 @@ export default function Nyheter() {
 
 
         <div className="text-over-img">
+          <span style={{ fontSize: "24px", fontWeight: "bold" }}>
           {language === "sv" ? svt23 : ent23}
-          <br />
+        </span>
          
         </div>
 

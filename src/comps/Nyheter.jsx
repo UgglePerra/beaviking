@@ -156,7 +156,7 @@ export default function Nyheter() {
 
   const ent22 = "3 veckor gamla 💕";
 
-  const svt23 = "Vi har valpar!! Se mer under Valpar!";
+  const svt23 = "Vi har en valp ledig!! Se mer under Valpar!";
 
   const ent23 = "We have puppies!! Find out more under Puppies!";
 

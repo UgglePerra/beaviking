@@ -140,16 +140,7 @@ export default function Valpar() {
       <>
         <h1>{language === "sv" ? "Valpar" : "Puppies"}</h1>
 
-        {img_maker(img16)}
-
-        <div className="text-under-img">
-          <strong>Estella</strong>
-          {language === "sv" ? svt9 : ent9}
-          <span style={{ color: "blue", textDecoration: "underline" }}>
-            be.a.viking.kennel@gmail.com
-          </span>
-        </div>
-
+      
         {img_maker(img15)}
 
         <div className="text-under-img">
